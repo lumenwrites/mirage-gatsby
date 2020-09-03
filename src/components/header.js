@@ -6,8 +6,8 @@ import Img from "gatsby-image"
 //import logoImage from "../../static/logo.png"
 
 const Header = () => {
-  return (<StaticQuery
-	    query={graphql`
+	return (<StaticQuery
+		query={graphql`
 	      query {
 		logo: file(relativePath: { eq: "images/logo.png" }) {
 		  name
@@ -19,77 +19,77 @@ const Header = () => {
 		}
 	      }
 	    `}
-	    render={data => (
-	      <header>
-		  <div className="wrapper">
-		      <Link to="/" className="logo">
-			  {/* <img src={logoImage} />  */}
-			  <Img className="logo-image"
-			       alt={data.logo.name}
-			       fixed={data.logo.childImageSharp.fixed} />
+		render={data => (
+			<header>
+				<div className="wrapper">
+					<Link to="/" className="logo">
+						{/* <img src={logoImage} />  */}
+						<Img className="logo-image"
+							alt={data.logo.name}
+							fixed={data.logo.childImageSharp.fixed} />
 			  mirage
 		      </Link>
-		      <div className="right">
+					<div className="right">
 
-			  <div className="dropdown">
-			      <Link to="/rules" className="menu-handle btn">
-				  Rules
+						<div className="dropdown">
+							<Link to="/rules" className="menu-handle btn">
+								Rules
 			      </Link>
-			      <div className="menu">
-				  <Link to="/rules" className="item btn">
-				      For Players
+							<div className="menu">
+								<Link to="/rules" className="item btn">
+									For Players
 				  </Link>
-				  <Link to="/rules-gm" className="item btn">
-				      For GMs
+								<Link to="/rules-gm" className="item btn">
+									For GMs
 				  </Link>
-				  <Link to="/pen-and-paper" className="item btn">
-				      Pen & Paper
+								<Link to="/pen-and-paper" className="item btn">
+									Pen & Paper
 				  </Link>
-			      </div>
-			  </div>
-			  
-			  <div className="dropdown">
-			      <div className="menu-handle btn">Tools</div>
-			      <div className="menu">
-				  <Link to="/character-sheet" className="item btn">
-				      Character Sheet
-				  </Link>
-				  <Link to="/NPCs" className="item btn">
-				      NPCs
-				  </Link>
-				  <Link to="/all-powers" className="item btn">
-				      All Powers
-				  </Link>
-				  <Link to="/prompts" className="item btn">
-				      Prompts
-				  </Link>
-				  <Link to="/guide/writers-room"
-					className="item btn">
-				      Writer's Room
-				  </Link>
-			      </div>
-			  </div>
+							</div>
+						</div>
 
-			  <Link to="/world" className="btn">
-			      World
+						<div className="dropdown">
+							<div className="menu-handle btn">Tools</div>
+							<div className="menu">
+								<Link to="/character-sheet" className="item btn">
+									Character Sheet
+				  </Link>
+								<Link to="/NPCs" className="item btn">
+									NPCs
+				  </Link>
+								<Link to="/all-powers" className="item btn">
+									All Powers
+				  </Link>
+								<Link to="/prompts" className="item btn">
+									Prompts
+				  </Link>
+								<a href="https://rpgadventures.io/writers-room"
+									className="item btn">
+									Writer's Room
+				  </a>
+							</div>
+						</div>
+
+						<Link to="/world" className="btn">
+							World
 			  </Link>
 
-			  <Link to="/guides" className="menu-handle btn">
-			      Guides
+						<Link to="/guides" className="menu-handle btn">
+							Guides
 			  </Link>
 
-			  <Link to="/adventures" className="menu-handle btn">
-			      Adventures
-			  </Link>
-		      </div>
-		      {/* End right */}
-		      <div className="clearfix" />
-		  </div>
-		  {/* End main wrapper */}
-	      </header>
-	    ) }
-  />
-  )
+						<a href="https://rpgadventures.io" className="menu-handle btn">
+							Adventures
+			  </a>
+					</div>
+					{/* End right */}
+					<div className="clearfix" />
+				</div>
+				{/* End main wrapper */}
+			</header>
+		)}
+	/>
+	)
 }
 
 export default Header
