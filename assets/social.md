@@ -81,3 +81,9 @@ If you haven't read the guidelines yet - check them out:
 https://docs.google.com/document/d/17wZ5GA_JcbgxrEXRejA4sYSRqFHp0hE7o56rIHWEXPM/
 
 I also recommend to open a note-taking app, can be convenient. And you can open the writing prompts generator (https://playmirage.io/prompts), if you feel like it'll be useful to you.
+
+
+Climber's Gauntlets
+Spring Shoes
+
+fists are scientifically proven to be faster than lightning, you should run.
