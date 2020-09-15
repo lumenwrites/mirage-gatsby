@@ -1,18 +1,12 @@
 {
+    "id": "",
     "name":"",
     "image":"",
-    "currentHealth": 12,
-    "maxHealth":12,
-    "currentEnergy": 12,
-    "maxEnergy": 12,
-    "experience": 5,
-    "abilities": [],
+    "description": "",
+    "vitality": 12,
+    "traits": [],
+    "talents": [],
+    "skills": [],
     "spells": [],
-    "magicItems": [],
-    "equipment": [],
-    "id": "",
-    "appearance": "",
-    "ambitions": "",
-    "personality": "",
-    "backstory": ""
+    "items": []
 }

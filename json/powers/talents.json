@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Physical",
+    "powers": [
+      {
+        "title": "Strength",
+        "description": "You're as strong as a bodybuilder. Good at lifting and destroying things.",
+        "vt": 1,
+        "category": "Physical",
+        "powerType": "talents"
+      },
+      {
+        "title": "Agility",
+        "description": "You are very flexible and fast, good at jumping, climbing, gymnastics.",
+        "vt": 1,
+        "category": "Physical",
+        "powerType": "talents"
+      },
+      {
+        "title": "Toughness",
+        "description": "Unbendable will and resilient body, you can survive in difficult situations.",
+        "vt": 1,
+        "category": "Physical",
+        "powerType": "talents"
+      }
+    ]
+  }
+]

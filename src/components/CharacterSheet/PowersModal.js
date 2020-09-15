@@ -6,177 +6,118 @@ import Power from './Power'
 
 import ReactTooltip from "react-tooltip"
 
+import allPowers from '../../../json/powers/powers.json'
+
+
+
 class PowersModal extends Component {
   state = {
-    filterPowers: true,
-    rarity: "Any"    
+    level: 0
   }
+
   componentDidUpdate() {
     ReactTooltip.rebuild()
   }
 
   renderCategories = () => {
-    var  { powers } = this.props
+    var { powerType } = this.props.utils
+    var powers = allPowers[powerType]
     /* Powers are passed to it by the appropriate section */
-    return powers.map((category,i)=> {
+    return powers.map((category, i) => {
       var renderedPowers = this.renderPowers(category.powers)
       // If the power was filtered out, renderPowers() will return undefined
       var countRenderedPowers = renderedPowers.filter(p => p).length
       // if all powers have been learned - don't display the empty category
       if (!countRenderedPowers) return
-      
+
       return (
-	<div key={i}>
-	    <div className="category-title">{category.title}</div>
-	    <div className="powers columns">
-		{renderedPowers}
-	    </div>
-	    <hr/>
-	</div>
+        <div key={i}>
+          <div className="category-title">{category.title}</div>
+          <div className="powers">
+            {renderedPowers}
+          </div>
+          <hr />
+        </div>
       )
     })
   }
 
-  renderNoPowersAvailableWarning = () => {
-    var title = this.props.name
-    if (title === "magicItems") { title = "Magic Items" }
-    return (
-      <div>
-	  <div className="no-powers-available">
-	      No more {title} available. Why?
-	      <ul>
-		  <li>You don't have enough experience.</li>
-		  <li>You don't have the prerequisite abilities.</li>
-		  <li>You have already learned all available {title}.</li>
-	      </ul>
-	  </div>
-      </div>
-    )
-  }
-  renderFilterPowersToggle = () => {
-    if (this.state.filterPowers) {
+  renderPowers = (powers) => {
+    return powers.map((power, i) => {
+      if (this.filterPowers(power)) return
       return (
-	<div className="btn filter-powers-toggle"
-	     data-tip={`Filter based on your experience and prerequisite abilities you know.`} 
-	     onClick={()=> this.setState({filterPowers: false}) }>
-	    Showing only {this.props.name} you can learn. <br/>
-	    Show all available {this.props.name}?
-	</div>
-    )} else {
-      return (
-	<div className="btn filter-powers-toggle"
-	     data-tip={`Filter based on your experience and prerequisite abilities you know.`} 
-	     onClick={()=> this.setState({filterPowers: true}) }>
-	    Showing all available {this.props.name}. <br/>
-	    Show only  {this.props.name} you can learn?
-	</div>	    
-    )}
+        <Power power={power} key={i} adding />
+      )
+    })
   }
-  
-  filterPowers = (power) => {
-    var isPower = power.section == "abilities" || power.section == "spells"
-    if (!isPower || !this.state.filterPowers) return false
-    var { sheets } = this.props
-    var abilities = sheets[0].abilities
-    var spells = sheets[0].spells
-    var currentXP = sheets[0].experience
-    var learnedPowers = abilities.concat(spells)
 
-    /* Hide the power if you don't have enough XP learn it */
-    if (power.level && (currentXP < power.level)) return true
+  filterPowers = (power) => {
+    
+    // Always show custom powers regardless of filtering
+    if (power.category === "Custom") return false
+
+    // Filter out the power if it's level doesn't match.
+    var doFilterByLevel = ["spells", "skills", "items"].includes(power.powerType)
+    // When level equals zero I'm telling it to show all the powers
+    if (doFilterByLevel && power.level !== this.state.level && this.state.level !== 0) return true
 
     /* Hide already learned abilities/spells (but not items, they can have duplicates) */
-    var isAbilityOrSpell = power.section == 'abilities' || power.section == 'spells'
-    if (isAbilityOrSpell) {
-      var alreadyLearned = learnedPowers.find(p => p.title == power.title)
-      if (alreadyLearned) return true
-    }
+    var doHideAlreadyLearned = ["traits", "talents", "spells", "skills"].includes(power.powerType)
+    var { powerType } = this.props.utils
+    var sheet = this.props.sheets[0]
+    var learnedPowers = sheet[powerType]
+    var alreadyLearned = learnedPowers.find(p => p.title == power.title)
+    if (doHideAlreadyLearned && alreadyLearned) return true
 
-    /* Hide the power if you don't have prerequisite abilities */
-    /* (not hiding items, you can have one without being able to use it) */
-    var levels = ["Novice", "Initiate", "Adept", "Expert", "Master"]
-    if (isAbilityOrSpell && power.level > 1) {
-      var prerequisites = learnedPowers.filter(p => {
-	var sameSchool = p.category === power.category
-	var oneLevelLower = p.level === power.level - 1
-	return sameSchool && oneLevelLower
-      })
-      if (prerequisites.length < 1) return true
-    }
-    return false    
+    return false
   }
 
-  filterItems = (power) => {
-    /* Filter common items */
-    var isItem = power.section == "magicItems" || power.section == "equipment"
-    if (!isItem || this.state.rarity === "Any") return false
-    if (power.rarity !== this.state.rarity) return true
-    return false    
-  }
-  
-  renderPowers = (powers) => {
-    return powers.map((power,i)=> {
-      /* Hide the power if checkbox is on and it doesn't meet the requirements */
-      if (this.filterPowers(power) || this.filterItems(power)) return
-      return (
-	<Power power={power} key={i} adding/>
-      )
-    })
-  }
 
-  renderRarityFilter = () => {
-    var raritiesList = ["Any", "Common", "Uncommon", "Rare", "Legendary", "Supreme"]
-    var rarities = raritiesList.map((rarity,i)=>(
-      <div className="item btn" key={i} onClick={()=> this.setState({rarity})}>
-	  {rarity}
+  renderLevelSelector = () => {
+    var levelsList = ["Any", "Nifty", "Cool", "Epic", "Supreme"]
+    var levels = levelsList.map((level, i) => (
+      <div className="item btn" key={i} onClick={() => this.setState({ level:i })}>
+        {level}
       </div>
     ))
     return (
       <div className="dropdown rarity-filter">
-	  <div className="menu-handle btn">
-	      Rarity: {this.state.rarity}
-	  </div>
-	  <div className="menu left">
-	      {rarities}
-	  </div>
+        <div className="menu-handle btn">
+          Level: {levelsList[this.state.level]}
+        </div>
+        <div className="menu left">
+          {levels}
+        </div>
       </div>
     )
   }
-  
-  render() {
-    var { name } = this.props
-    var showFilterToggle = name == "abilities" || name == "spells"
-    var showRarityFilter = name == "magicItems" || name == "equipment"
-    var title = name
-    if (name === "magicItems") { title = "Magic Items" }
 
-    var renderedCategories = this.renderCategories()
-    // 1 because you always have the blank card
-    var countRenderedCategories = renderedCategories.filter(c => c).length 
+  render() {
+    var { powerType } = this.props.utils
+    if (!powerType) return null
+    var showLevelFilter = ["spells", "skills", "items"].includes(powerType)
+
+    var titles = {
+      traits: "Trait",
+      talents: "Talent",
+      skills: "Skill",
+      spells: "Spell",
+      items: "Item"
+    }
 
     return (
-      <Modal name={this.props.name} className="powers-modal wide">
-	  <div className="title"> Add {title} </div>
-	  {showFilterToggle && (this.renderFilterPowersToggle())}
-	  {showRarityFilter && this.renderRarityFilter()}
-	  <div className="clearfix"/>
-	  <hr/>
-	  {countRenderedCategories <= 2 && showFilterToggle ?(
-	    <>
-		{renderedCategories}
-		{this.renderNoPowersAvailableWarning()}
-	    </>
-	  ):(
-	    <>
-		{renderedCategories}
-	    </>
-	  )}
+      <Modal name="powers" className="powers-modal wide">
+        <div className="title"> Add {titles[powerType]} </div>
+        {showLevelFilter && this.renderLevelSelector()}
+        <div className="clearfix" />
+        <hr />
+        {this.renderCategories()}
       </Modal>
     )
   }
 }
 
-export default connect(({sheets, utils})=>({sheets, utils}), {})(PowersModal)
+export default connect(({ sheets, utils }) => ({ sheets, utils }), {})(PowersModal)
 
 
 

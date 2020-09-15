@@ -1,5 +1,6 @@
 var INITIAL_STATE = {
-  showModal: ""
+  showModal: "",
+  powerType: "",
 }
 
 export default function (state = INITIAL_STATE, action) {
@@ -8,7 +9,10 @@ export default function (state = INITIAL_STATE, action) {
       const modal = action.payload
       /* If this modal is already open I toggle it off. */
       const alreadyOpen = state.showModal === modal 
-      return {...state, showModal: alreadyOpen ? false : modal }
+      return { ...state, showModal: alreadyOpen ? false : modal }
+      case 'TOGGLE_POWERS_MODAL':
+        const powerType = action.payload
+      return {...state, showModal: "powers", powerType }
     default:
       return state
   }

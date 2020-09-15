@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Personality",
+    "powers": [
+      {
+        "title": "Peacemaker",
+        "description": "Gain 3VT every time you find a non-combat resolution.",
+        "category": "Personality",
+        "powerType": "traits"
+      },
+      {
+        "title": "Compassionate",
+        "description": "Gain 3VT every time you spare a life.",
+        "category": "Personality",
+        "powerType": "traits"
+      },
+      {
+        "title": "Hero",
+        "description": "Gain 3VT every time you risk your life to protect someone.",
+        "category": "Personality",
+        "powerType": "traits"
+      }
+    ]
+  }
+]

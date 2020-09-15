@@ -41,6 +41,19 @@ export default function (state = INITIAL_STATE, action) {
     case 'LOAD_SHEETS':
       /* Sheet.js moutns and passes me sheets from localStorage */
       sheets = action.payload
+      // Process legacy sheets
+      sheets = sheets.map((s) => {
+        if (!s.skills) {
+          s.traits = []
+          s.talents = []
+          s.skills = s.abilities
+          s.spells = []
+          s.description = s.appearance
+          s.items = s.magicItems.concat(s.equipment)
+          s.vitality = 12
+        }
+        return s
+      })
       return sheets
     case 'CREATE_SHEET':
       /* Subnav create button passes me a sheet template,

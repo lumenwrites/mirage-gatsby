@@ -29,8 +29,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 620,
-	      withWebp: true
+              maxWidth: 700,
+              withWebp: true,
+              disableBgImageOnAlpha: true
             },
           },
           {
@@ -64,7 +65,7 @@ module.exports = {
         theme_color: `#3d454b`,
         display: `minimal-ui`,
         icon: `static/logo.png`,
-	cache_busting_mode: 'none'
+        cache_busting_mode: 'none'
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -75,20 +76,20 @@ module.exports = {
     //'gatsby-plugin-draft',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    {	
+    {
       resolve: `gatsby-plugin-offline`,
-     options: {
-       globPatterns: ['*/**'],
-       directoryIndex: 'index.html',
-     }
+      options: {
+        globPatterns: ['*/**'],
+        directoryIndex: 'index.html',
+      }
     },
     /* https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-bundle-analyzer/ */
     {
       resolve: 'gatsby-plugin-webpack-bundle-analyzer',
       options: {
-	analyzerPort: 3000,
-	disable: false,
-	production: false
+        analyzerPort: 3000,
+        disable: true,
+        production: false
       },
     },
   ],

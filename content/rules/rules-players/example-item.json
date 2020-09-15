@@ -1,0 +1,7 @@
+{
+    "title": "Grappling Hook Gun",
+    "description": "Shoots the grappling hook to the distance of up to 50 meters, reels it back in.",
+    "level": 1,
+    "category": "Utility",
+    "powerType": "items"
+  }

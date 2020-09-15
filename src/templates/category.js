@@ -12,28 +12,28 @@ const BlogIndex = ({ data, location, pageContext }) => {
   categoryTitle = categoryTitle.charAt(0).toUpperCase() + categoryTitle.slice(1)
   return (
     <Layout location={location}>
-	<div className="post-grid">
-            {posts.map(({ node }) => {
-              const title = node.frontmatter.title || node.fields.slug
-              let image
-              if (node.frontmatter.image) {
-		image = <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
-              }
-              return (
-		<Link className="post-box" to={node.fields.slug} key={node.fields.slug}>
-		    {image}
-		    <section className="description">
-			<div className="title">{title}</div>
-			<div dangerouslySetInnerHTML={{
-			  __html: node.frontmatter.description || node.excerpt,
-			}}/>
-		    </section>
-		</Link>
-              )
-            })}
-	</div>
-	<SignUp />	
-	<SEO title={`${categoryTitle}s`} />
+      <div className="post-grid">
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          let image
+          if (node.frontmatter.image) {
+            image = <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
+          }
+          return (
+            <Link className="post-box" to={node.fields.slug} key={node.fields.slug}>
+              {image}
+              <section className="description">
+                <div className="title">{title}</div>
+                <div dangerouslySetInnerHTML={{
+                  __html: node.frontmatter.description || node.excerpt,
+                }} />
+              </section>
+            </Link>
+          )
+        })}
+      </div>
+      <SignUp />
+      <SEO title={`${categoryTitle}s`} />
     </Layout>
   )
 }

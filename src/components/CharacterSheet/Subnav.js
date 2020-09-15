@@ -3,14 +3,6 @@ import { connect } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import blankSheet from "../../../json/premade-characters/sheet-blank.json"
-import ConjurationWizard from "../../../json/premade-characters/Conjuration Wizard.json"
-import IllusionistWizard from "../../../json/premade-characters/Illusionist Wizard.json"
-import EnchantmentWizard from "../../../json/premade-characters/Enchantment Wizard.json"
-import BattleMage from "../../../json/premade-characters/Battle Mage.json"
-import Warrior from "../../../json/premade-characters/Warrior.json"
-import Ranger from "../../../json/premade-characters/Ranger.json"
-import Ninja from "../../../json/premade-characters/Ninja.json"
-import Druid from "../../../json/premade-characters/Druid.json"
 
 import { downloadFile } from "../../utils"
 /* Actions */
@@ -33,7 +25,7 @@ class Subnav extends Component {
             this.props.loadSheet(s)
           }}
         >
-            {s.name}
+          {s.name}
         </div>
       )
     })
@@ -43,6 +35,7 @@ class Subnav extends Component {
   }
   createSheet = archetype => {
     var randomId = Math.random().toString(36).substring(7)
+    console.log("create")
     this.props.createSheet({ ...archetype, id: randomId })
   }
 
@@ -86,104 +79,66 @@ class Subnav extends Component {
   render() {
     return (
       <div className="subnav">
-          <div className="wrapper">
-              <div className="dropdown">
-		  <div className="menu-handle btn">
-		      <FontAwesomeIcon icon={["fas", "file"]} />
-		      Characters
-		  </div>
-		  <div className="menu">{this.renderSheetList()}</div>
-              </div>
-
-              <div className="dropdown">
-		  <div className="menu-handle btn">
-		      <FontAwesomeIcon icon={["fas", "plus-circle"]} />
-		      Create
-		  </div>
-		  <div className="menu">
-		      <div className="item btn"
-			   onClick={() => this.createSheet(blankSheet)}>
-			  Blank
-		      </div>
-		      <div className="item btn"
-			   onClick={() => this.createSheet(ConjurationWizard)}>
-			  Conjuration Wizard
-		      </div>
-		      <div className="item btn"
-			   onClick={() => this.createSheet(IllusionistWizard)}>
-			  Illusionist Wizard
-		      </div>
-		      <div className="item btn"
-			   onClick={() => this.createSheet(EnchantmentWizard)}>
-			  Enchanter
-		      </div>
-		      <div className="item btn"
-			   onClick={() => this.createSheet(BattleMage)}>
-			  Battle Mage
-		      </div>
-		      <div className="item btn"
-			   onClick={() => this.createSheet(Warrior)}>
-			  Warrior
-		      </div>
-		      <div className="item btn"
-			   onClick={() => this.createSheet(Ranger)}>
-			  Ranger
-		      </div>
-		      <div className="item btn" onClick={() => this.createSheet(Ninja)}>
-			  Ninja
-		      </div>
-		      <div className="item btn" onClick={() => this.createSheet(Druid)}>
-			  Druid
-		      </div>
-		  </div>
-              </div>
-
-              <div className="dropdown">
-		  <div className="menu-handle btn"
-		       onClick={this.downloadSheet}>
-		      <FontAwesomeIcon icon={["fas", "download"]} />
-		      Save
-		  </div>
-		  <div className="menu">
-		      <div className="item btn" onClick={this.downloadSheet}>
-			  Save Sheet
-		      </div>
-		      <div className="item btn" onClick={this.downloadSheets}>
-			  Save All Sheets
-		      </div>
-		  </div>
-              </div>
-
-              <div className="dropdown">
-		  <div className="menu-handle btn">
-		      <FontAwesomeIcon icon={["fas", "upload"]} />
-		      Open
-		  </div>
-		  <div className="menu">
-		      {/* Hidden html5 file input */}
-		      <input
-		      type="file"
-		      id="file-input"
-		      accept=".json"
-		      ref={ref => (this.fileInput = ref)}
-		      onChange={this.openFile}
-		      />
-		      {/* Just triggers click on file input */}
-		      <div className="item btn" onClick={() => this.fileInput.click()}>
-			  Sheet
-		      </div>
-		      <div className="item btn" onClick={() => this.fileInput.click()}>
-			  All Sheets
-		      </div>
-		  </div>
-              </div>
-
-              <div className="btn right" onClick={this.deleteSheet}>
-		  <FontAwesomeIcon icon={["fas", "trash-alt"]} />
-		  Delete
-              </div>
-	      <div className="clearfix"/>
+        <div className="wrapper">
+          <div className="dropdown">
+            <div className="menu-handle btn">
+              <FontAwesomeIcon icon={["fas", "file"]} />
+		          Characters
+		        </div>
+            <div className="menu">{this.renderSheetList()}</div>
           </div>
+
+          <div className="btn" onClick={() => this.createSheet(blankSheet)}>
+            <FontAwesomeIcon icon={["fas", "plus-circle"]} />
+            Create
+          </div>
+
+          <div className="dropdown">
+            <div className="menu-handle btn"
+              onClick={this.downloadSheet}>
+              <FontAwesomeIcon icon={["fas", "download"]} />
+		          Save
+		        </div>
+            <div className="menu">
+              <div className="item btn" onClick={this.downloadSheet}>
+                Save Sheet
+		          </div>
+              <div className="item btn" onClick={this.downloadSheets}>
+                Backup All Sheets
+		          </div>
+            </div>
+          </div>
+
+          <div className="dropdown">
+            <div className="menu-handle btn">
+              <FontAwesomeIcon icon={["fas", "upload"]} />
+		          Open
+		        </div>
+            <div className="menu">
+              {/* Hidden html5 file input */}
+              <input
+                type="file"
+                id="file-input"
+                accept=".json"
+                ref={ref => (this.fileInput = ref)}
+                onChange={this.openFile}
+              />
+              {/* Just triggers click on file input */}
+              <div className="item btn" onClick={() => this.fileInput.click()}>
+                Sheet
+		          </div>
+              <div className="item btn" onClick={() => this.fileInput.click()}>
+                Backup
+		          </div>
+            </div>
+          </div>
+
+          <div className="btn right" onClick={this.deleteSheet}>
+            <FontAwesomeIcon icon={["fas", "trash-alt"]} />
+		          Delete
+          </div>
+          <div className="clearfix" />
+        </div>
       </div>
     )
   }

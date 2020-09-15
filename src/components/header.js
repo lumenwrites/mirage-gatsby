@@ -27,7 +27,7 @@ const Header = () => {
 						<Img className="logo-image"
 							alt={data.logo.name}
 							fixed={data.logo.childImageSharp.fixed} />
-			  mirage
+			  			mirage
 		      </Link>
 					<div className="right">
 
@@ -38,10 +38,10 @@ const Header = () => {
 							<div className="menu">
 								<Link to="/rules" className="item btn">
 									For Players
-				  </Link>
+				  			</Link>
 								<Link to="/rules-gm" className="item btn">
 									For GMs
-				  </Link>
+				  			</Link>
 								<Link to="/pen-and-paper" className="item btn">
 									Pen & Paper
 				  </Link>
@@ -53,34 +53,38 @@ const Header = () => {
 							<div className="menu">
 								<Link to="/character-sheet" className="item btn">
 									Character Sheet
-				  </Link>
+				  			</Link>
 								<Link to="/NPCs" className="item btn">
 									NPCs
-				  </Link>
-								<Link to="/all-powers" className="item btn">
-									All Powers
-				  </Link>
-								<Link to="/prompts" className="item btn">
-									Prompts
-				  </Link>
-								<a href="https://rpgadventures.io/writers-room"
-									className="item btn">
-									Writer's Room
-				  </a>
+				 			 </Link>
+
 							</div>
 						</div>
 
 						<Link to="/world" className="btn">
 							World
-			  </Link>
+			  		</Link>
 
-						<Link to="/guides" className="menu-handle btn">
-							Guides
-			  </Link>
+						<div className="dropdown">
+							<a href="https://rpgadventures.io" className="menu-handle btn">
+								Adventures
+			  			</a>
+							<div className="menu left">
+								<a href="https://rpgadventures.io" className="item btn">
+									All Adventures
+			  				</a>
+								<a href="https://rpgadventures.io/writers-room"
+									className="item btn">
+									Writer's Room
+				  			</a>
+								{/* <a href="https://rpgadventures.io/guides"
+									className="item btn">
+									Writing Guides
+				  			</a> */}
+							</div>
+						</div>
 
-						<a href="https://rpgadventures.io" className="menu-handle btn">
-							Adventures
-			  </a>
+
 					</div>
 					{/* End right */}
 					<div className="clearfix" />

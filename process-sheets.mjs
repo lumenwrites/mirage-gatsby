@@ -13,11 +13,9 @@ import fs from 'fs'
 var data = fs.readFileSync(`./powers/powers.json`)
 data = JSON.parse(data)
 
-/* Loop through each sheet (abilities, spells, magicItems, equipment) */
+var powersJson = {} // contain the final list of all powers
+/* Loop through each power type (traits, talents, skills, spells, magicItems, equipment) */
 for (var powerType in data) {
-  // ignore the boilerplate sheet
-  if (powerType === 'boilerplate') continue
-
   /* Process powers */
   var powers = data[powerType]
   /* Remove  powers without title/description (drafts in google sheets) */
@@ -29,29 +27,16 @@ for (var powerType in data) {
       if (typeof p[key] === "string") p[key] = p[key].trim()
     }
 
-    p.school = `${p.category} (${p.level})` // Athletics (Adept)
-    /* abilities, spells, magicItems, equipment */
-    p.section = powerType
-
-    /* Delete unused and empty fields */
-    var unusedFields = ['req','reqlvl']
-    for (var key in p) {
-//      if (!p[key])  delete p[key] // delete empty fields
-      if (unusedFields.includes(key))  delete p[key] // delete unused fields
-    }
-    
+    /* In which field to put it into character sheet. traits, talents, skills, spells, magicItems, equipment */
+    p.powerType = powerType    
     return p
   })
 
-  //console.log(powers[3],null, 2)
-
   /* Create list of categories */
   const categorySet = new Set()
-  powers.map(p => {
-    categorySet.add(p.category)
-  })
+  powers.map(p => categorySet.add(p.category))
   /* Add powers to each category */
-  const categoriesJson = []
+  var categoriesJson = []
   categorySet.forEach(categoryTitle => {
     var categoryJson = {
       title: categoryTitle,
@@ -60,8 +45,10 @@ for (var powerType in data) {
     categoriesJson.push(categoryJson)
   })
 
-
-  var outputText = JSON.stringify(categoriesJson, null, 2)
-  fs.writeFile(`./json/powers/${powerType}.json`, outputText, 'utf8', ()=>{})
+  powersJson[powerType] = categoriesJson
 }
+//œœœconsole.log(powersJson, JSON.stringify(powersJson, null, 2))
+var outputText = JSON.stringify(powersJson, null, 2)
+
+fs.writeFile(`./json/powers/powers.json`, outputText, 'utf8', ()=>{})
 

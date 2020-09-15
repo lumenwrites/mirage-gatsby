@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Social",
+    "powers": [
+      {
+        "title": "Act like you belong",
+        "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
+        "vt": 1,
+        "level": 1,
+        "category": "Social",
+        "powerType": "skills"
+      },
+      {
+        "title": "Tell a Tale",
+        "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will comply with reasonable requests that are in line with the lesson.",
+        "vt": 1,
+        "level": 1,
+        "category": "Social",
+        "powerType": "skills"
+      },
+      {
+        "title": "Inspiring Speech",
+        "description": "Bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 3VT.",
+        "vt": 1,
+        "level": 1,
+        "category": "Social",
+        "powerType": "skills"
+      }
+    ]
+  }
+]
