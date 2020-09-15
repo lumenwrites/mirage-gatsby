@@ -2093,6 +2093,12 @@
             "category": "Scrolls"
         },
         {
+            "title": "Fairy Dust",
+            "description": "Allows you to imbue an item with one of the spells you know. The item will be able to cast the spell once per day. Consumable, can be used only once. ",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
             "title": "Refilling Flask",
             "description": "Refills itself every midnight with whatever liquid was last in it. Works with potions.",
             "level": 2,
@@ -2427,6 +2433,12 @@
             "description": "A horse or a horse-like creature you can ride.",
             "level": 3,
             "category": "Transportation"
+        },
+        {
+            "title": "Magic Lamp",
+            "description": "Summons a Djinn who will perform any Spell or Skill of your choice. May grant other kinds of wishes (at the discretion of the GM). Can be used 3 times.",
+            "level": 3,
+            "category": "Utility"
         },
         {
             "title": "Supreme Spellbook",
