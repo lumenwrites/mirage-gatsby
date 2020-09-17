@@ -47,7 +47,6 @@ export default function (state = INITIAL_STATE, action) {
           s.traits = []
           s.talents = []
           s.skills = s.abilities
-          s.spells = []
           s.description = s.appearance
           s.items = s.magicItems.concat(s.equipment)
           s.vitality = 12

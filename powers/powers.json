@@ -994,6 +994,13 @@
             "category": "Nature"
         },
         {
+            "title": "Superintelligence",
+            "description": "Once per day you can describe a contingency plan that you have put in place retroactively, having predicted that this situation is going to occur.",
+            "vt": 5,
+            "level": 3,
+            "category": "Professional"
+        },
+        {
             "title": "Hulk",
             "description": "You are superhumanly strong, like Hulk or Mr. Incredible.",
             "vt": 4,
@@ -1108,6 +1115,13 @@
         {
             "title": "Artificer",
             "description": "Once per session you can imbue a non-magical item with the power of a spell you know.",
+            "vt": 4,
+            "level": 4,
+            "category": "Crafting"
+        },
+        {
+            "title": "Build a Creature",
+            "description": "Craft an artifical creature like a robot or a golem. It takes you a month to build one.",
             "vt": 4,
             "level": 4,
             "category": "Crafting"
@@ -1365,11 +1379,39 @@
             "category": "Conjuration"
         },
         {
+            "title": "Daylight",
+            "description": "During the night, you can make it bright as day in an area the size of a village.",
+            "vt": 1,
+            "level": 1,
+            "category": "Elementalism"
+        },
+        {
+            "title": "Firehose",
+            "description": "A stream of water pours out of your hand as if it's a firehose. Lasts 10 minutes.",
+            "vt": 1,
+            "level": 1,
+            "category": "Conjuration"
+        },
+        {
+            "title": "Bend Space",
+            "description": "Alter direction of projectiles and small flying objects, change their course up to 90 degrees in any direction.",
+            "vt": 1,
+            "level": 1,
+            "category": "Telekinesis"
+        },
+        {
             "title": "Invisibility",
             "description": "Turn yourself, a willing creature, or an object (no larger than a horse) invisible for the next 20 minutes.",
             "vt": 2,
             "level": 2,
             "category": "Illusionism"
+        },
+        {
+            "title": "Locate Object",
+            "description": "Describe an object that is familiar to you. You can sense  the direction to the object's location, as long as that object is within 300 meters of you.",
+            "vt": 2,
+            "level": 2,
+            "category": "Divination"
         },
         {
             "title": "Read Surface Thoughts",
@@ -1603,6 +1645,48 @@
             "category": "Conjuration"
         },
         {
+            "title": "Oracle",
+            "description": "You can ask the gods one question and receive an honest Yes or No answer. The GM will say yes, no, or shrug if it's impossible to answer.",
+            "vt": 4,
+            "level": 2,
+            "category": "Divination"
+        },
+        {
+            "title": "Recall",
+            "description": "After you cast the spell in a location, you and your group can teleport back to it once.",
+            "vt": 4,
+            "level": 2,
+            "category": "Conjuration"
+        },
+        {
+            "title": "Magic Voice",
+            "description": "Produces a sound of your choice or a voice delivering a message (no longer than 25 words, delivered over as long as 10 minutes). Cast this spell on an object, and describe the circumstances under which the spell will trigger. The trigger should be something visual or audible that occurs within 10 meters around the object. You can choose for the spell to end once it delivers the message, or repeat every time the trigger occurs. For example, you could instruct the voice to speak when any creature moves within 10 meters of the object or when a silver bell rings within 10 meters of it.",
+            "vt": 2,
+            "level": 2,
+            "category": "Illusionism"
+        },
+        {
+            "title": "Phasing",
+            "description": "Become immaterial (like a ghost) for the next 5 secnods. Walk through doors, let attacks pass through you.",
+            "vt": 2,
+            "level": 2,
+            "category": "Transmutation"
+        },
+        {
+            "title": "Sail the Wind",
+            "description": "Turn into a cloud of fog. You can slowly drift in any direction of your choice. Lasts an hour.",
+            "vt": 2,
+            "level": 2,
+            "category": "Transmutation"
+        },
+        {
+            "title": "Technomancy",
+            "description": "Control mechanical and electrical devices with your mind.",
+            "vt": 2,
+            "level": 2,
+            "category": "Telepathy"
+        },
+        {
             "title": "Fly",
             "description": "Grant the power of flight to the target creature (including yourself). The target can fly at a speed of a bird for the next 10 minutes.",
             "vt": 3,
@@ -1720,13 +1804,6 @@
             "vt": 3,
             "level": 3,
             "category": "Telepathy"
-        },
-        {
-            "title": "Intangibility",
-            "description": "Become immaterial (like a ghost) for the next 10 minutes. Walk through doors, let attacks pass through you.",
-            "vt": 4,
-            "level": 4,
-            "category": "Transmutation"
         },
         {
             "title": "Speed",
@@ -1848,7 +1925,7 @@
         },
         {
             "title": "Nifty Skillbook",
-            "description": "Allows you to learn one  Nifty skill.",
+            "description": "Allows you to learn one Nifty skill.",
             "level": 1,
             "category": "Books"
         },
@@ -1857,6 +1934,12 @@
             "description": "Allows to cast one Cool spell once (specify spell).",
             "level": 1,
             "category": "Scrolls"
+        },
+        {
+            "title": "Cool Brain Juice",
+            "description": "A juice harvested from the brain of an expert. Drinking it allows you to use a Cool skill once (specify one skill).",
+            "level": 1,
+            "category": "Potions"
         },
         {
             "title": "Friendship Bracelets",
@@ -1962,8 +2045,8 @@
         },
         {
             "title": "Horseshoe of Attraction",
-            "description": "Turns into a powerful magnet when activated. Strong enough to move a person wearing armor within 50 meters.",
-            "level": 1,
+            "description": "Turns into a powerful magnet when activated. Can swith polarity and repel objects instead. Can be activated telepathically, from a distance of up to 50 meters.",
+            "level": 2,
             "category": "Utility"
         },
         {
@@ -2091,6 +2174,12 @@
             "description": "Allows to cast one Epic spell once (specify spell).",
             "level": 2,
             "category": "Scrolls"
+        },
+        {
+            "title": "Epic Brain Juice",
+            "description": "A juice harvested from the brain of an expert. Drinking it allows you to use an Epic skill once (specify one skill).",
+            "level": 2,
+            "category": "Potions"
         },
         {
             "title": "Fairy Dust",
@@ -2325,6 +2414,12 @@
             "description": "Allows you to learn one Epic skill.",
             "level": 3,
             "category": "Books"
+        },
+        {
+            "title": "Supreme Brain Juice",
+            "description": "A juice harvested from the brain of an expert. Drinking it allows you to use an Supreme skill once (specify one skill).",
+            "level": 3,
+            "category": "Potions"
         },
         {
             "title": "Supreme Spellscroll",

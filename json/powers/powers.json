@@ -1278,6 +1278,14 @@
           "powerType": "skills"
         },
         {
+          "title": "Superintelligence",
+          "description": "Once per day you can describe a contingency plan that you have put in place retroactively, having predicted that this situation is going to occur.",
+          "vt": 5,
+          "level": 3,
+          "category": "Professional",
+          "powerType": "skills"
+        },
+        {
           "title": "Master",
           "description": "You’re the best in the world at a profession of your choice.",
           "vt": 4,
@@ -1357,6 +1365,14 @@
         {
           "title": "Artificer",
           "description": "Once per session you can imbue a non-magical item with the power of a spell you know.",
+          "vt": 4,
+          "level": 4,
+          "category": "Crafting",
+          "powerType": "skills"
+        },
+        {
+          "title": "Build a Creature",
+          "description": "Craft an artifical creature like a robot or a golem. It takes you a month to build one.",
           "vt": 4,
           "level": 4,
           "category": "Crafting",
@@ -1474,6 +1490,14 @@
           "powerType": "spells"
         },
         {
+          "title": "Magic Voice",
+          "description": "Produces a sound of your choice or a voice delivering a message (no longer than 25 words, delivered over as long as 10 minutes). Cast this spell on an object, and describe the circumstances under which the spell will trigger. The trigger should be something visual or audible that occurs within 10 meters around the object. You can choose for the spell to end once it delivers the message, or repeat every time the trigger occurs. For example, you could instruct the voice to speak when any creature moves within 10 meters of the object or when a silver bell rings within 10 meters of it.",
+          "vt": 2,
+          "level": 2,
+          "category": "Illusionism",
+          "powerType": "spells"
+        },
+        {
           "title": "Veil",
           "description": "Create a static illusion no larger than 100 meters in any direction. Like a building, an oasis, a pile of treasure, etc. When a creature touches the illusion they can no longer see it.",
           "vt": 3,
@@ -1505,6 +1529,14 @@
         {
           "title": "Read Surface Thoughts",
           "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking.",
+          "vt": 2,
+          "level": 2,
+          "category": "Telepathy",
+          "powerType": "spells"
+        },
+        {
+          "title": "Technomancy",
+          "description": "Control mechanical and electrical devices with your mind.",
           "vt": 2,
           "level": 2,
           "category": "Telepathy",
@@ -1633,6 +1665,14 @@
           "powerType": "spells"
         },
         {
+          "title": "Firehose",
+          "description": "A stream of water pours out of your hand as if it's a firehose. Lasts 10 minutes.",
+          "vt": 1,
+          "level": 1,
+          "category": "Conjuration",
+          "powerType": "spells"
+        },
+        {
           "title": "Familiar Transposition",
           "description": "Swap places with your familiar.",
           "vt": 2,
@@ -1660,6 +1700,14 @@
           "title": "Grease",
           "description": "Cover an object or a surface in grease, making it frictionless.",
           "vt": 2,
+          "level": 2,
+          "category": "Conjuration",
+          "powerType": "spells"
+        },
+        {
+          "title": "Recall",
+          "description": "After you cast the spell in a location, you and your group can teleport back to it once.",
+          "vt": 4,
           "level": 2,
           "category": "Conjuration",
           "powerType": "spells"
@@ -1803,6 +1851,14 @@
           "powerType": "spells"
         },
         {
+          "title": "Bend Space",
+          "description": "Alter direction of projectiles and small flying objects, change their course up to 90 degrees in any direction.",
+          "vt": 1,
+          "level": 1,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
           "title": "Levitate",
           "description": "Slowly lifts the target vertically above the ground, up to 15 meters. The target can weight up to 300 kg.",
           "vt": 2,
@@ -1890,6 +1946,14 @@
         {
           "title": "Skywrite",
           "description": "Cause up to 10 words to form in the sky you can see (made of clouds).",
+          "vt": 1,
+          "level": 1,
+          "category": "Elementalism",
+          "powerType": "spells"
+        },
+        {
+          "title": "Daylight",
+          "description": "During the night, you can make it bright as day in an area the size of a village.",
           "vt": 1,
           "level": 1,
           "category": "Elementalism",
@@ -2106,6 +2170,22 @@
           "powerType": "spells"
         },
         {
+          "title": "Phasing",
+          "description": "Become immaterial (like a ghost) for the next 5 secnods. Walk through doors, let attacks pass through you.",
+          "vt": 2,
+          "level": 2,
+          "category": "Transmutation",
+          "powerType": "spells"
+        },
+        {
+          "title": "Sail the Wind",
+          "description": "Turn into a cloud of fog. You can slowly drift in any direction of your choice. Lasts an hour.",
+          "vt": 2,
+          "level": 2,
+          "category": "Transmutation",
+          "powerType": "spells"
+        },
+        {
           "title": "Slow Time",
           "description": "Makes time run 10x slower within a sphere of 15-meter radius.",
           "vt": 3,
@@ -2118,14 +2198,6 @@
           "description": "Objects come to life and obey your commands.",
           "vt": 3,
           "level": 3,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Intangibility",
-          "description": "Become immaterial (like a ghost) for the next 10 minutes. Walk through doors, let attacks pass through you.",
-          "vt": 4,
-          "level": 4,
           "category": "Transmutation",
           "powerType": "spells"
         },
@@ -2191,6 +2263,14 @@
       "title": "Divination",
       "powers": [
         {
+          "title": "Locate Object",
+          "description": "Describe an object that is familiar to you. You can sense  the direction to the object's location, as long as that object is within 300 meters of you.",
+          "vt": 2,
+          "level": 2,
+          "category": "Divination",
+          "powerType": "spells"
+        },
+        {
           "title": "Sense Magic",
           "description": "You can sense the magic auras of any spells, items, or creatures within 200 meters around you. You'll get a vague sense of what they are, and their general direction.",
           "vt": 2,
@@ -2202,6 +2282,14 @@
           "title": "Glance",
           "description": "You can peer into the recent past. Ask about specific event that happened in your location in the past day, and get a small piece of information about that event.",
           "vt": 2,
+          "level": 2,
+          "category": "Divination",
+          "powerType": "spells"
+        },
+        {
+          "title": "Oracle",
+          "description": "You can ask the gods one question and receive an honest Yes or No answer. The GM will say yes, no, or shrug if it's impossible to answer.",
+          "vt": 4,
           "level": 2,
           "category": "Divination",
           "powerType": "spells"
@@ -2299,7 +2387,7 @@
         },
         {
           "title": "Nifty Skillbook",
-          "description": "Allows you to learn one  Nifty skill.",
+          "description": "Allows you to learn one Nifty skill.",
           "level": 1,
           "category": "Books",
           "powerType": "items"
@@ -2382,6 +2470,137 @@
       ]
     },
     {
+      "title": "Potions",
+      "powers": [
+        {
+          "title": "Cool Brain Juice",
+          "description": "A juice harvested from the brain of an expert. Drinking it allows you to use a Cool skill once (specify one skill).",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Small Vitality Potion",
+          "description": "Restores 5 VT.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Smoke Potion",
+          "description": "Creates a huge cloud of black smoke when spilled.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Catnip",
+          "description": "When spilled attracts all the cats within 100km radius.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Invisibility Potion",
+          "description": "Turns you invisible for 10 minutes.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Anti-Gravity Potion",
+          "description": "Drinker isn't affected by gravity for an hour.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Falcon Potion",
+          "description": "Turns you into a falcon for 30 minutes.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Flask of Oil",
+          "description": "Make things slippery. You can set it on fire.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Vial of Acid",
+          "description": "Burns through objects.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Chloroform",
+          "description": "The one who inhales it instantly falls asleep for 1 hour",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Epic Brain Juice",
+          "description": "A juice harvested from the brain of an expert. Drinking it allows you to use an Epic skill once (specify one skill).",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Shrinking Potion",
+          "description": "The drinker shrinks to be 20 times smaller for 20 minutes.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Potion of Body Switching",
+          "description": "When two people drink this potion, it swaps their minds freaky-friday style for 2 hours.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Tea of Shared Dreams",
+          "description": "When multiple people drink it and go to sleep, they will find themselves in a shared dream.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Polyjuice Potion",
+          "description": "Drop someone’s hair into it, and drinking this potion will turn you into that person or creature for 30 minutes.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Ant-Man Potion",
+          "description": "You shrink down to the size of an ant, while retaining the strength of a human. Lasts for 1 hour.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Supreme Brain Juice",
+          "description": "A juice harvested from the brain of an expert. Drinking it allows you to use an Supreme skill once (specify one skill).",
+          "level": 3,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Truth Serum",
+          "description": "One who drinks it can’t tell lies for an hour.",
+          "level": 3,
+          "category": "Potions",
+          "powerType": "items"
+        }
+      ]
+    },
+    {
       "title": "Utility",
       "powers": [
         {
@@ -2442,8 +2661,8 @@
         },
         {
           "title": "Horseshoe of Attraction",
-          "description": "Turns into a powerful magnet when activated. Strong enough to move a person wearing armor within 50 meters.",
-          "level": 1,
+          "description": "Turns into a powerful magnet when activated. Can swith polarity and repel objects instead. Can be activated telepathically, from a distance of up to 50 meters.",
+          "level": 2,
           "category": "Utility",
           "powerType": "items"
         },
@@ -2837,116 +3056,6 @@
           "description": "Make all spells 1VT cheaper.",
           "level": 4,
           "category": "Utility",
-          "powerType": "items"
-        }
-      ]
-    },
-    {
-      "title": "Potions",
-      "powers": [
-        {
-          "title": "Small Vitality Potion",
-          "description": "Restores 5 VT.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Smoke Potion",
-          "description": "Creates a huge cloud of black smoke when spilled.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Catnip",
-          "description": "When spilled attracts all the cats within 100km radius.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Invisibility Potion",
-          "description": "Turns you invisible for 10 minutes.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Anti-Gravity Potion",
-          "description": "Drinker isn't affected by gravity for an hour.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Falcon Potion",
-          "description": "Turns you into a falcon for 30 minutes.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Flask of Oil",
-          "description": "Make things slippery. You can set it on fire.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Vial of Acid",
-          "description": "Burns through objects.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Chloroform",
-          "description": "The one who inhales it instantly falls asleep for 1 hour",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Shrinking Potion",
-          "description": "The drinker shrinks to be 20 times smaller for 20 minutes.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Potion of Body Switching",
-          "description": "When two people drink this potion, it swaps their minds freaky-friday style for 2 hours.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Tea of Shared Dreams",
-          "description": "When multiple people drink it and go to sleep, they will find themselves in a shared dream.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Polyjuice Potion",
-          "description": "Drop someone’s hair into it, and drinking this potion will turn you into that person or creature for 30 minutes.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Ant-Man Potion",
-          "description": "You shrink down to the size of an ant, while retaining the strength of a human. Lasts for 1 hour.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Truth Serum",
-          "description": "One who drinks it can’t tell lies for an hour.",
-          "level": 3,
-          "category": "Potions",
           "powerType": "items"
         }
       ]
