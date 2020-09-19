@@ -2604,13 +2604,6 @@
       "title": "Utility",
       "powers": [
         {
-          "title": "Peephole Monocle",
-          "description": "When pressed against the surface (like a wall or a door, no thicker than 30cm) turns into a hole you can see through. The hole can't be seen from the other side.",
-          "level": 1,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
           "title": "Friendship Bracelets",
           "description": "Magical walkie-talkie. Enables you to talk telepathically to anybody who has one (within 300 meters).",
           "level": 1,
@@ -2767,6 +2760,13 @@
         {
           "title": "Swap Cube",
           "description": "You can swap the cube with an object no larger or heavier than a barrel within clear line of sight (can't be used on objects that are being worn/used/held by someone.)",
+          "level": 1,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
+          "title": "Spy's Monocle",
+          "description": "When pressed against the surface (like a wall or a door, no thicker than 30cm) turns into a hole you can see through. The hole can't be seen from the other side.",
           "level": 1,
           "category": "Utility",
           "powerType": "items"
