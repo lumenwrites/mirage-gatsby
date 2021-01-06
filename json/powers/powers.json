@@ -278,13 +278,6 @@
           "vt": 1,
           "category": "Physical",
           "powerType": "talents"
-        },
-        {
-          "title": "Dodge",
-          "description": "Move out of the way of danger and keep from getting hit.",
-          "vt": 1,
-          "category": "Physical",
-          "powerType": "talents"
         }
       ]
     },
@@ -348,20 +341,6 @@
           "powerType": "talents"
         },
         {
-          "title": "Con Artistry",
-          "description": "Use people's weaknesses against them to obtain money, information, goods, etc.",
-          "vt": 1,
-          "category": "Social",
-          "powerType": "talents"
-        },
-        {
-          "title": "Bartering",
-          "description": "Convince people to trade and get better deals.",
-          "vt": 1,
-          "category": "Social",
-          "powerType": "talents"
-        },
-        {
           "title": "Politics",
           "description": "You have good insight into political alliances, motivations, plots.",
           "vt": 1,
@@ -411,20 +390,6 @@
         {
           "title": "Religion",
           "description": "You understand religions and gods of the world.",
-          "vt": 1,
-          "category": "Knowledge",
-          "powerType": "talents"
-        },
-        {
-          "title": "Linguistics",
-          "description": "You’re good at understanding languages.",
-          "vt": 1,
-          "category": "Knowledge",
-          "powerType": "talents"
-        },
-        {
-          "title": "Science",
-          "description": "You know the answers to questions related to natural science.",
           "vt": 1,
           "category": "Knowledge",
           "powerType": "talents"
@@ -524,13 +489,6 @@
           "powerType": "talents"
         },
         {
-          "title": "In Character",
-          "description": "You get advantage a roll when you’re acting according to one trait of your choice (choose one of the traits you already have). When using this talent to gain advantage, you don’t gain the 3VT that using a Trait usually gives you, instead you just spend 1VT on using this talent.",
-          "vt": 1,
-          "category": "Custom",
-          "powerType": "talents"
-        },
-        {
           "title": "Custom Talent",
           "description": "Come up with your own talent! What other general talent does your character have? What would benefit them in a range of different situations? (create this card and then click on edit button to modify it)",
           "category": "Custom",
@@ -561,7 +519,7 @@
         },
         {
           "title": "Inspiring Speech",
-          "description": "Bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 3VT.",
+          "description": "Once per day you can bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 6VT.",
           "vt": 1,
           "level": 1,
           "category": "Social",
@@ -576,8 +534,8 @@
           "powerType": "skills"
         },
         {
-          "title": "Cheater’s Debate",
-          "description": "Any facts and figures you make up during the debate will sound very convincing.",
+          "title": "Spread the Word",
+          "description": "Spread any rumor. Say a couple of sentences, and they go viral. Not everyone believes them, but everyone is talking about them.",
           "vt": 1,
           "level": 1,
           "category": "Social",
@@ -616,48 +574,16 @@
           "powerType": "skills"
         },
         {
-          "title": "Yucky",
-          "description": "Your smell, behavior, or appearance are so repulsive that nobody wants to attack you. Roll the dice, if you roll above a 10 you can make your target puke.",
+          "title": "Pet Pal",
+          "description": "You can speak with animals.",
           "vt": 1,
           "level": 1,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Joker",
-          "description": "Make a joke or a horrible pun, roll the dice. If you roll above 10, your target can’t stop laughing for the next 10 minutes.",
-          "vt": 1,
-          "level": 1,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Talk your Way Out",
-          "description": "If you're caught doing something prohibited - you can come up with a good excuse and talk your way out of the situation.",
-          "vt": 2,
-          "level": 2,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Sick Burn",
-          "description": "Your insults deal 4 damage (you need to come up with a clever and original insult every time you use this skill.)",
-          "vt": 2,
-          "level": 2,
           "category": "Social",
           "powerType": "skills"
         },
         {
           "title": "Frighten Animals",
           "description": "Make yourself appear threatening, making all the nearby non-magical creatures run away.",
-          "vt": 2,
-          "level": 2,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Tell the Tale",
-          "description": "Tell an amazing tale from your past adventures. Roll the dice. If you beat 15, everyone believes you 100%. If you beat 10 - people are entertained and you are now well liked. If you roll below 10 - they consider you a liar and a charlatan.",
           "vt": 2,
           "level": 2,
           "category": "Social",
@@ -736,14 +662,6 @@
           "powerType": "skills"
         },
         {
-          "title": "Sense Motive",
-          "description": "You can read social cues so well that you can determine whether someone is lying to you, whether something odd is going on, or to assess someone’s trustworthiness.",
-          "vt": 3,
-          "level": 3,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
           "title": "Silver Tongue",
           "description": "You’re amazing at flattering people. When compliment someone, they can’t help but to like you.",
           "vt": 3,
@@ -752,62 +670,11 @@
           "powerType": "skills"
         },
         {
-          "title": "Find an Intern",
-          "description": "You find an aspiring adventurer looking to gain some experience.  They will follow you around and do their best to obey your orders and provide assistance.",
+          "title": "Famous",
+          "description": "You are well known. When you pick this skill, you can choose what reputation you have in a specific region (Hero, Villain, Philanthropist, Sex Symbol, etc.)",
           "vt": 4,
           "level": 4,
           "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Impersonation",
-          "description": "You can create a fake identity of a powerful or a high status person. It can’t be the already existing person (like a King). It allows you to enter restricted areas, give orders to people below your station, live lavish lifestyle.",
-          "vt": 4,
-          "level": 4,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Horrifying",
-          "description": "You are so horrifying you can break the wills of most people and creatures.",
-          "vt": 4,
-          "level": 4,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Value Change",
-          "description": "Give a life-changing speech. Alters one of the person’s fundamental values, can turn an evil person good or flip an enemy to your side.",
-          "vt": 8,
-          "level": 4,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Master Liar",
-          "description": "You are the best liar in the world, you can convince almost anyone that almost anything is true.",
-          "vt": 4,
-          "level": 4,
-          "category": "Social",
-          "powerType": "skills"
-        },
-        {
-          "title": "Fame",
-          "description": "You are well known. You can choose what reputation you have in this region (Hero, Villain, Philanthropist, Sex Symbol, etc.)",
-          "vt": 4,
-          "level": 4,
-          "category": "Social",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
-      "powers": [
-        {
-          "title": "Spread the Word",
-          "description": "Spread any rumor. Say a couple of sentences, and they go viral. Not everyone believes them, but everyone is talking about them.",
-          "vt": 1,
-          "level": 1,
           "powerType": "skills"
         }
       ]
@@ -833,7 +700,7 @@
         },
         {
           "title": "Sprinter",
-          "description": "For the next hour you can run as fast as a horse.",
+          "description": "For the next 10 minutes you can run as fast as a horse.",
           "vt": 1,
           "level": 1,
           "category": "Physical",
@@ -841,9 +708,49 @@
         },
         {
           "title": "Leap",
-          "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
+          "description": "Jump up to 10 times the normal distance.",
           "vt": 1,
           "level": 1,
+          "category": "Physical",
+          "powerType": "skills"
+        },
+        {
+          "title": "Ricochet",
+          "description": "Shoot around the corners by bouncing arrows or thrown weapons off the walls.",
+          "vt": 1,
+          "level": 1,
+          "category": "Physical",
+          "powerType": "skills"
+        },
+        {
+          "title": "Battle Stomp",
+          "description": "Smash your weapon into the ground, knock down everyone around you.",
+          "vt": 1,
+          "level": 1,
+          "category": "Physical",
+          "powerType": "skills"
+        },
+        {
+          "title": "Provoke",
+          "description": "Attract the attention of all the enemies. They will attack you instead of your friends until the battle is over or they take damage from someone else.",
+          "vt": 2,
+          "level": 2,
+          "category": "Physical",
+          "powerType": "skills"
+        },
+        {
+          "title": "Parry",
+          "description": "Parry a physical attack against you.",
+          "vt": 2,
+          "level": 2,
+          "category": "Physical",
+          "powerType": "skills"
+        },
+        {
+          "title": "Deadeye",
+          "description": "Allows you to make an extremely precise shot at the tiny objects extremely far away.",
+          "vt": 2,
+          "level": 2,
           "category": "Physical",
           "powerType": "skills"
         },
@@ -856,42 +763,26 @@
           "powerType": "skills"
         },
         {
-          "title": "Final Push",
-          "description": "Once per day through the sheer force of will you can restore all of your VP, but in an hour it will drop down to 1 from the exhaustion.",
+          "title": "Deflect",
+          "description": "Use your melee weapon to deflect any attack (including magical ones) back to it’s target. Roll the dice. If you roll above 10 you succeed, otherwise it’s just dodged.",
+          "vt": 2,
+          "level": 2,
+          "category": "Physical",
+          "powerType": "skills"
+        },
+        {
+          "title": "Throw Anything",
+          "description": "You can use any creature or an object you can lift as a thrown weapon. You can also throw them carefully, in a way that doesn’t deal damage.",
           "vt": 3,
           "level": 3,
           "category": "Physical",
           "powerType": "skills"
         },
         {
-          "title": "Hulk",
-          "description": "You are superhumanly strong, like Hulk or Mr. Incredible.",
-          "vt": 4,
-          "level": 4,
-          "category": "Physical",
-          "powerType": "skills"
-        },
-        {
-          "title": "Spider Man",
-          "description": "You are capable of superhuman, spider-man-level acrobatics.",
-          "vt": 4,
-          "level": 4,
-          "category": "Physical",
-          "powerType": "skills"
-        },
-        {
-          "title": "Tough as Nails",
-          "description": "You take only half the damage from physical attacks.",
-          "vt": 1,
-          "level": 4,
-          "category": "Physical",
-          "powerType": "skills"
-        },
-        {
-          "title": "Magic Resistance",
-          "description": "You take only half the damage from spells.",
-          "vt": 1,
-          "level": 4,
+          "title": "Martial Arts Master",
+          "description": "You can do anything Jackie Chan can do. You are a true ninja. Run on water, run on walls, instantly master any combat tactic you see. You no longer suffer falling damage.",
+          "vt": 3,
+          "level": 3,
           "category": "Physical",
           "powerType": "skills"
         }
@@ -910,7 +801,7 @@
         },
         {
           "title": "Eagle Eye",
-          "description": "You have superhuman vision, you can see the tiniest objects extremely far away.",
+          "description": "For the next 10 minutes you have superhuman vision, you can see the tiniest objects extremely far away.",
           "vt": 1,
           "level": 1,
           "category": "Perception",
@@ -918,7 +809,7 @@
         },
         {
           "title": "Owl’s Ear",
-          "description": "You have hypersensitive hearing. Hear things that are very far away, hear through walls.",
+          "description": "For the next 10 minutes you have hypersensitive hearing. Hear things that are very far away, hear through walls.",
           "vt": 1,
           "level": 1,
           "category": "Perception",
@@ -926,7 +817,7 @@
         },
         {
           "title": "Sense Danger",
-          "description": "Notice all the imminent threats around you.",
+          "description": "For the next 10 minutes you will notice all the imminent threats around you.",
           "vt": 1,
           "level": 1,
           "category": "Perception",
@@ -939,249 +830,18 @@
           "level": 2,
           "category": "Perception",
           "powerType": "skills"
-        },
-        {
-          "title": "Super Senses",
-          "description": "Your eyesight and hearing are supernaturally sharp. You can hear the quietest noises, see the tiniest details extremely far away.",
-          "vt": 3,
-          "level": 3,
-          "category": "Perception",
-          "powerType": "skills"
         }
       ]
     },
     {
-      "title": "Stealth",
-      "powers": [
-        {
-          "title": "Sneak Attack",
-          "description": "If the creature doesn't notice you, your attack deals double damage.",
-          "vt": 1,
-          "level": 1,
-          "category": "Stealth",
-          "powerType": "skills"
-        },
-        {
-          "title": "Stealthy Spellcasting",
-          "description": "For the next 10 minutes you can cast spells in a way that is undetectable by the people around you.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        },
-        {
-          "title": "Stalk",
-          "description": "You can carefully stalk a chosen target without getting noticed.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        },
-        {
-          "title": "Ambush",
-          "description": "Prepare an ambush. When you attack the target they will be surprised, and everyone in your group can take an action before they react.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        },
-        {
-          "title": "Conceal Object",
-          "description": "Conceal an object of your choice, it will be impossible to discover that you have it until you use it.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        },
-        {
-          "title": "Fake Death",
-          "description": "Appear to be dead for the next 30 minutes.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
-      "title": "Combat",
-      "powers": [
-        {
-          "title": "Counterattack",
-          "description": "When someone deals you damage you can attack them back right away.",
-          "vt": 1,
-          "level": 1,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Ricochet",
-          "description": "Shoot around the corners by bouncing arrows off the walls.",
-          "vt": 1,
-          "level": 1,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Battle Stomp",
-          "description": "Smash your weapon into the ground, knock down everyone around you.",
-          "vt": 1,
-          "level": 1,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Heavy Armor",
-          "description": "Double the effectiveness of heavy armor.",
-          "vt": 1,
-          "level": 1,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Improvised Weapons",
-          "description": "You can make a weapon out of anything. The improvised weapon deals 4 damage, and is usable in one fight.",
-          "vt": 2,
-          "level": 2,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Provoke",
-          "description": "Attract the attention of all the enemies. They will attack you instead of your friends until the battle is over or they take damage from someone else.",
-          "vt": 2,
-          "level": 2,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Parry",
-          "description": "Parry a physical attack against you.",
-          "vt": 2,
-          "level": 2,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Deadeye",
-          "description": "Allows you accurately shoot at the tiny objects extremely far away.",
-          "vt": 2,
-          "level": 2,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Quickshot",
-          "description": "Allows you to shoot twice during your turn.",
-          "vt": 2,
-          "level": 2,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Deflect",
-          "description": "Use your melee weapon to deflect any attack (including magical ones) back to it’s target. Roll the dice. If you roll above 10 you succeed, otherwise it’s just dodged.",
-          "vt": 2,
-          "level": 2,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Dual Wielding",
-          "description": "Use two weapons at the same time.",
-          "vt": 3,
-          "level": 3,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Throw Anything",
-          "description": "You can use any creature or an object as a thrown weapon. You can also throw them carefully, in a way that doesn’t deal damage.",
-          "vt": 3,
-          "level": 3,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Martial Arts Master",
-          "description": "You can do anything Jackie Chan can do. You are a true ninja. Run on water, run on walls, instantly master any combat tactic you see. You no longer suffer falling damage.",
-          "vt": 3,
-          "level": 3,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Bond with a Weapon",
-          "description": "You can choose one favorite weapon, doubling it’s damage when you use this skill.",
-          "vt": 3,
-          "level": 3,
-          "category": "Combat",
-          "powerType": "skills"
-        },
-        {
-          "title": "Master of the Blade",
-          "description": "Your weapon is infinitely sharp and can cut through anything.",
-          "vt": 4,
-          "level": 4,
-          "category": "Combat",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
-      "title": "Nature",
-      "powers": [
-        {
-          "title": "Build Shelter",
-          "description": "When camping in the wilderness, use the nearby flora to build a shelter. It hides your presence from the hostile creatures, and gives you an early warning about their approach.",
-          "vt": 1,
-          "level": 1,
-          "category": "Nature",
-          "powerType": "skills"
-        },
-        {
-          "title": "Pet Pal",
-          "description": "You can speak with animals.",
-          "vt": 1,
-          "level": 1,
-          "category": "Nature",
-          "powerType": "skills"
-        },
-        {
-          "title": "Animal Buddy",
-          "description": "Recruit a nearby animal, they will follow your orders to the best of their ability. It can't be smaller than a mouse or bigger than a horse. You can have only one animal partner at a time. If you get separated, it will try to find you. They have 6 HP and can make basic attacks for 2 damage. If the animal is hostile towards you - it won’t follow your orders, but you can calm it down.",
-          "vt": 2,
-          "level": 2,
-          "category": "Nature",
-          "powerType": "skills"
-        },
-        {
-          "title": "Distress Signal",
-          "description": "When in the wilderness, you can build a distress signal that can be seen by Rangers. Within the next day, you will meet an NPC Ranger who comes to your aid.",
-          "vt": 3,
-          "level": 3,
-          "category": "Nature",
-          "powerType": "skills"
-        },
-        {
-          "title": "Track Down",
-          "description": "Ask around, and people will do their best to help you find an item, a person, or a creature.",
-          "vt": 3,
-          "level": 3,
-          "category": "Nature",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
-      "title": "Medicine",
+      "title": "Professional",
       "powers": [
         {
           "title": "Remedy",
           "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
           "vt": 1,
           "level": 1,
-          "category": "Medicine",
+          "category": "Professional",
           "powerType": "skills"
         },
         {
@@ -1189,22 +849,9 @@
           "description": "Fix a broken mundane object.",
           "vt": 1,
           "level": 1,
-          "category": "Medicine",
+          "category": "Professional",
           "powerType": "skills"
         },
-        {
-          "title": "First Aid",
-          "description": "If your ally has just passed out, you can awaken them, leaving them with one VT.",
-          "vt": 2,
-          "level": 2,
-          "category": "Medicine",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
-      "title": "Professional",
-      "powers": [
         {
           "title": "Musician",
           "description": "When you’re playing a musical instrument - roll the dice. If you roll above 10, everybody around you can’t resist dancing.",
@@ -1216,14 +863,6 @@
         {
           "title": "Boyscout",
           "description": "You’re always prepared! Search through your pockets and find any mundane item of your choice.",
-          "vt": 1,
-          "level": 1,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Eidetic Memory",
-          "description": "You have perfect memory.",
           "vt": 1,
           "level": 1,
           "category": "Professional",
@@ -1262,8 +901,8 @@
           "powerType": "skills"
         },
         {
-          "title": "Investigate",
-          "description": "When investigating a crime scene, you can discover an important clue, a motive of the criminal, or where they’re headed next (choose one).",
+          "title": "First Aid",
+          "description": "If your ally has just passed out, you can awaken them, leaving them with one VT.",
           "vt": 2,
           "level": 2,
           "category": "Professional",
@@ -1276,127 +915,63 @@
           "level": 3,
           "category": "Professional",
           "powerType": "skills"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Stealth",
+      "powers": [
         {
-          "title": "Superintelligence",
-          "description": "Once per day you can describe a contingency plan that you have put in place retroactively, having predicted that this situation is going to occur.",
-          "vt": 5,
-          "level": 3,
-          "category": "Professional",
+          "title": "Stealthy Spellcasting",
+          "description": "For the next 10 minutes you can cast spells in a way that is undetectable by the people around you.",
+          "vt": 2,
+          "level": 2,
+          "category": "Stealth",
           "powerType": "skills"
         },
         {
-          "title": "Master",
-          "description": "You’re the best in the world at a profession of your choice.",
-          "vt": 4,
-          "level": 4,
-          "category": "Professional",
+          "title": "Ambush",
+          "description": "Prepare an ambush. When you attack the target they will be surprised, and everyone in your group can take an action before they react.",
+          "vt": 2,
+          "level": 2,
+          "category": "Stealth",
           "powerType": "skills"
         },
         {
-          "title": "Forensics",
-          "description": "You can use do whatever a modern forensics lab can do.",
-          "vt": 4,
-          "level": 4,
-          "category": "Professional",
+          "title": "Conceal Object",
+          "description": "Conceal an object of your choice, it will be impossible to discover that you have it until you use it.",
+          "vt": 2,
+          "level": 2,
+          "category": "Stealth",
           "powerType": "skills"
         },
         {
-          "title": "Quick Learner",
-          "description": "You can learn any complicated task just by watching someone do it. You’ll be able to perform it for the next day.",
-          "vt": 4,
-          "level": 4,
-          "category": "Professional",
+          "title": "Fake Death",
+          "description": "Appear to be dead for the next 30 minutes.",
+          "vt": 2,
+          "level": 2,
+          "category": "Stealth",
           "powerType": "skills"
         }
       ]
     },
     {
-      "title": "Crafting",
+      "title": "Nature",
       "powers": [
         {
-          "title": "Brew Poison",
-          "description": "You can brew poison from common ingredients.",
+          "title": "Animal Buddy",
+          "description": "Recruit a nearby animal, they will follow your orders to the best of their ability. It can't be smaller than a mouse or bigger than a horse. You can have only one animal partner at a time. If you get separated, it will try to find you. They have 6 HP and can make basic attacks for 2 damage. If the animal is hostile towards you - it won’t follow your orders, but you can calm it down.",
           "vt": 2,
           "level": 2,
-          "category": "Crafting",
+          "category": "Nature",
           "powerType": "skills"
         },
         {
-          "title": "Craft an Item",
-          "description": "Once per day you can craft a simple mundane item.",
-          "vt": 2,
-          "level": 2,
-          "category": "Crafting",
-          "powerType": "skills"
-        },
-        {
-          "title": "Impossible Mask",
-          "description": "You can craft a mask like in Mission Impossible.",
-          "vt": 4,
-          "level": 2,
-          "category": "Crafting",
-          "powerType": "skills"
-        },
-        {
-          "title": "Brew a Potion",
-          "description": "Once per day you can brew any Nifty or Cool potion.",
+          "title": "Distress Signal",
+          "description": "When in the wilderness, you can build a distress signal that can be seen by Rangers. Within the next day, you will meet an NPC Ranger who comes to your aid.",
           "vt": 3,
           "level": 3,
-          "category": "Crafting",
-          "powerType": "skills"
-        },
-        {
-          "title": "Potion Master",
-          "description": "Brew a potion with the effect of any Nifty or Cool spell (takes 3 hours).",
-          "vt": 5,
-          "level": 3,
-          "category": "Crafting",
-          "powerType": "skills"
-        },
-        {
-          "title": "Craft Anything",
-          "description": "Once per month you can invent and craft a fantasy equivalent of any item from our world.",
-          "vt": 4,
-          "level": 4,
-          "category": "Crafting",
-          "powerType": "skills"
-        },
-        {
-          "title": "Artificer",
-          "description": "Once per session you can imbue a non-magical item with the power of a spell you know.",
-          "vt": 4,
-          "level": 4,
-          "category": "Crafting",
-          "powerType": "skills"
-        },
-        {
-          "title": "Build a Creature",
-          "description": "Craft an artifical creature like a robot or a golem. It takes you a month to build one.",
-          "vt": 4,
-          "level": 4,
-          "category": "Crafting",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
-      "title": "Other",
-      "powers": [
-        {
-          "title": "Live on the Edge",
-          "description": "You gain advantage on all rolls when you have 4VT or less.",
-          "vt": 2,
-          "level": 2,
-          "category": "Other",
-          "powerType": "skills"
-        },
-        {
-          "title": "Wealthy",
-          "description": "You can live a lavish lifestyle and do what a rich person can do (you can’t use this skill to gain items, only for roleplaying).",
-          "vt": 4,
-          "level": 4,
-          "category": "Other",
+          "category": "Nature",
           "powerType": "skills"
         }
       ]
@@ -1418,8 +993,8 @@
       "title": "Illusionism",
       "powers": [
         {
-          "title": "Minor Illusion",
-          "description": "Create an illusion of an object (no larger than a barrel) or a sound within 50 meters, in your line of sight.",
+          "title": "Illusion",
+          "description": "Create an illusory object no larger than a horse, complete with sounds, smells, movement. Within 50 meters, in your line of sight.",
           "vt": 1,
           "level": 1,
           "category": "Illusionism",
@@ -1458,14 +1033,6 @@
           "powerType": "spells"
         },
         {
-          "title": "Major Illusion",
-          "description": "Create an illusory object no larger than an elephant, complete with sounds, smells, movement.",
-          "vt": 2,
-          "level": 2,
-          "category": "Illusionism",
-          "powerType": "spells"
-        },
-        {
           "title": "Phantasmal Force",
           "description": "Target a single person or a creature, create an incredibly realistic illusion including sound, temperature, and other stimuli. The target will treat it as if it was real, and can even take damage from it.",
           "vt": 2,
@@ -1496,22 +1063,6 @@
           "level": 2,
           "category": "Illusionism",
           "powerType": "spells"
-        },
-        {
-          "title": "Veil",
-          "description": "Create a static illusion no larger than 100 meters in any direction. Like a building, an oasis, a pile of treasure, etc. When a creature touches the illusion they can no longer see it.",
-          "vt": 3,
-          "level": 3,
-          "category": "Illusionism",
-          "powerType": "spells"
-        },
-        {
-          "title": "Auto Illusion",
-          "description": "Create an illusory person or a creature that can perform simple tasks you give it. It lives for a day, and can travel any distance away from you. When it's nearby, you can control it telepathically.",
-          "vt": 3,
-          "level": 3,
-          "category": "Illusionism",
-          "powerType": "spells"
         }
       ]
     },
@@ -1527,8 +1078,24 @@
           "powerType": "spells"
         },
         {
+          "title": "Charm Person",
+          "description": "The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.",
+          "vt": 1,
+          "level": 1,
+          "category": "Telepathy",
+          "powerType": "spells"
+        },
+        {
           "title": "Read Surface Thoughts",
           "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking.",
+          "vt": 2,
+          "level": 2,
+          "category": "Telepathy",
+          "powerType": "spells"
+        },
+        {
+          "title": "Produce Emotion",
+          "description": "Make the target feel happy, sad, angry, smitten, afraid, insecure, etc.",
           "vt": 2,
           "level": 2,
           "category": "Telepathy",
@@ -1541,83 +1108,6 @@
           "level": 2,
           "category": "Telepathy",
           "powerType": "spells"
-        },
-        {
-          "title": "Invade Dreams",
-          "description": "You can reach into people’s dreams. Taking damage in a dream deals it in real life.",
-          "vt": 3,
-          "level": 3,
-          "category": "Telepathy",
-          "powerType": "spells"
-        },
-        {
-          "title": "Telepathy",
-          "description": "Create a telepathic link with any willing creature. You can share any thoughts and sensations.",
-          "vt": 3,
-          "level": 3,
-          "category": "Telepathy",
-          "powerType": "spells"
-        },
-        {
-          "title": "Command Monster",
-          "description": "Give the creature or a monster a command it must obey.",
-          "vt": 3,
-          "level": 3,
-          "category": "Telepathy",
-          "powerType": "spells"
-        },
-        {
-          "title": "Read Memories",
-          "description": "Search through the unconscious creature's mind, pulling out 15 minutes of memories.",
-          "vt": 3,
-          "level": 3,
-          "category": "Telepathy",
-          "powerType": "spells"
-        },
-        {
-          "title": "Erase Memory",
-          "description": "Erase 15 minutes of memory of an unconscious creature.",
-          "vt": 3,
-          "level": 3,
-          "category": "Telepathy",
-          "powerType": "spells"
-        },
-        {
-          "title": "Control Bugs",
-          "description": "You can sense and control all the insects within 100 meter radius for the next hour.",
-          "vt": 4,
-          "level": 4,
-          "category": "Telepathy",
-          "powerType": "spells"
-        },
-        {
-          "title": "Implant Memory",
-          "description": "Implant a false memory into an unconscious creature (the memory can be at most 15 minutes long).",
-          "vt": 4,
-          "level": 4,
-          "category": "Telepathy",
-          "powerType": "spells"
-        }
-      ]
-    },
-    {
-      "title": "Enchantment",
-      "powers": [
-        {
-          "title": "Charm Person",
-          "description": "The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.",
-          "vt": 1,
-          "level": 1,
-          "category": "Enchantment",
-          "powerType": "spells"
-        },
-        {
-          "title": "Produce Emotion",
-          "description": "Make the target feel happy, sad, angry, smitten, afraid, insecure, etc.",
-          "vt": 2,
-          "level": 2,
-          "category": "Enchantment",
-          "powerType": "spells"
         }
       ]
     },
@@ -1626,7 +1116,7 @@
       "powers": [
         {
           "title": "Summon Familiar",
-          "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears until you resummon it.",
+          "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears until you resummon it. Works once per day.",
           "vt": 8,
           "level": 1,
           "category": "Conjuration",
@@ -1641,8 +1131,24 @@
           "powerType": "spells"
         },
         {
-          "title": "Spectral Weapon",
-          "description": "Create a floating weapon that can fly up to an enemy and make a melee attack. Deals 4 damage. Lasts 1 minute.",
+          "title": "Intwine",
+          "description": "Use nearby grass, vines, and tree branches as if they were your own limbs.",
+          "vt": 1,
+          "level": 1,
+          "category": "Conjuration",
+          "powerType": "spells"
+        },
+        {
+          "title": "Annoying Cloud",
+          "description": "Summon a cloud that will float above the target's head, rain on them, distracting them and impairing their vision for the next hour.",
+          "vt": 1,
+          "level": 1,
+          "category": "Conjuration",
+          "powerType": "spells"
+        },
+        {
+          "title": "Awaken Item",
+          "description": "Bestow the gift of sentience and speech on an item. It has the personality of your choice.",
           "vt": 1,
           "level": 1,
           "category": "Conjuration",
@@ -1711,75 +1217,6 @@
           "level": 2,
           "category": "Conjuration",
           "powerType": "spells"
-        },
-        {
-          "title": "Misty Step",
-          "description": "Instantly teleport a short-distance (a stone's throw, line of sight. Think Nightcrawler from X-Men).",
-          "vt": 3,
-          "level": 3,
-          "category": "Conjuration",
-          "powerType": "spells"
-        },
-        {
-          "title": "Split",
-          "description": "Splits you into two identical clones. Each clone has 50% of your vitality points. Sustaining a clone takes 2 VT per hour. The clones can fight and use magic (including splitting into more clones). When a clone takes any damage it disappears, it's memories instantly merged into the remaining clones. When there's only one remains - it becomes the \"original\" you, keeping the memories of all the copies.",
-          "vt": 4,
-          "level": 4,
-          "category": "Conjuration",
-          "powerType": "spells"
-        },
-        {
-          "title": "Greater Teleportation",
-          "description": "Teleport any object a creature to any point within 100 meters.",
-          "vt": 4,
-          "level": 4,
-          "category": "Conjuration",
-          "powerType": "spells"
-        },
-        {
-          "title": "Open Portal",
-          "description": "Open two connected portals within your line of sight. Works like portal gun from “Portal”.",
-          "vt": 4,
-          "level": 4,
-          "category": "Conjuration",
-          "powerType": "spells"
-        },
-        {
-          "title": "Conjure a Fortress",
-          "description": "Create a mighty fortress. It has turrets that deal 8 damage.",
-          "vt": 4,
-          "level": 4,
-          "category": "Conjuration",
-          "powerType": "spells"
-        }
-      ]
-    },
-    {
-      "title": "Nature",
-      "powers": [
-        {
-          "title": "Intwine",
-          "description": "Use nearby grass, vines, and tree branches as if they were your own limbs.",
-          "vt": 1,
-          "level": 1,
-          "category": "Nature",
-          "powerType": "spells"
-        },
-        {
-          "title": "Annoying Cloud",
-          "description": "Summon a cloud that will float above the target's head, rain on them, distracting them and impairing their vision for the next hour.",
-          "vt": 1,
-          "level": 1,
-          "category": "Nature",
-          "powerType": "spells"
-        },
-        {
-          "title": "Awaken Item",
-          "description": "Bestow the gift of sentience and speech on an item. It has the personality of your choice.",
-          "vt": 1,
-          "level": 1,
-          "category": "Nature",
-          "powerType": "spells"
         }
       ]
     },
@@ -1788,15 +1225,7 @@
       "powers": [
         {
           "title": "Minor Telekinesis",
-          "description": "Slowly levitate small objects.",
-          "vt": 1,
-          "level": 1,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Dig",
-          "description": "Quickly dig a hole or a tunnel.",
+          "description": "Levitate small objects, no larger or heavier than a bucket of water.",
           "vt": 1,
           "level": 1,
           "category": "Telekinesis",
@@ -1868,7 +1297,7 @@
         },
         {
           "title": "Push/Pull Metal",
-          "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move. If an object is thrown at a speed, deals 4 damage.",
+          "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move.",
           "vt": 2,
           "level": 2,
           "category": "Telekinesis",
@@ -1889,22 +1318,6 @@
           "level": 2,
           "category": "Telekinesis",
           "powerType": "spells"
-        },
-        {
-          "title": "Fly",
-          "description": "Grant the power of flight to the target creature (including yourself). The target can fly at a speed of a bird for the next 10 minutes.",
-          "vt": 3,
-          "level": 3,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Greater Telekinesis",
-          "description": "Levitate human-sized objects and creatures (not including yourself). Throwing an object/creature deals 5 damage to the target and to the object.",
-          "vt": 3,
-          "level": 3,
-          "category": "Telekinesis",
-          "powerType": "spells"
         }
       ]
     },
@@ -1913,7 +1326,7 @@
       "powers": [
         {
           "title": "Small Fireball",
-          "description": "Sets stuff on fire. Hold in your hand as a light source. Deals 2 damage.",
+          "description": "Sets stuff on fire. Hold in your hand as a light source.",
           "vt": 1,
           "level": 1,
           "category": "Elementalism",
@@ -1977,17 +1390,9 @@
         },
         {
           "title": "Fire Weapon",
-          "description": "Casting this on a melee weapon or an arrow will wreathe it in flame, doubling it’s damage for the next 30 minutes. Things touched by the weapon are set on fire.",
+          "description": "Casting this on a melee weapon or an arrow will wreathe it in flame, giving you advantage on attacks for the next 30 minutes. Things touched by the weapon are set on fire.",
           "vt": 2,
           "level": 2,
-          "category": "Elementalism",
-          "powerType": "spells"
-        },
-        {
-          "title": "Natural Disaster",
-          "description": "Summon a natural disaster - a storm, a hurricane, or a blizzard.",
-          "vt": 4,
-          "level": 4,
           "category": "Elementalism",
           "powerType": "spells"
         }
@@ -2059,22 +1464,6 @@
           "level": 2,
           "category": "Abjuration",
           "powerType": "spells"
-        },
-        {
-          "title": "Tiny Hut",
-          "description": "An immobile force field 10 meters in diameter springs up around you. It’s impenetrable from the outside but not from the inside. The spell ends if you leave the area.",
-          "vt": 3,
-          "level": 3,
-          "category": "Abjuration",
-          "powerType": "spells"
-        },
-        {
-          "title": "Anti-magic Ward",
-          "description": "Magic doesn’t work within a sphere of 15 meter radius.",
-          "vt": 3,
-          "level": 3,
-          "category": "Abjuration",
-          "powerType": "spells"
         }
       ]
     },
@@ -2084,6 +1473,14 @@
         {
           "title": "Enlarge/Reduce",
           "description": "Make the object or a creature grow or shrink to 4 times it’s size.",
+          "vt": 1,
+          "level": 1,
+          "category": "Transmutation",
+          "powerType": "spells"
+        },
+        {
+          "title": "Sharpen",
+          "description": "Makes your weapon infinitely sharp and able to cut through anything for the next 10 minutes.",
           "vt": 1,
           "level": 1,
           "category": "Transmutation",
@@ -2184,78 +1581,6 @@
           "level": 2,
           "category": "Transmutation",
           "powerType": "spells"
-        },
-        {
-          "title": "Slow Time",
-          "description": "Makes time run 10x slower within a sphere of 15-meter radius.",
-          "vt": 3,
-          "level": 3,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Animate Objects",
-          "description": "Objects come to life and obey your commands.",
-          "vt": 3,
-          "level": 3,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Speed",
-          "description": "For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes (Quicksilver powers).",
-          "vt": 4,
-          "level": 4,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Turn into Monster",
-          "description": "You can turn into a monster or a magical creature of your choice.",
-          "vt": 4,
-          "level": 4,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Greater Polymorph",
-          "description": "You can turn the target (a person or an object) into any creature for an hour.",
-          "vt": 4,
-          "level": 4,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Time Stop",
-          "description": "You stop the time for everyone but yourself. The spell ends if you interact with any creature or an object they’re wearing or carrying.",
-          "vt": 4,
-          "level": 4,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Second Chance",
-          "description": "Teleport up to 60 seconds into the past, and replay what just happened differently.",
-          "vt": 4,
-          "level": 4,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Greater Transfiguration",
-          "description": "Turn any creature into a different creature or an object and vice versa. Lasts an hour.",
-          "vt": 4,
-          "level": 4,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
-          "title": "Fidelius Charm",
-          "description": "Perfectly conceal one location of your choice. It becomes invisible, intangible, undetectable by anyone unless the secret of it’s location is shared with them.",
-          "vt": 4,
-          "level": 4,
-          "category": "Transmutation",
-          "powerType": "spells"
         }
       ]
     },
@@ -2293,35 +1618,6 @@
           "level": 2,
           "category": "Divination",
           "powerType": "spells"
-        },
-        {
-          "title": "Scry",
-          "description": "See and hear the target person or a creature, and their surroundings.",
-          "vt": 3,
-          "level": 3,
-          "category": "Divination",
-          "powerType": "spells"
-        }
-      ]
-    },
-    {
-      "title": "Meta-magic",
-      "powers": [
-        {
-          "title": "Bestow Spell",
-          "description": "Give the target an ability to use one of the spells you know once.",
-          "vt": 2,
-          "level": 2,
-          "category": "Meta-magic",
-          "powerType": "spells"
-        },
-        {
-          "title": "Imitate Spell",
-          "description": "You can cast the last spell you have seen someone else cast.",
-          "vt": 3,
-          "level": 3,
-          "category": "Meta-magic",
-          "powerType": "spells"
         }
       ]
     },
@@ -2341,22 +1637,6 @@
           "description": "Recover 5VT by drinking the blood of a sentient creature you've just killed. If you have this spell, you can't walk into houses uninvited, and you lose 1VT for every hour you are under direct sunlight.",
           "vt": 2,
           "level": 2,
-          "category": "Necromancy",
-          "powerType": "spells"
-        },
-        {
-          "title": "Commune with the Dead",
-          "description": "Touch a dead person or a creature to summon their ghost. You can communicate with them for the next 10 minutes.",
-          "vt": 3,
-          "level": 3,
-          "category": "Necromancy",
-          "powerType": "spells"
-        },
-        {
-          "title": "Bestow Sentience",
-          "description": "Touch a non-sentient creature, and bestow the gift of sentience and intelligence onto it.",
-          "vt": 8,
-          "level": 4,
           "category": "Necromancy",
           "powerType": "spells"
         }
@@ -2379,223 +1659,31 @@
       "title": "Books",
       "powers": [
         {
-          "title": "Nifty Spellbook",
-          "description": "Allows you to learn one Nifty spell.",
+          "title": "Spellbook",
+          "description": "Allows you to learn one spell.",
           "level": 1,
           "category": "Books",
           "powerType": "items"
         },
         {
-          "title": "Nifty Skillbook",
-          "description": "Allows you to learn one Nifty skill.",
+          "title": "Skillbook",
+          "description": "Allows you to learn one skill.",
           "level": 1,
           "category": "Books",
           "powerType": "items"
         },
         {
-          "title": "Cool Spellbook",
-          "description": "Allows you to learn one Cool spell.",
-          "level": 2,
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Cool Skillbook",
-          "description": "Allows you to learn one Cool skill.",
-          "level": 2,
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Epic Spellbook",
-          "description": "Allows you to learn one Epic spell.",
-          "level": 3,
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Epic Skillbook",
-          "description": "Allows you to learn one Epic skill.",
-          "level": 3,
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Supreme Spellbook",
-          "description": "Allows you to learn any Supreme spell.",
-          "level": 4,
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Supreme Skillbook",
-          "description": "Allows you to learn any Supreme skill.",
-          "level": 4,
-          "category": "Books",
-          "powerType": "items"
-        }
-      ]
-    },
-    {
-      "title": "Scrolls",
-      "powers": [
-        {
-          "title": "Cool Spellscroll",
-          "description": "Allows to cast one Cool spell once (specify spell).",
+          "title": "Spellscroll",
+          "description": "Allows to cast a specific spell once.",
           "level": 1,
-          "category": "Scrolls",
-          "powerType": "items"
-        },
-        {
-          "title": "Epic Spellscroll",
-          "description": "Allows to cast one Epic spell once (specify spell).",
-          "level": 2,
-          "category": "Scrolls",
-          "powerType": "items"
-        },
-        {
-          "title": "Supreme Spellscroll",
-          "description": "Allows to cast one Supreme spell once (specify spell).",
-          "level": 3,
-          "category": "Scrolls",
+          "category": "Books",
           "powerType": "items"
         },
         {
           "title": "Resurrection Scroll",
           "description": "Allows you to resurrect a dead person.",
           "level": 4,
-          "category": "Scrolls",
-          "powerType": "items"
-        }
-      ]
-    },
-    {
-      "title": "Potions",
-      "powers": [
-        {
-          "title": "Cool Brain Juice",
-          "description": "A juice harvested from the brain of an expert. Drinking it allows you to use a Cool skill once (specify one skill).",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Small Vitality Potion",
-          "description": "Restores 5 VT.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Smoke Potion",
-          "description": "Creates a huge cloud of black smoke when spilled.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Catnip",
-          "description": "When spilled attracts all the cats within 100km radius.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Invisibility Potion",
-          "description": "Turns you invisible for 10 minutes.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Anti-Gravity Potion",
-          "description": "Drinker isn't affected by gravity for an hour.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Falcon Potion",
-          "description": "Turns you into a falcon for 30 minutes.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Flask of Oil",
-          "description": "Make things slippery. You can set it on fire.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Vial of Acid",
-          "description": "Burns through objects.",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Chloroform",
-          "description": "The one who inhales it instantly falls asleep for 1 hour",
-          "level": 1,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Epic Brain Juice",
-          "description": "A juice harvested from the brain of an expert. Drinking it allows you to use an Epic skill once (specify one skill).",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Shrinking Potion",
-          "description": "The drinker shrinks to be 20 times smaller for 20 minutes.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Potion of Body Switching",
-          "description": "When two people drink this potion, it swaps their minds freaky-friday style for 2 hours.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Tea of Shared Dreams",
-          "description": "When multiple people drink it and go to sleep, they will find themselves in a shared dream.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Polyjuice Potion",
-          "description": "Drop someone’s hair into it, and drinking this potion will turn you into that person or creature for 30 minutes.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Ant-Man Potion",
-          "description": "You shrink down to the size of an ant, while retaining the strength of a human. Lasts for 1 hour.",
-          "level": 2,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Supreme Brain Juice",
-          "description": "A juice harvested from the brain of an expert. Drinking it allows you to use an Supreme skill once (specify one skill).",
-          "level": 3,
-          "category": "Potions",
-          "powerType": "items"
-        },
-        {
-          "title": "Truth Serum",
-          "description": "One who drinks it can’t tell lies for an hour.",
-          "level": 3,
-          "category": "Potions",
+          "category": "Books",
           "powerType": "items"
         }
       ]
@@ -2780,7 +1868,7 @@
         },
         {
           "title": "Refilling Flask",
-          "description": "Refills itself every midnight with whatever liquid was last in it. Works with potions.",
+          "description": "Refills itself every midnight with whatever non-magical liquid was last in it.",
           "level": 2,
           "category": "Utility",
           "powerType": "items"
@@ -2912,64 +2000,8 @@
           "powerType": "items"
         },
         {
-          "title": "Crown of Eyes",
-          "description": "Activate it to see through the eyes of all living creatures in 150 meter radius around you for up to 10 minutes. 5VP to activate.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
-          "title": "Meeseeks Box",
-          "description": "Press a button, name a simple task, it will create a helpful servant. The Meeseek lives until he accomplishes the simple task (up to an hour). If the task proves to be too difficult, he may turn on you out of frustration. 6VT to activate.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
-          "title": "Marauder's Map",
-          "description": "Reveals the floor plan of the area you're in, with labeled moving dots of the creatures inside.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
-          "title": "Wizard’s Tower",
-          "description": "Once per week you can teleport it to a new location.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
-          "title": "Emerald bug",
-          "description": "Activate it, and for the next 5 days you will always know it’s location, and be able to hear what’s going on around it.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
-          "title": "Sable",
-          "description": "Black glove, touch any object or creature to store it inside the glove. Can store unlimited amount of objects. Living creatures can get out when they wish.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
-          "title": "Neuralizer",
-          "description": "In a flash, wipes the last hour of memories for everyone looking at it.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
           "title": "Conman’s Paper",
-          "description": "A sheet of paper that can be transformed to look like any official document.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
-          "title": "Large Vitality Crystal",
-          "description": "Automatically accumulates energy. Use it once per day to recover 8VT.",
+          "description": "A sheet of paper that can be transformed to look like any official document. Transformation is permanent, can't be used more than once.",
           "level": 3,
           "category": "Utility",
           "powerType": "items"
@@ -2977,13 +2009,6 @@
         {
           "title": "Holocrystal",
           "description": "Magic-powered smartphone.",
-          "level": 3,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
-          "title": "Magic Lamp",
-          "description": "Summons a Djinn who will perform any Spell or Skill of your choice. May grant other kinds of wishes (at the discretion of the GM). Can be used 3 times.",
           "level": 3,
           "category": "Utility",
           "powerType": "items"
@@ -3071,6 +2096,146 @@
           "level": 4,
           "category": "Utility",
           "powerType": "items"
+        },
+        {
+          "title": "Creature Blueprints",
+          "description": "Allows you to craft an artifical creature like a robot or a golem. It takes you a month to build one.",
+          "level": 4,
+          "category": "Utility",
+          "powerType": "items"
+        }
+      ]
+    },
+    {
+      "title": "Potions",
+      "powers": [
+        {
+          "title": "Vitality Potion",
+          "description": "Restores 6 VT.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Smoke Potion",
+          "description": "Creates a huge cloud of black smoke when spilled.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Catnip",
+          "description": "When spilled attracts all the cats within 100km radius.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Invisibility Potion",
+          "description": "Turns you invisible for 10 minutes.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Anti-Gravity Potion",
+          "description": "Drinker isn't affected by gravity for an hour.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Falcon Potion",
+          "description": "Turns you into a falcon for 30 minutes.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Flask of Oil",
+          "description": "Make things slippery. You can set it on fire.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Vial of Acid",
+          "description": "Burns through objects.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Chloroform",
+          "description": "The one who inhales it instantly falls asleep for 1 hour",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Strength Potion",
+          "description": "Allows you to summon a superhuman strength and auto-succeed on any strength-roll in the next 10 minutes.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Fear Potion",
+          "description": "Anyone who inhales it feels horrified for the next 10 minutes.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Shrinking Potion",
+          "description": "The drinker shrinks to be 20 times smaller for 20 minutes.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Potion of Body Switching",
+          "description": "When two people drink this potion, it swaps their minds freaky-friday style for 2 hours.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Tea of Shared Dreams",
+          "description": "When multiple people drink it and go to sleep, they will find themselves in a shared dream.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Polyjuice Potion",
+          "description": "Drop someone’s hair into it, and drinking this potion will turn you into that person or creature for 30 minutes.",
+          "level": 2,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Truth Serum",
+          "description": "One who drinks it can’t tell lies for an hour.",
+          "level": 3,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Commune with the Dead",
+          "description": "Touch a dead person or a creature to summon their ghost. You can communicate with them for the next 10 minutes.",
+          "vt": 3,
+          "level": 3,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Fly Potion",
+          "description": "Grantsthe power of flight. The target can fly at a speed of a bird for the next 10 minutes.",
+          "vt": 3,
+          "level": 3,
+          "category": "Potions",
+          "powerType": "items"
         }
       ]
     },
@@ -3121,63 +2286,16 @@
         },
         {
           "title": "Anysword",
-          "description": "An empty hilt. When activated, instantly morphs into any melee weapon of your choice. Deals 5 damage",
-          "level": 2,
-          "category": "Weapons",
-          "powerType": "items"
-        },
-        {
-          "title": "Obsidian Sword",
-          "description": "A pitch black sword. Deals 6 damage, adds bonus dice to your attack rolls.",
-          "level": 2,
-          "category": "Weapons",
-          "powerType": "items"
-        },
-        {
-          "title": "Blunderbuss",
-          "description": "Old-timey Gun. Takes a minute to reload. Deals 6 damage.",
+          "description": "An empty hilt. When activated, instantly morphs into any melee weapon of your choice.",
           "level": 2,
           "category": "Weapons",
           "powerType": "items"
         },
         {
           "title": "Grenade",
-          "description": "Deals 8 damage to everyone around it.",
+          "description": "Deals damage to everyone around it.",
           "level": 2,
           "category": "Weapons",
-          "powerType": "items"
-        },
-        {
-          "title": "Elemental Arrow",
-          "description": "Fire arrow, ice arrow, water arrow, or a smoke arrow.",
-          "level": 2,
-          "category": "Weapons",
-          "powerType": "items"
-        },
-        {
-          "title": "Vambrace of Octopus",
-          "description": "Shoots out up to 8 thin, 10 meters long tentacles. Tentacles can grapple things and creatures, or deal 6 damage. Tentacles are strong enough to grasp a ledge of a building, and support your weight hanging on them.",
-          "level": 3,
-          "category": "Weapons",
-          "powerType": "items"
-        }
-      ]
-    },
-    {
-      "title": "Armor",
-      "powers": [
-        {
-          "title": "Leather Armor",
-          "description": "Basic armor. Reduces damage from physical attacks by 1.",
-          "level": 1,
-          "category": "Armor",
-          "powerType": "items"
-        },
-        {
-          "title": "Wizard's Robes",
-          "description": "Reduces damage from spells by 1.",
-          "level": 1,
-          "category": "Armor",
           "powerType": "items"
         }
       ]
@@ -3186,8 +2304,8 @@
       "title": "Transportation",
       "powers": [
         {
-          "title": "Cape of  Teleportation",
-          "description": "Allows you to teleport anywhere within 100 meters once per day.",
+          "title": "Scroll of Teleportation",
+          "description": "Allows you to teleport anywhere within 100 meters once.",
           "level": 2,
           "category": "Transportation",
           "powerType": "items"
@@ -3221,22 +2339,8 @@
           "powerType": "items"
         },
         {
-          "title": "Teleportation pyramids",
-          "description": "2 small pyramids. Activating one pyramid teleports anyone who touches it to the location of the other pyramid.",
-          "level": 3,
-          "category": "Transportation",
-          "powerType": "items"
-        },
-        {
-          "title": "Flying Broom",
-          "description": "Soar through the air.",
-          "level": 3,
-          "category": "Transportation",
-          "powerType": "items"
-        },
-        {
-          "title": "Coconuts of the Monty",
-          "description": "Two halves of a coconut, that when clapped together cause the user and up to 10 others to travel at the pace of a horse.",
+          "title": "Steed",
+          "description": "A horse or a horse-like creature you can ride.",
           "level": 3,
           "category": "Transportation",
           "powerType": "items"
@@ -3244,13 +2348,6 @@
         {
           "title": "Wagon",
           "description": "Store currently unused items in it. Stash them in a wagon or put them back in your inventory when you have an hour to rest.",
-          "level": 3,
-          "category": "Transportation",
-          "powerType": "items"
-        },
-        {
-          "title": "Steed",
-          "description": "A horse or a horse-like creature you can ride.",
           "level": 3,
           "category": "Transportation",
           "powerType": "items"
@@ -3427,6 +2524,516 @@
           "level": 4,
           "category": "Transportation",
           "powerType": "equipment"
+        }
+      ]
+    }
+  ],
+  "temp": [
+    {
+      "title": "Custom",
+      "powers": [
+        {
+          "title": "In Character",
+          "description": "You get advantage a roll when you’re acting according to one trait of your choice (choose one of the traits you already have). When using this talent to gain advantage, you don’t gain the 3VT that using a Trait usually gives you, instead you just spend 1VT on using this talent.",
+          "vt": 1,
+          "category": "Custom",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "powers": [
+        {
+          "title": "Live on the Edge",
+          "description": "You gain advantage on all rolls when you have 4VT or less.",
+          "vt": 2,
+          "level": 2,
+          "category": "Other",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Crafting",
+      "powers": [
+        {
+          "title": "Brew Poison",
+          "description": "You can brew poison from common ingredients.",
+          "vt": 2,
+          "level": 2,
+          "category": "Crafting",
+          "powerType": "temp"
+        },
+        {
+          "title": "Craft an Item",
+          "description": "Once per day you can craft a simple mundane item.",
+          "vt": 2,
+          "level": 2,
+          "category": "Crafting",
+          "powerType": "temp"
+        },
+        {
+          "title": "Craft Anything",
+          "description": "Once per month you can invent and craft a fantasy equivalent of any item from our world.",
+          "vt": 4,
+          "level": 4,
+          "category": "Crafting",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Social",
+      "powers": [
+        {
+          "title": "Sense Motive",
+          "description": "You can read social cues so well that you can determine whether someone is lying to you, whether something odd is going on, or to assess someone’s trustworthiness.",
+          "vt": 3,
+          "level": 3,
+          "category": "Social",
+          "powerType": "temp"
+        },
+        {
+          "title": "Find an Intern",
+          "description": "You find an aspiring adventurer looking to gain some experience.  They will follow you around and do their best to obey your orders and provide assistance.",
+          "vt": 4,
+          "level": 4,
+          "category": "Social",
+          "powerType": "temp"
+        },
+        {
+          "title": "Value Change",
+          "description": "Give a life-changing speech. Alters one of the person’s fundamental values, can turn an evil person good or flip an enemy to your side.",
+          "vt": 8,
+          "level": 4,
+          "category": "Social",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Professional",
+      "powers": [
+        {
+          "title": "Forensics",
+          "description": "You can use do whatever a modern forensics lab can do.",
+          "vt": 4,
+          "level": 4,
+          "category": "Professional",
+          "powerType": "temp"
+        },
+        {
+          "title": "Quick Learner",
+          "description": "You can learn any complicated task just by watching someone do it. You’ll be able to perform it for the next day.",
+          "vt": 4,
+          "level": 4,
+          "category": "Professional",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Conjuration",
+      "powers": [
+        {
+          "title": "Misty Step",
+          "description": "Instantly teleport a short-distance (a stone's throw, line of sight. Think Nightcrawler from X-Men).",
+          "vt": 3,
+          "level": 3,
+          "category": "Conjuration",
+          "powerType": "temp"
+        },
+        {
+          "title": "Split",
+          "description": "Splits you into two identical clones. Each clone has 50% of your vitality points. Sustaining a clone takes 2 VT per hour. The clones can fight and use magic (including splitting into more clones). When a clone takes any damage it disappears, it's memories instantly merged into the remaining clones. When there's only one remains - it becomes the \"original\" you, keeping the memories of all the copies.",
+          "vt": 4,
+          "level": 4,
+          "category": "Conjuration",
+          "powerType": "temp"
+        },
+        {
+          "title": "Greater Teleportation",
+          "description": "Teleport any object a creature to any point within 100 meters.",
+          "vt": 4,
+          "level": 4,
+          "category": "Conjuration",
+          "powerType": "temp"
+        },
+        {
+          "title": "Open Portal",
+          "description": "Open two connected portals within your line of sight. Works like portal gun from “Portal”.",
+          "vt": 4,
+          "level": 4,
+          "category": "Conjuration",
+          "powerType": "temp"
+        },
+        {
+          "title": "Conjure a Fortress",
+          "description": "Create a mighty fortress. It has turrets that deal 8 damage.",
+          "vt": 4,
+          "level": 4,
+          "category": "Conjuration",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Telekinesis",
+      "powers": [
+        {
+          "title": "Greater Telekinesis",
+          "description": "Levitate human-sized objects and creatures (not including yourself). Throwing an object/creature deals 5 damage to the target and to the object.",
+          "vt": 3,
+          "level": 3,
+          "category": "Telekinesis",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Illusionism",
+      "powers": [
+        {
+          "title": "Veil",
+          "description": "Create a static illusion no larger than 100 meters in any direction. Like a building, an oasis, a pile of treasure, etc. When a creature touches the illusion they can no longer see it.",
+          "vt": 3,
+          "level": 3,
+          "category": "Illusionism",
+          "powerType": "temp"
+        },
+        {
+          "title": "Auto Illusion",
+          "description": "Create an illusory person or a creature that can perform simple tasks you give it. It lives for a day, and can travel any distance away from you. When it's nearby, you can control it telepathically.",
+          "vt": 3,
+          "level": 3,
+          "category": "Illusionism",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Abjuration",
+      "powers": [
+        {
+          "title": "Tiny Hut",
+          "description": "An immobile force field 10 meters in diameter springs up around you. It’s impenetrable from the outside but not from the inside. The spell ends if you leave the area.",
+          "vt": 3,
+          "level": 3,
+          "category": "Abjuration",
+          "powerType": "temp"
+        },
+        {
+          "title": "Anti-magic Ward",
+          "description": "Magic doesn’t work within a sphere of 15 meter radius.",
+          "vt": 3,
+          "level": 3,
+          "category": "Abjuration",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Transmutation",
+      "powers": [
+        {
+          "title": "Slow Time",
+          "description": "Makes time run 10x slower within a sphere of 15-meter radius.",
+          "vt": 3,
+          "level": 3,
+          "category": "Transmutation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Animate Objects",
+          "description": "Objects come to life and obey your commands.",
+          "vt": 3,
+          "level": 3,
+          "category": "Transmutation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Speed",
+          "description": "For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes (Quicksilver powers).",
+          "vt": 4,
+          "level": 4,
+          "category": "Transmutation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Turn into Monster",
+          "description": "You can turn into a monster or a magical creature of your choice.",
+          "vt": 4,
+          "level": 4,
+          "category": "Transmutation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Greater Polymorph",
+          "description": "You can turn the target (a person or an object) into any creature for an hour.",
+          "vt": 4,
+          "level": 4,
+          "category": "Transmutation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Time Stop",
+          "description": "You stop the time for everyone but yourself. The spell ends if you interact with any creature or an object they’re wearing or carrying.",
+          "vt": 4,
+          "level": 4,
+          "category": "Transmutation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Second Chance",
+          "description": "Teleport up to 60 seconds into the past, and replay what just happened differently.",
+          "vt": 4,
+          "level": 4,
+          "category": "Transmutation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Greater Transfiguration",
+          "description": "Turn any creature into a different creature or an object and vice versa. Lasts an hour.",
+          "vt": 4,
+          "level": 4,
+          "category": "Transmutation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Fidelius Charm",
+          "description": "Perfectly conceal one location of your choice. It becomes invisible, intangible, undetectable by anyone unless the secret of it’s location is shared with them.",
+          "vt": 4,
+          "level": 4,
+          "category": "Transmutation",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Divination",
+      "powers": [
+        {
+          "title": "Scry",
+          "description": "See and hear the target person or a creature, and their surroundings.",
+          "vt": 3,
+          "level": 3,
+          "category": "Divination",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Telepathy",
+      "powers": [
+        {
+          "title": "Invade Dreams",
+          "description": "You can reach into people’s dreams. Taking damage in a dream deals it in real life.",
+          "vt": 3,
+          "level": 3,
+          "category": "Telepathy",
+          "powerType": "temp"
+        },
+        {
+          "title": "Telepathy",
+          "description": "Create a telepathic link with any willing creature. You can share any thoughts and sensations.",
+          "vt": 3,
+          "level": 3,
+          "category": "Telepathy",
+          "powerType": "temp"
+        },
+        {
+          "title": "Command Monster",
+          "description": "Give the creature or a monster a command it must obey.",
+          "vt": 3,
+          "level": 3,
+          "category": "Telepathy",
+          "powerType": "temp"
+        },
+        {
+          "title": "Read Memories",
+          "description": "Search through the unconscious creature's mind, pulling out 15 minutes of memories.",
+          "vt": 3,
+          "level": 3,
+          "category": "Telepathy",
+          "powerType": "temp"
+        },
+        {
+          "title": "Erase Memory",
+          "description": "Erase 15 minutes of memory of an unconscious creature.",
+          "vt": 3,
+          "level": 3,
+          "category": "Telepathy",
+          "powerType": "temp"
+        },
+        {
+          "title": "Control Bugs",
+          "description": "You can sense and control all the insects within 100 meter radius for the next hour.",
+          "vt": 4,
+          "level": 4,
+          "category": "Telepathy",
+          "powerType": "temp"
+        },
+        {
+          "title": "Implant Memory",
+          "description": "Implant a false memory into an unconscious creature (the memory can be at most 15 minutes long).",
+          "vt": 4,
+          "level": 4,
+          "category": "Telepathy",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Meta-magic",
+      "powers": [
+        {
+          "title": "Imitate Spell",
+          "description": "You can cast the last spell you have seen someone else cast.",
+          "vt": 3,
+          "level": 3,
+          "category": "Meta-magic",
+          "powerType": "temp"
+        },
+        {
+          "title": "Bestow Spell",
+          "description": "Give the target an ability to use one of the spells you know once.",
+          "vt": 2,
+          "level": 2,
+          "category": "Meta-magic",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Necromancy",
+      "powers": [
+        {
+          "title": "Bestow Sentience",
+          "description": "Touch a non-sentient creature, and bestow the gift of sentience and intelligence onto it.",
+          "vt": 8,
+          "level": 4,
+          "category": "Necromancy",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Elementalism",
+      "powers": [
+        {
+          "title": "Natural Disaster",
+          "description": "Summon a natural disaster - a storm, a hurricane, or a blizzard.",
+          "vt": 4,
+          "level": 4,
+          "category": "Elementalism",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Transportation",
+      "powers": [
+        {
+          "title": "Teleportation pyramids",
+          "description": "2 small pyramids. Activating one pyramid teleports anyone who touches it to the location of the other pyramid.",
+          "level": 3,
+          "category": "Transportation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Flying Broom",
+          "description": "Soar through the air.",
+          "level": 3,
+          "category": "Transportation",
+          "powerType": "temp"
+        },
+        {
+          "title": "Coconuts of the Monty",
+          "description": "Two halves of a coconut, that when clapped together cause the user and up to 10 others to travel at the pace of a horse.",
+          "level": 3,
+          "category": "Transportation",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Utility",
+      "powers": [
+        {
+          "title": "Crown of Eyes",
+          "description": "Activate it to see through the eyes of all living creatures in 150 meter radius around you for up to 10 minutes. 5VP to activate.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        },
+        {
+          "title": "Meeseeks Box",
+          "description": "Press a button, name a simple task, it will create a helpful servant. The Meeseek lives until he accomplishes the simple task (up to an hour). If the task proves to be too difficult, he may turn on you out of frustration. 6VT to activate.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        },
+        {
+          "title": "Marauder's Map",
+          "description": "Reveals the floor plan of the area you're in, with labeled moving dots of the creatures inside.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        },
+        {
+          "title": "Wizard’s Tower",
+          "description": "Once per week you can teleport it to a new location.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        },
+        {
+          "title": "Emerald bug",
+          "description": "Activate it, and for the next 5 days you will always know it’s location, and be able to hear what’s going on around it.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        },
+        {
+          "title": "Sable",
+          "description": "Black glove, touch any object or creature to store it inside the glove. Can store unlimited amount of objects. Living creatures can get out when they wish.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        },
+        {
+          "title": "Neuralizer",
+          "description": "In a flash, wipes the last hour of memories for everyone looking at it.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        },
+        {
+          "title": "Large Vitality Crystal",
+          "description": "Automatically accumulates energy. Use it once per day to recover 8VT.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        },
+        {
+          "title": "Magic Lamp",
+          "description": "Summons a Djinn who will perform any Spell or Skill of your choice. May grant other kinds of wishes (at the discretion of the GM). Can be used 3 times.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "temp"
+        }
+      ]
+    },
+    {
+      "title": "Weapons",
+      "powers": [
+        {
+          "title": "Vambrace of Octopus",
+          "description": "Shoots out up to 8 thin, 10 meters long tentacles. Tentacles can grapple things and creatures, or deal 6 damage. Tentacles are strong enough to grasp a ledge of a building, and support your weight hanging on them.",
+          "level": 3,
+          "category": "Weapons",
+          "powerType": "temp"
         }
       ]
     }

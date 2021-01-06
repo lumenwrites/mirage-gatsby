@@ -216,12 +216,6 @@
             "category": "Physical"
         },
         {
-            "title": "Dodge",
-            "description": "Move out of the way of danger and keep from getting hit.",
-            "vt": 1,
-            "category": "Physical"
-        },
-        {
             "title": "Insight",
             "description": "You are very good at understanding people, figuring out their intentions, reading social cues.",
             "vt": 1,
@@ -270,18 +264,6 @@
             "category": "Social"
         },
         {
-            "title": "Con Artistry",
-            "description": "Use people's weaknesses against them to obtain money, information, goods, etc.",
-            "vt": 1,
-            "category": "Social"
-        },
-        {
-            "title": "Bartering",
-            "description": "Convince people to trade and get better deals.",
-            "vt": 1,
-            "category": "Social"
-        },
-        {
             "title": "Politics",
             "description": "You have good insight into political alliances, motivations, plots.",
             "vt": 1,
@@ -320,18 +302,6 @@
         {
             "title": "Religion",
             "description": "You understand religions and gods of the world.",
-            "vt": 1,
-            "category": "Knowledge"
-        },
-        {
-            "title": "Linguistics",
-            "description": "You’re good at understanding languages.",
-            "vt": 1,
-            "category": "Knowledge"
-        },
-        {
-            "title": "Science",
-            "description": "You know the answers to questions related to natural science.",
             "vt": 1,
             "category": "Knowledge"
         },
@@ -408,12 +378,6 @@
             "category": "Custom"
         },
         {
-            "title": "In Character",
-            "description": "You get advantage a roll when you’re acting according to one trait of your choice (choose one of the traits you already have). When using this talent to gain advantage, you don’t gain the 3VT that using a Trait usually gives you, instead you just spend 1VT on using this talent.",
-            "vt": 1,
-            "category": "Custom"
-        },
-        {
             "title": "Custom Talent",
             "description": "Come up with your own talent! What other general talent does your character have? What would benefit them in a range of different situations? (create this card and then click on edit button to modify it)",
             "category": "Custom"
@@ -436,7 +400,7 @@
         },
         {
             "title": "Inspiring Speech",
-            "description": "Bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 3VT.",
+            "description": "Once per day you can bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 6VT.",
             "vt": 1,
             "level": 1,
             "category": "Social"
@@ -449,17 +413,11 @@
             "category": "Social"
         },
         {
-            "title": "Cheater’s Debate",
-            "description": "Any facts and figures you make up during the debate will sound very convincing.",
-            "vt": 1,
-            "level": 1,
-            "category": "Social"
-        },
-        {
             "title": "Spread the Word",
             "description": "Spread any rumor. Say a couple of sentences, and they go viral. Not everyone believes them, but everyone is talking about them.",
             "vt": 1,
-            "level": 1
+            "level": 1,
+            "category": "Social"
         },
         {
             "title": "Handsome",
@@ -490,20 +448,6 @@
             "category": "Social"
         },
         {
-            "title": "Yucky",
-            "description": "Your smell, behavior, or appearance are so repulsive that nobody wants to attack you. Roll the dice, if you roll above a 10 you can make your target puke.",
-            "vt": 1,
-            "level": 1,
-            "category": "Social"
-        },
-        {
-            "title": "Joker",
-            "description": "Make a joke or a horrible pun, roll the dice. If you roll above 10, your target can’t stop laughing for the next 10 minutes.",
-            "vt": 1,
-            "level": 1,
-            "category": "Social"
-        },
-        {
             "title": "Grapple",
             "description": "You grapple the opponent of your size or smaller. You can hold them for up to 5 minutes.",
             "vt": 1,
@@ -519,14 +463,14 @@
         },
         {
             "title": "Sprinter",
-            "description": "For the next hour you can run as fast as a horse.",
+            "description": "For the next 10 minutes you can run as fast as a horse.",
             "vt": 1,
             "level": 1,
             "category": "Physical"
         },
         {
             "title": "Leap",
-            "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
+            "description": "Jump up to 10 times the normal distance.",
             "vt": 1,
             "level": 1,
             "category": "Physical"
@@ -540,87 +484,59 @@
         },
         {
             "title": "Eagle Eye",
-            "description": "You have superhuman vision, you can see the tiniest objects extremely far away.",
+            "description": "For the next 10 minutes you have superhuman vision, you can see the tiniest objects extremely far away.",
             "vt": 1,
             "level": 1,
             "category": "Perception"
         },
         {
             "title": "Owl’s Ear",
-            "description": "You have hypersensitive hearing. Hear things that are very far away, hear through walls.",
+            "description": "For the next 10 minutes you have hypersensitive hearing. Hear things that are very far away, hear through walls.",
             "vt": 1,
             "level": 1,
             "category": "Perception"
         },
         {
             "title": "Sense Danger",
-            "description": "Notice all the imminent threats around you.",
+            "description": "For the next 10 minutes you will notice all the imminent threats around you.",
             "vt": 1,
             "level": 1,
             "category": "Perception"
         },
         {
-            "title": "Sneak Attack",
-            "description": "If the creature doesn't notice you, your attack deals double damage.",
-            "vt": 1,
-            "level": 1,
-            "category": "Stealth"
-        },
-        {
-            "title": "Counterattack",
-            "description": "When someone deals you damage you can attack them back right away.",
-            "vt": 1,
-            "level": 1,
-            "category": "Combat"
-        },
-        {
             "title": "Ricochet",
-            "description": "Shoot around the corners by bouncing arrows off the walls.",
+            "description": "Shoot around the corners by bouncing arrows or thrown weapons off the walls.",
             "vt": 1,
             "level": 1,
-            "category": "Combat"
+            "category": "Physical"
         },
         {
             "title": "Battle Stomp",
             "description": "Smash your weapon into the ground, knock down everyone around you.",
             "vt": 1,
             "level": 1,
-            "category": "Combat"
-        },
-        {
-            "title": "Heavy Armor",
-            "description": "Double the effectiveness of heavy armor.",
-            "vt": 1,
-            "level": 1,
-            "category": "Combat"
-        },
-        {
-            "title": "Build Shelter",
-            "description": "When camping in the wilderness, use the nearby flora to build a shelter. It hides your presence from the hostile creatures, and gives you an early warning about their approach.",
-            "vt": 1,
-            "level": 1,
-            "category": "Nature"
+            "category": "Physical"
         },
         {
             "title": "Pet Pal",
             "description": "You can speak with animals.",
             "vt": 1,
             "level": 1,
-            "category": "Nature"
+            "category": "Social"
         },
         {
             "title": "Remedy",
             "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
             "vt": 1,
             "level": 1,
-            "category": "Medicine"
+            "category": "Professional"
         },
         {
             "title": "Mend",
             "description": "Fix a broken mundane object.",
             "vt": 1,
             "level": 1,
-            "category": "Medicine"
+            "category": "Professional"
         },
         {
             "title": "Musician",
@@ -632,13 +548,6 @@
         {
             "title": "Boyscout",
             "description": "You’re always prepared! Search through your pockets and find any mundane item of your choice.",
-            "vt": 1,
-            "level": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Eidetic Memory",
-            "description": "You have perfect memory.",
             "vt": 1,
             "level": 1,
             "category": "Professional"
@@ -672,27 +581,6 @@
             "category": "Stealth"
         },
         {
-            "title": "Brew Poison",
-            "description": "You can brew poison from common ingredients.",
-            "vt": 2,
-            "level": 2,
-            "category": "Crafting"
-        },
-        {
-            "title": "Craft an Item",
-            "description": "Once per day you can craft a simple mundane item.",
-            "vt": 2,
-            "level": 2,
-            "category": "Crafting"
-        },
-        {
-            "title": "Talk your Way Out",
-            "description": "If you're caught doing something prohibited - you can come up with a good excuse and talk your way out of the situation.",
-            "vt": 2,
-            "level": 2,
-            "category": "Social"
-        },
-        {
             "title": "Examine Corpse",
             "description": "Determine the exact cause and time of it’s death.",
             "vt": 2,
@@ -700,32 +588,11 @@
             "category": "Professional"
         },
         {
-            "title": "Stalk",
-            "description": "You can carefully stalk a chosen target without getting noticed.",
-            "vt": 2,
-            "level": 2,
-            "category": "Stealth"
-        },
-        {
             "title": "Ambush",
             "description": "Prepare an ambush. When you attack the target they will be surprised, and everyone in your group can take an action before they react.",
             "vt": 2,
             "level": 2,
             "category": "Stealth"
-        },
-        {
-            "title": "Improvised Weapons",
-            "description": "You can make a weapon out of anything. The improvised weapon deals 4 damage, and is usable in one fight.",
-            "vt": 2,
-            "level": 2,
-            "category": "Combat"
-        },
-        {
-            "title": "Sick Burn",
-            "description": "Your insults deal 4 damage (you need to come up with a clever and original insult every time you use this skill.)",
-            "vt": 2,
-            "level": 2,
-            "category": "Social"
         },
         {
             "title": "Echolocation",
@@ -739,7 +606,7 @@
             "description": "If your ally has just passed out, you can awaken them, leaving them with one VT.",
             "vt": 2,
             "level": 2,
-            "category": "Medicine"
+            "category": "Professional"
         },
         {
             "title": "Frighten Animals",
@@ -753,49 +620,21 @@
             "description": "Attract the attention of all the enemies. They will attack you instead of your friends until the battle is over or they take damage from someone else.",
             "vt": 2,
             "level": 2,
-            "category": "Combat"
+            "category": "Physical"
         },
         {
             "title": "Parry",
             "description": "Parry a physical attack against you.",
             "vt": 2,
             "level": 2,
-            "category": "Combat"
-        },
-        {
-            "title": "Investigate",
-            "description": "When investigating a crime scene, you can discover an important clue, a motive of the criminal, or where they’re headed next (choose one).",
-            "vt": 2,
-            "level": 2,
-            "category": "Professional"
+            "category": "Physical"
         },
         {
             "title": "Deadeye",
-            "description": "Allows you accurately shoot at the tiny objects extremely far away.",
+            "description": "Allows you to make an extremely precise shot at the tiny objects extremely far away.",
             "vt": 2,
             "level": 2,
-            "category": "Combat"
-        },
-        {
-            "title": "Quickshot",
-            "description": "Allows you to shoot twice during your turn.",
-            "vt": 2,
-            "level": 2,
-            "category": "Combat"
-        },
-        {
-            "title": "Impossible Mask",
-            "description": "You can craft a mask like in Mission Impossible.",
-            "vt": 4,
-            "level": 2,
-            "category": "Crafting"
-        },
-        {
-            "title": "Tell the Tale",
-            "description": "Tell an amazing tale from your past adventures. Roll the dice. If you beat 15, everyone believes you 100%. If you beat 10 - people are entertained and you are now well liked. If you roll below 10 - they consider you a liar and a charlatan.",
-            "vt": 2,
-            "level": 2,
-            "category": "Social"
+            "category": "Physical"
         },
         {
             "title": "Actor",
@@ -823,7 +662,7 @@
             "description": "Use your melee weapon to deflect any attack (including magical ones) back to it’s target. Roll the dice. If you roll above 10 you succeed, otherwise it’s just dodged.",
             "vt": 2,
             "level": 2,
-            "category": "Combat"
+            "category": "Physical"
         },
         {
             "title": "Suggestion",
@@ -838,13 +677,6 @@
             "vt": 2,
             "level": 2,
             "category": "Stealth"
-        },
-        {
-            "title": "Live on the Edge",
-            "description": "You gain advantage on all rolls when you have 4VT or less.",
-            "vt": 2,
-            "level": 2,
-            "category": "Other"
         },
         {
             "title": "Inspire",
@@ -903,32 +735,11 @@
             "category": "Social"
         },
         {
-            "title": "Brew a Potion",
-            "description": "Once per day you can brew any Nifty or Cool potion.",
-            "vt": 3,
-            "level": 3,
-            "category": "Crafting"
-        },
-        {
             "title": "Distress Signal",
             "description": "When in the wilderness, you can build a distress signal that can be seen by Rangers. Within the next day, you will meet an NPC Ranger who comes to your aid.",
             "vt": 3,
             "level": 3,
             "category": "Nature"
-        },
-        {
-            "title": "Sense Motive",
-            "description": "You can read social cues so well that you can determine whether someone is lying to you, whether something odd is going on, or to assess someone’s trustworthiness.",
-            "vt": 3,
-            "level": 3,
-            "category": "Social"
-        },
-        {
-            "title": "Dual Wielding",
-            "description": "Use two weapons at the same time. ",
-            "vt": 3,
-            "level": 3,
-            "category": "Combat"
         },
         {
             "title": "Silver Tongue",
@@ -938,36 +749,15 @@
             "category": "Social"
         },
         {
-            "title": "Potion Master",
-            "description": "Brew a potion with the effect of any Nifty or Cool spell (takes 3 hours).",
-            "vt": 5,
-            "level": 3,
-            "category": "Crafting"
-        },
-        {
             "title": "Throw Anything",
-            "description": "You can use any creature or an object as a thrown weapon. You can also throw them carefully, in a way that doesn’t deal damage.",
+            "description": "You can use any creature or an object you can lift as a thrown weapon. You can also throw them carefully, in a way that doesn’t deal damage.",
             "vt": 3,
             "level": 3,
-            "category": "Combat"
+            "category": "Physical"
         },
         {
             "title": "Martial Arts Master",
             "description": "You can do anything Jackie Chan can do. You are a true ninja. Run on water, run on walls, instantly master any combat tactic you see. You no longer suffer falling damage.",
-            "vt": 3,
-            "level": 3,
-            "category": "Combat"
-        },
-        {
-            "title": "Super Senses",
-            "description": "Your eyesight and hearing are supernaturally sharp. You can hear the quietest noises, see the tiniest details extremely far away.",
-            "vt": 3,
-            "level": 3,
-            "category": "Perception"
-        },
-        {
-            "title": "Final Push",
-            "description": "Once per day through the sheer force of will you can restore all of your VP, but in an hour it will drop down to 1 from the exhaustion.",
             "vt": 3,
             "level": 3,
             "category": "Physical"
@@ -980,151 +770,11 @@
             "category": "Professional"
         },
         {
-            "title": "Bond with a Weapon",
-            "description": "You can choose one favorite weapon, doubling it’s damage when you use this skill.",
-            "vt": 3,
-            "level": 3,
-            "category": "Combat"
-        },
-        {
-            "title": "Track Down",
-            "description": "Ask around, and people will do their best to help you find an item, a person, or a creature.",
-            "vt": 3,
-            "level": 3,
-            "category": "Nature"
-        },
-        {
-            "title": "Superintelligence",
-            "description": "Once per day you can describe a contingency plan that you have put in place retroactively, having predicted that this situation is going to occur.",
-            "vt": 5,
-            "level": 3,
-            "category": "Professional"
-        },
-        {
-            "title": "Hulk",
-            "description": "You are superhumanly strong, like Hulk or Mr. Incredible.",
-            "vt": 4,
-            "level": 4,
-            "category": "Physical"
-        },
-        {
-            "title": "Spider Man",
-            "description": "You are capable of superhuman, spider-man-level acrobatics.",
-            "vt": 4,
-            "level": 4,
-            "category": "Physical"
-        },
-        {
-            "title": "Find an Intern",
-            "description": "You find an aspiring adventurer looking to gain some experience.  They will follow you around and do their best to obey your orders and provide assistance.",
+            "title": "Famous",
+            "description": "You are well known. When you pick this skill, you can choose what reputation you have in a specific region (Hero, Villain, Philanthropist, Sex Symbol, etc.)",
             "vt": 4,
             "level": 4,
             "category": "Social"
-        },
-        {
-            "title": "Impersonation",
-            "description": "You can create a fake identity of a powerful or a high status person. It can’t be the already existing person (like a King). It allows you to enter restricted areas, give orders to people below your station, live lavish lifestyle.",
-            "vt": 4,
-            "level": 4,
-            "category": "Social"
-        },
-        {
-            "title": "Master",
-            "description": "You’re the best in the world at a profession of your choice.",
-            "vt": 4,
-            "level": 4,
-            "category": "Professional"
-        },
-        {
-            "title": "Horrifying",
-            "description": "You are so horrifying you can break the wills of most people and creatures.",
-            "vt": 4,
-            "level": 4,
-            "category": "Social"
-        },
-        {
-            "title": "Value Change",
-            "description": "Give a life-changing speech. Alters one of the person’s fundamental values, can turn an evil person good or flip an enemy to your side.",
-            "vt": 8,
-            "level": 4,
-            "category": "Social"
-        },
-        {
-            "title": "Forensics",
-            "description": "You can use do whatever a modern forensics lab can do.",
-            "vt": 4,
-            "level": 4,
-            "category": "Professional"
-        },
-        {
-            "title": "Quick Learner",
-            "description": "You can learn any complicated task just by watching someone do it. You’ll be able to perform it for the next day. ",
-            "vt": 4,
-            "level": 4,
-            "category": "Professional"
-        },
-        {
-            "title": "Craft Anything",
-            "description": "Once per month you can invent and craft a fantasy equivalent of any item from our world.",
-            "vt": 4,
-            "level": 4,
-            "category": "Crafting"
-        },
-        {
-            "title": "Master of the Blade",
-            "description": "Your weapon is infinitely sharp and can cut through anything.",
-            "vt": 4,
-            "level": 4,
-            "category": "Combat"
-        },
-        {
-            "title": "Master Liar",
-            "description": "You are the best liar in the world, you can convince almost anyone that almost anything is true.",
-            "vt": 4,
-            "level": 4,
-            "category": "Social"
-        },
-        {
-            "title": "Fame",
-            "description": "You are well known. You can choose what reputation you have in this region (Hero, Villain, Philanthropist, Sex Symbol, etc.)",
-            "vt": 4,
-            "level": 4,
-            "category": "Social"
-        },
-        {
-            "title": "Wealthy",
-            "description": "You can live a lavish lifestyle and do what a rich person can do (you can’t use this skill to gain items, only for roleplaying).",
-            "vt": 4,
-            "level": 4,
-            "category": "Other"
-        },
-        {
-            "title": "Tough as Nails",
-            "description": "You take only half the damage from physical attacks.",
-            "vt": 1,
-            "level": 4,
-            "category": "Physical"
-        },
-        {
-            "title": "Magic Resistance",
-            "description": "You take only half the damage from spells.",
-            "vt": 1,
-            "level": 4,
-            "category": "Physical"
-        },
-        {
-            "title": "Artificer",
-            "description": "Once per session you can imbue a non-magical item with the power of a spell you know.",
-            "vt": 4,
-            "level": 4,
-            "category": "Crafting"
-        },
-        {
-            "title": "Build a Creature",
-            "description": "Craft an artifical creature like a robot or a golem. It takes you a month to build one.",
-            "vt": 4,
-            "level": 4,
-            "category": "Crafting"
         },
         {
             "title": "Custom Skill",
@@ -1134,8 +784,8 @@
     ],
     "spells": [
         {
-            "title": "Minor Illusion",
-            "description": "Create an illusion of an object (no larger than a barrel) or a sound within 50 meters, in your line of sight.",
+            "title": "Illusion",
+            "description": "Create an illusory object no larger than a horse, complete with sounds, smells, movement. Within 50 meters, in your line of sight.",
             "vt": 1,
             "level": 1,
             "category": "Illusionism"
@@ -1159,11 +809,11 @@
             "description": "The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.",
             "vt": 1,
             "level": 1,
-            "category": "Enchantment"
+            "category": "Telepathy"
         },
         {
             "title": "Summon Familiar",
-            "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears until you resummon it.",
+            "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears until you resummon it. Works once per day.",
             "vt": 8,
             "level": 1,
             "category": "Conjuration"
@@ -1180,25 +830,18 @@
             "description": "Use nearby grass, vines, and tree branches as if they were your own limbs.",
             "vt": 1,
             "level": 1,
-            "category": "Nature"
+            "category": "Conjuration"
         },
         {
             "title": "Minor Telekinesis",
-            "description": "Slowly levitate small objects.",
-            "vt": 1,
-            "level": 1,
-            "category": "Telekinesis"
-        },
-        {
-            "title": "Dig",
-            "description": "Quickly dig a hole or a tunnel.",
+            "description": "Levitate small objects, no larger or heavier than a bucket of water.",
             "vt": 1,
             "level": 1,
             "category": "Telekinesis"
         },
         {
             "title": "Small Fireball",
-            "description": "Sets stuff on fire. Hold in your hand as a light source. Deals 2 damage.",
+            "description": "Sets stuff on fire. Hold in your hand as a light source.",
             "vt": 1,
             "level": 1,
             "category": "Elementalism"
@@ -1281,15 +924,15 @@
             "category": "Abjuration"
         },
         {
-            "title": "Spectral Weapon",
-            "description": "Create a floating weapon that can fly up to an enemy and make a melee attack. Deals 4 damage. Lasts 1 minute.",
-            "vt": 1,
-            "level": 1,
-            "category": "Conjuration"
-        },
-        {
             "title": "Enlarge/Reduce",
             "description": "Make the object or a creature grow or shrink to 4 times it’s size.",
+            "vt": 1,
+            "level": 1,
+            "category": "Transmutation"
+        },
+        {
+            "title": "Sharpen",
+            "description": "Makes your weapon infinitely sharp and able to cut through anything for the next 10 minutes.",
             "vt": 1,
             "level": 1,
             "category": "Transmutation"
@@ -1320,7 +963,7 @@
             "description": "Summon a cloud that will float above the target's head, rain on them, distracting them and impairing their vision for the next hour.",
             "vt": 1,
             "level": 1,
-            "category": "Nature"
+            "category": "Conjuration"
         },
         {
             "title": "Join",
@@ -1334,7 +977,7 @@
             "description": "Bestow the gift of sentience and speech on an item. It has the personality of your choice.",
             "vt": 1,
             "level": 1,
-            "category": "Nature"
+            "category": "Conjuration"
         },
         {
             "title": "Unseen Servant",
@@ -1429,7 +1072,7 @@
         },
         {
             "title": "Push/Pull Metal",
-            "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move. If an object is thrown at a speed, deals 4 damage.",
+            "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move.",
             "vt": 2,
             "level": 2,
             "category": "Telekinesis"
@@ -1461,13 +1104,6 @@
             "vt": 2,
             "level": 2,
             "category": "Telekinesis"
-        },
-        {
-            "title": "Major Illusion",
-            "description": "Create an illusory object no larger than an elephant, complete with sounds, smells, movement.",
-            "vt": 2,
-            "level": 2,
-            "category": "Illusionism"
         },
         {
             "title": "Sense Magic",
@@ -1523,7 +1159,7 @@
             "description": "Make the target feel happy, sad, angry, smitten, afraid, insecure, etc. ",
             "vt": 2,
             "level": 2,
-            "category": "Enchantment"
+            "category": "Telepathy"
         },
         {
             "title": "Counterspell",
@@ -1531,13 +1167,6 @@
             "vt": 2,
             "level": 2,
             "category": "Abjuration"
-        },
-        {
-            "title": "Bestow Spell",
-            "description": "Give the target an ability to use one of the spells you know once.",
-            "vt": 2,
-            "level": 2,
-            "category": "Meta-magic"
         },
         {
             "title": "Raise a Zombie",
@@ -1569,7 +1198,7 @@
         },
         {
             "title": "Fire Weapon",
-            "description": "Casting this on a melee weapon or an arrow will wreathe it in flame, doubling it’s damage for the next 30 minutes. Things touched by the weapon are set on fire.",
+            "description": "Casting this on a melee weapon or an arrow will wreathe it in flame, giving you advantage on attacks for the next 30 minutes. Things touched by the weapon are set on fire.",
             "vt": 2,
             "level": 2,
             "category": "Elementalism"
@@ -1687,11 +1316,787 @@
             "category": "Telepathy"
         },
         {
-            "title": "Fly",
-            "description": "Grant the power of flight to the target creature (including yourself). The target can fly at a speed of a bird for the next 10 minutes.",
+            "title": "Custom Spell",
+            "description": "Come up with your own spell! (create this card and then click on edit button to modify it)",
+            "category": "Custom"
+        }
+    ],
+    "items": [
+        {
+            "title": "Spellbook",
+            "description": "Allows you to learn one spell.",
+            "level": 1,
+            "category": "Books"
+        },
+        {
+            "title": "Skillbook",
+            "description": "Allows you to learn one skill.",
+            "level": 1,
+            "category": "Books"
+        },
+        {
+            "title": "Spellscroll",
+            "description": "Allows to cast a specific spell once.",
+            "level": 1,
+            "category": "Books"
+        },
+        {
+            "title": "Friendship Bracelets",
+            "description": "Magical walkie-talkie. Enables you to talk telepathically to anybody who has one (within 300 meters).",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Immovable rod",
+            "description": "Activating it makes it magically fixed in place. Until someone deactivates it, the rod doesn't move, even if it is defying gravity.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Darkvision goggles",
+            "description": "See in the darkness as if it was daylight.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Ultimate Lockpick",
+            "description": "When you insert it into any lock, it morphs into the key that fits.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Vitality Potion",
+            "description": "Restores 6 VT.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Smoke Potion",
+            "description": "Creates a huge cloud of black smoke when spilled.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Catnip",
+            "description": "When spilled attracts all the cats within 100km radius.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Invisibility Potion",
+            "description": "Turns you invisible for 10 minutes.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Anti-Gravity Potion",
+            "description": "Drinker isn't affected by gravity for an hour.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Falcon Potion",
+            "description": "Turns you into a falcon for 30 minutes.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Flask of Oil",
+            "description": "Make things slippery. You can set it on fire.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Vial of Acid",
+            "description": "Burns through objects.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Chloroform",
+            "description": "The one who inhales it instantly falls asleep for 1 hour",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Strength Potion",
+            "description": "Allows you to summon a superhuman strength and auto-succeed on any strength-roll in the next 10 minutes.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Fear Potion",
+            "description": " Anyone who inhales it feels horrified for the next 10 minutes.",
+            "level": 1,
+            "category": "Potions"
+        },
+        {
+            "title": "Infrared goggles",
+            "description": "Add infrared vision that lets you see an outline of things that are generating heat nearby. Work through walls.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Portable Hole",
+            "description": "A round black piece of fine silk, 5 meters in diameter. When unfolded creates a 5-meter-deep hole. Regardless of contents it weighs nothing.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "All or nothing coin",
+            "description": "Once per day instead of rolling a die you flip a coin. Heads critical success, tails critical failure.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "The Scope of Fears",
+            "description": "Looking through this glass at a creature will tell you what the creature fears most, but will also tell the creature your greatest fear.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Horseshoe of Attraction",
+            "description": "Turns into a powerful magnet when activated. Can swith polarity and repel objects instead. Can be activated telepathically, from a distance of up to 50 meters.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Ring of Crawlies",
+            "description": "Allows you to control any single insect within your line of sight.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Mini Lighthouse",
+            "description": "Creates a small beam of light that can be seen for miles.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Bottomless Mug",
+            "description": "Can hold a swimming-pool-worth of any liquid.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Howler",
+            "description": "A magical letter, will scream it’s contents once delivered.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Alarm Pebble",
+            "description": "A small rock, will alert the holder when anything comes within 15 meters of it.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Spring Shoes",
+            "description": "Allow you to jump 10 times normal distance.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Melee Weapon",
+            "description": "A simple melee weapon of your choice (Sword, Dagger, Axe, Whip, etc.)",
+            "level": 1,
+            "category": "Weapons"
+        },
+        {
+            "title": "Ranged Weapon",
+            "description": "A simple ranged weapon of your choice (Bow, Crossbow, Throwing Dagger, Spear, Dart, etc.)",
+            "level": 1,
+            "category": "Weapons"
+        },
+        {
+            "title": "Staff of Druid",
+            "description": "Strike earth, and a fountain of water will shoot up from that location for the next 10 minutes.",
+            "level": 1,
+            "category": "Weapons"
+        },
+        {
+            "title": "Grappling Hook Gun",
+            "description": "Shoots the grappling hook to the distance of up to 50 meters, reels it back in.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Spyglass",
+            "description": "Helps you see farther.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Bear Trap",
+            "description": "Perfect for setting traps.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Artist’s Tools",
+            "description": "A set of tools of your choice - a musical instrument, paint brushes, sculpting clay, cooking supplies, etc.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Trampoline",
+            "description": "Things that fall on it bounce back up.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Daily Cypress",
+            "description": "A magic newspaper. Always shows you the most recent news headlines.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Anyrobe",
+            "description": "A robe that transforms into any set of clothes of your choice.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Swap Cube",
+            "description": "You can swap the cube with an object no larger or heavier than a barrel within clear line of sight (can't be used on objects that are being worn/used/held by someone.)",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Bullseye Dart",
+            "description": "Can hit any target within 50 meters with infinite precision. Deals 4 damage.",
+            "level": 1,
+            "category": "Weapons"
+        },
+        {
+            "title": "Spy's Monocle",
+            "description": "When pressed against the surface (like a wall or a door, no thicker than 30cm) turns into a hole you can see through. The hole can't be seen from the other side.",
+            "level": 1,
+            "category": "Utility"
+        },
+        {
+            "title": "Fairy Dust",
+            "description": "Allows you to imbue an item with one of the spells you know. The item will be able to cast the spell once per day. Consumable, can be used only once. ",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Refilling Flask",
+            "description": "Refills itself every midnight with whatever non-magical liquid was last in it.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Clay Golem",
+            "description": "Slow and stupid servant, capable of obeying simple commands.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Unlabelled package",
+            "description": "Mysterious package. When you unwrap it, you can declare what was contained inside. It can be anything, as long as it's no more valuable than a horse or a good sword. If you name something too valuable/powerful, the box returns the closest thing that fits into the value range (if you ask for a potion of immortality, it might return a health potion or a spell scroll).",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Ring of Spell Storing",
+            "description": "Cast a spell on the ring to store it. Anyone who wears the ring can now cast this spell once. Stores up to 3 spells.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Ring of Tracking",
+            "description": "The owner of the ring always knows it’s location.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Needler",
+            "description": "A throwing dagger that returns back into your hand once it hits or misses the target. Stays hidden when the wielder is searched.",
+            "level": 2,
+            "category": "Weapons"
+        },
+        {
+            "title": "Loyal Boomerang",
+            "description": "After saying the command word the boomerang returns to your hand (from anywhere in the world).",
+            "level": 2,
+            "category": "Weapons"
+        },
+        {
+            "title": "Anysword",
+            "description": "An empty hilt. When activated, instantly morphs into any melee weapon of your choice.",
+            "level": 2,
+            "category": "Weapons"
+        },
+        {
+            "title": "Grenade",
+            "description": "Deals damage to everyone around it.",
+            "level": 2,
+            "category": "Weapons"
+        },
+        {
+            "title": "Silver Fly",
+            "description": "Send it anywhere within 30 meters from you, see and hear through it's senses.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Ropey",
+            "description": "A sentient piece of rope. 50ft. As smart as a puppy. Obeys simple commands (coil, uncoil, tie a knot, crawl).",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Ring of Sending",
+            "description": "Send a telepathic 25-word message to anyone you have ever met.The recipient can send you a 25-word reply. Works twice per day.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Shrinking Potion",
+            "description": "The drinker shrinks to be 20 times smaller for 20 minutes.",
+            "level": 2,
+            "category": "Potions"
+        },
+        {
+            "title": "Potion of Body Switching",
+            "description": "When two people drink this potion, it swaps their minds freaky-friday style for 2 hours.",
+            "level": 2,
+            "category": "Potions"
+        },
+        {
+            "title": "Small Vitality Crystal",
+            "description": "Automatically accumulates energy. Use it once per day to recover 4VT.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Book of Oath",
+            "description": "A vow written in this book can’t be broken.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Scroll of Teleportation",
+            "description": "Allows you to teleport anywhere within 100 meters once.",
+            "level": 2,
+            "category": "Transportation"
+        },
+        {
+            "title": "Portable Direwolf",
+            "description": "A small wooden figure of a direwolf. When activated, turns into the actual animal.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Magic Tent",
+            "description": "Looks like a spacious and comfy house once you get in.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Orb of Illusion",
+            "description": "Records the environment around it, when placed on the ground plays back the illusion of the recording (like a hologram).",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Chalk of Doors",
+            "description": "Draw a door on a solid surface, it will open to the last door you’ve stepped through.",
+            "level": 2,
+            "category": "Transportation"
+        },
+        {
+            "title": "Snake Tube",
+            "description": "Conjures one snake per day.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Handy Handbag",
+            "description": "Sprouts tentacles and follows it’s owner when they’re not looking.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Resizable Crate",
+            "description": "Big wooden crate, when activated it shrinks itself and it’s contents down to the size of a coin. Can fit up to 2 people.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Hoverboard",
+            "description": "Floats 30cm above the ground, frictionless, supports any weight.",
+            "level": 2,
+            "category": "Transportation"
+        },
+        {
+            "title": "Pokeball",
+            "description": "Stores a friendly or defeated animal. ",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Jacket of Useful Things",
+            "description": "Can produce any small cheap mundane item from it’s pockets.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Wingsuit",
+            "description": "Allows you to glide through the air.",
+            "level": 2,
+            "category": "Transportation"
+        },
+        {
+            "title": "Bag of Gold",
+            "description": "Can be used to live a lavish lifestyle for a month, or traded for something valuable.",
+            "level": 2,
+            "category": "Utility"
+        },
+        {
+            "title": "Tea of Shared Dreams",
+            "description": "When multiple people drink it and go to sleep, they will find themselves in a shared dream.",
+            "level": 2,
+            "category": "Potions"
+        },
+        {
+            "title": "Polyjuice Potion",
+            "description": "Drop someone’s hair into it, and drinking this potion will turn you into that person or creature for 30 minutes.",
+            "level": 2,
+            "category": "Potions"
+        },
+        {
+            "title": "Portkey",
+            "description": "When activated, teleports anyone who touches it to the location of your choice. Can be used once.",
+            "level": 2,
+            "category": "Transportation"
+        },
+        {
+            "title": "Truth Serum",
+            "description": "One who drinks it can’t tell lies for an hour.",
+            "level": 3,
+            "category": "Potions"
+        },
+        {
+            "title": "Conman’s Paper",
+            "description": "A sheet of paper that can be transformed to look like any official document. Transformation is permanent, can't be used more than once.",
+            "level": 3,
+            "category": "Utility"
+        },
+        {
+            "title": "Steed",
+            "description": "A horse or a horse-like creature you can ride.",
+            "level": 3,
+            "category": "Transportation"
+        },
+        {
+            "title": "Holocrystal",
+            "description": "Magic-powered smartphone.",
+            "level": 3,
+            "category": "Utility"
+        },
+        {
+            "title": "Wagon",
+            "description": "Store currently unused items in it. Stash them in a wagon or put them back in your inventory when you have an hour to rest.",
+            "level": 3,
+            "category": "Transportation"
+        },
+        {
+            "title": "Resurrection Scroll",
+            "description": "Allows you to resurrect a dead person.",
+            "level": 4,
+            "category": "Books"
+        },
+        {
+            "title": "Eye of Vance",
+            "description": "Sees everything in 360 degrees and 100m radius around you. Can see through solid objects. Can see invisible objects. Can see anything hidden. Works twice per day for 10 minutes.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Invisibility Cloak",
+            "description": "Turns the wearer invisible.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Stopwatch of Timelessness",
+            "description": "Select up to 12 targets (people, creatures, objects). The time will pause for everything but them for up to 12 hours.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Imperius Collar",
+            "description": "When it's put onto a person or a creature, you gain the ability to mind-control them and see through their senses. 5VT per day to maintain mind control.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Teleportation Key",
+            "description": "Teleports you and up to 5 people who are touching it to any location you have ever personally visited. 1 hour cooldown.",
+            "level": 4,
+            "category": "Transportation"
+        },
+        {
+            "title": "Dimensional Gate",
+            "description": "A pair of portals (large obsidian circles) connected by a wormhole.",
+            "level": 4,
+            "category": "Transportation"
+        },
+        {
+            "title": "Wand of Transfiguration",
+            "description": "Once per day can transfigure any person into an animal.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Rememberball",
+            "description": "Activate it to \"Save Game\". You can return to the saved state for the next 10 minutes. To \"load game\" more than once, spend extra 2VT.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Jack’s Compass",
+            "description": "Points to the physical object you desire the most in life.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Horcrux",
+            "description": "Stores a fragment of your soul in an item. After you die, you resurrect at the location of your horcrux.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Rook of Building",
+            "description": "A small chess piece. When activated, it turns into any building or structure you describe (no larger than a tavern).",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Pet Monster",
+            "description": "Pet creature of your choice (Big Foot, Dinosaur, Wyvern, Griffin, Bear, etc.) ",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Time Chamber",
+            "description": "Inside this room, the time moves 30 times faster. Live a month in this room - only a day will pass outside.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Wand",
+            "description": "Make all spells 1VT cheaper.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Flying Vehicle",
+            "description": "Your own zeppelin or an airship!",
+            "level": 4,
+            "category": "Transportation"
+        },
+        {
+            "title": "Custom Item",
+            "description": "Come up with your own item! (create this card and then click on edit button to modify it)",
+            "category": "Custom"
+        },
+        {
+            "title": "Creature Blueprints",
+            "description": "Allows you to craft an artifical creature like a robot or a golem. It takes you a month to build one.",
+            "level": 4,
+            "category": "Utility"
+        },
+        {
+            "title": "Commune with the Dead",
+            "description": "Touch a dead person or a creature to summon their ghost. You can communicate with them for the next 10 minutes.",
             "vt": 3,
             "level": 3,
-            "category": "Telekinesis"
+            "category": "Potions"
+        },
+        {
+            "title": "Fly Potion",
+            "description": "Grantsthe power of flight. The target can fly at a speed of a bird for the next 10 minutes.",
+            "vt": 3,
+            "level": 3,
+            "category": "Potions"
+        }
+    ],
+    "equipment": [
+        {
+            "title": "Melee Weapon",
+            "description": "A simple melee weapon of your choice (Sword, Dagger, Axe, Whip, etc.)",
+            "level": 1,
+            "category": "Weapons"
+        },
+        {
+            "title": "Ranged Weapon",
+            "description": "A simple ranged weapon of your choice (Bow, Crossbow, Throwing Dagger, Spear, Dart, etc.)",
+            "level": 1,
+            "category": "Weapons"
+        },
+        {
+            "title": "Staff of Druid",
+            "description": "Strike earth, and a fountain of water will shoot up from that location for the next 10 minutes.",
+            "level": 1,
+            "category": "Weapons"
+        },
+        {
+            "title": "Leather Armor",
+            "description": "Basic armor. Reduces damage from physical attacks by 1.",
+            "level": 1,
+            "category": "Armor"
+        },
+        {
+            "title": "Wizard's Robes",
+            "description": "Reduces damage from spells by 1.",
+            "level": 1,
+            "category": "Armor"
+        },
+        {
+            "title": "Grappling Hook Gun",
+            "description": "Shoots the grappling hook to the distance of up to 50 meters, reels it back in.",
+            "level": 1,
+            "category": "Gear"
+        },
+        {
+            "title": "Spyglass",
+            "description": "Helps you see farther.",
+            "level": 1,
+            "category": "Gear"
+        },
+        {
+            "title": "Bear Trap",
+            "description": "Perfect for setting traps.",
+            "level": 1,
+            "category": "Gear"
+        },
+        {
+            "title": "Artist’s Tools",
+            "description": "A set of tools of your choice - a musical instrument, paint brushes, sculpting clay, cooking supplies, etc.",
+            "level": 1,
+            "category": "Gear"
+        },
+        {
+            "title": "Trampoline",
+            "description": "Things that fall on it bounce back up.",
+            "level": 1,
+            "category": "Gear"
+        },
+        {
+            "title": "Obsidian Sword",
+            "description": "A pitch black sword. Deals 6 damage, adds bonus dice to your attack rolls. ",
+            "level": 2,
+            "category": "Weapons"
+        },
+        {
+            "title": "Blunderbuss",
+            "description": "Old-timey Gun. Takes a minute to reload. Deals 6 damage.",
+            "level": 2,
+            "category": "Weapons"
+        },
+        {
+            "title": "Grenade",
+            "description": "Deals 8 damage to everyone around it.",
+            "level": 2,
+            "category": "Weapons"
+        },
+        {
+            "title": "Elemental Arrow",
+            "description": "Fire arrow, ice arrow, water arrow, or a smoke arrow.",
+            "level": 2,
+            "category": "Weapons"
+        },
+        {
+            "title": "Wagon",
+            "description": "Store currently unused items in it. Stash them in a wagon or put them back in your inventory when you have an hour to rest.",
+            "level": 3,
+            "category": "Transportation"
+        },
+        {
+            "title": "Steed",
+            "description": "A horse or a horse-like creature you can ride.",
+            "level": 3,
+            "category": "Transportation"
+        },
+        {
+            "title": "Flying Vehicle",
+            "description": "Your own zeppelin or an airship!",
+            "level": 4,
+            "category": "Transportation"
+        }
+    ],
+    "temp": [
+        {
+            "title": "In Character",
+            "description": "You get advantage a roll when you’re acting according to one trait of your choice (choose one of the traits you already have). When using this talent to gain advantage, you don’t gain the 3VT that using a Trait usually gives you, instead you just spend 1VT on using this talent.",
+            "vt": 1,
+            "category": "Custom"
+        },
+        {
+            "title": "Live on the Edge",
+            "description": "You gain advantage on all rolls when you have 4VT or less.",
+            "vt": 2,
+            "level": 2,
+            "category": "Other"
+        },
+        {
+            "title": "Brew Poison",
+            "description": "You can brew poison from common ingredients.",
+            "vt": 2,
+            "level": 2,
+            "category": "Crafting"
+        },
+        {
+            "title": "Craft an Item",
+            "description": "Once per day you can craft a simple mundane item.",
+            "vt": 2,
+            "level": 2,
+            "category": "Crafting"
+        },
+        {
+            "title": "Sense Motive",
+            "description": "You can read social cues so well that you can determine whether someone is lying to you, whether something odd is going on, or to assess someone’s trustworthiness.",
+            "vt": 3,
+            "level": 3,
+            "category": "Social"
+        },
+        {
+            "title": "Find an Intern",
+            "description": "You find an aspiring adventurer looking to gain some experience.  They will follow you around and do their best to obey your orders and provide assistance.",
+            "vt": 4,
+            "level": 4,
+            "category": "Social"
+        },
+        {
+            "title": "Value Change",
+            "description": "Give a life-changing speech. Alters one of the person’s fundamental values, can turn an evil person good or flip an enemy to your side.",
+            "vt": 8,
+            "level": 4,
+            "category": "Social"
+        },
+        {
+            "title": "Forensics",
+            "description": "You can use do whatever a modern forensics lab can do.",
+            "vt": 4,
+            "level": 4,
+            "category": "Professional"
+        },
+        {
+            "title": "Quick Learner",
+            "description": "You can learn any complicated task just by watching someone do it. You’ll be able to perform it for the next day. ",
+            "vt": 4,
+            "level": 4,
+            "category": "Professional"
+        },
+        {
+            "title": "Craft Anything",
+            "description": "Once per month you can invent and craft a fantasy equivalent of any item from our world.",
+            "vt": 4,
+            "level": 4,
+            "category": "Crafting"
         },
         {
             "title": "Misty Step",
@@ -1720,13 +2125,6 @@
             "vt": 3,
             "level": 3,
             "category": "Illusionism"
-        },
-        {
-            "title": "Commune with the Dead",
-            "description": "Touch a dead person or a creature to summon their ghost. You can communicate with them for the next 10 minutes.",
-            "vt": 3,
-            "level": 3,
-            "category": "Necromancy"
         },
         {
             "title": "Tiny Hut",
@@ -1911,539 +2309,11 @@
             "category": "Transmutation"
         },
         {
-            "title": "Custom Spell",
-            "description": "Come up with your own spell! (create this card and then click on edit button to modify it)",
-            "category": "Custom"
-        }
-    ],
-    "items": [
-        {
-            "title": "Nifty Spellbook",
-            "description": "Allows you to learn one Nifty spell.",
-            "level": 1,
-            "category": "Books"
-        },
-        {
-            "title": "Nifty Skillbook",
-            "description": "Allows you to learn one Nifty skill.",
-            "level": 1,
-            "category": "Books"
-        },
-        {
-            "title": "Cool Spellscroll",
-            "description": "Allows to cast one Cool spell once (specify spell).",
-            "level": 1,
-            "category": "Scrolls"
-        },
-        {
-            "title": "Cool Brain Juice",
-            "description": "A juice harvested from the brain of an expert. Drinking it allows you to use a Cool skill once (specify one skill).",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Friendship Bracelets",
-            "description": "Magical walkie-talkie. Enables you to talk telepathically to anybody who has one (within 300 meters).",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Immovable rod",
-            "description": "Activating it makes it magically fixed in place. Until someone deactivates it, the rod doesn't move, even if it is defying gravity.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Darkvision goggles",
-            "description": "See in the darkness as if it was daylight.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Ultimate Lockpick",
-            "description": "When you insert it into any lock, it morphs into the key that fits.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Small Vitality Potion",
-            "description": "Restores 5 VT.",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Smoke Potion",
-            "description": "Creates a huge cloud of black smoke when spilled.",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Catnip",
-            "description": "When spilled attracts all the cats within 100km radius.",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Invisibility Potion",
-            "description": "Turns you invisible for 10 minutes.",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Anti-Gravity Potion",
-            "description": "Drinker isn't affected by gravity for an hour.",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Falcon Potion",
-            "description": "Turns you into a falcon for 30 minutes.",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Flask of Oil",
-            "description": "Make things slippery. You can set it on fire.",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Vial of Acid",
-            "description": "Burns through objects.",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Chloroform",
-            "description": "The one who inhales it instantly falls asleep for 1 hour",
-            "level": 1,
-            "category": "Potions"
-        },
-        {
-            "title": "Infrared goggles",
-            "description": "Add infrared vision that lets you see an outline of things that are generating heat nearby. Work through walls.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Portable Hole",
-            "description": "A round black piece of fine silk, 5 meters in diameter. When unfolded creates a 5-meter-deep hole. Regardless of contents it weighs nothing.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "All or nothing coin",
-            "description": "Once per day instead of rolling a die you flip a coin. Heads critical success, tails critical failure.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "The Scope of Fears",
-            "description": "Looking through this glass at a creature will tell you what the creature fears most, but will also tell the creature your greatest fear.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Horseshoe of Attraction",
-            "description": "Turns into a powerful magnet when activated. Can swith polarity and repel objects instead. Can be activated telepathically, from a distance of up to 50 meters.",
+            "title": "Bestow Spell",
+            "description": "Give the target an ability to use one of the spells you know once.",
+            "vt": 2,
             "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Ring of Crawlies",
-            "description": "Allows you to control any single insect within your line of sight.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Mini Lighthouse",
-            "description": "Creates a small beam of light that can be seen for miles.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Bottomless Mug",
-            "description": "Can hold a swimming-pool-worth of any liquid.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Howler",
-            "description": "A magical letter, will scream it’s contents once delivered.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Alarm Pebble",
-            "description": "A small rock, will alert the holder when anything comes within 15 meters of it.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Spring Shoes",
-            "description": "Allow you to jump 10 times normal distance.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Melee Weapon",
-            "description": "A simple melee weapon of your choice (Sword, Dagger, Axe, Whip, etc.)",
-            "level": 1,
-            "category": "Weapons"
-        },
-        {
-            "title": "Ranged Weapon",
-            "description": "A simple ranged weapon of your choice (Bow, Crossbow, Throwing Dagger, Spear, Dart, etc.)",
-            "level": 1,
-            "category": "Weapons"
-        },
-        {
-            "title": "Staff of Druid",
-            "description": "Strike earth, and a fountain of water will shoot up from that location for the next 10 minutes.",
-            "level": 1,
-            "category": "Weapons"
-        },
-        {
-            "title": "Leather Armor",
-            "description": "Basic armor. Reduces damage from physical attacks by 1.",
-            "level": 1,
-            "category": "Armor"
-        },
-        {
-            "title": "Wizard's Robes",
-            "description": "Reduces damage from spells by 1.",
-            "level": 1,
-            "category": "Armor"
-        },
-        {
-            "title": "Grappling Hook Gun",
-            "description": "Shoots the grappling hook to the distance of up to 50 meters, reels it back in.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Spyglass",
-            "description": "Helps you see farther.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Bear Trap",
-            "description": "Perfect for setting traps.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Artist’s Tools",
-            "description": "A set of tools of your choice - a musical instrument, paint brushes, sculpting clay, cooking supplies, etc.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Trampoline",
-            "description": "Things that fall on it bounce back up.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Daily Cypress",
-            "description": "A magic newspaper. Always shows you the most recent news headlines.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Anyrobe",
-            "description": "A robe that transforms into any set of clothes of your choice.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Swap Cube",
-            "description": "You can swap the cube with an object no larger or heavier than a barrel within clear line of sight (can't be used on objects that are being worn/used/held by someone.)",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Bullseye Dart",
-            "description": "Can hit any target within 50 meters with infinite precision. Deals 4 damage.",
-            "level": 1,
-            "category": "Weapons"
-        },
-        {
-            "title": "Spy's Monocle",
-            "description": "When pressed against the surface (like a wall or a door, no thicker than 30cm) turns into a hole you can see through. The hole can't be seen from the other side.",
-            "level": 1,
-            "category": "Utility"
-        },
-        {
-            "title": "Cool Spellbook",
-            "description": "Allows you to learn one Cool spell.",
-            "level": 2,
-            "category": "Books"
-        },
-        {
-            "title": "Cool Skillbook",
-            "description": "Allows you to learn one Cool skill.",
-            "level": 2,
-            "category": "Books"
-        },
-        {
-            "title": "Epic Spellscroll",
-            "description": "Allows to cast one Epic spell once (specify spell).",
-            "level": 2,
-            "category": "Scrolls"
-        },
-        {
-            "title": "Epic Brain Juice",
-            "description": "A juice harvested from the brain of an expert. Drinking it allows you to use an Epic skill once (specify one skill).",
-            "level": 2,
-            "category": "Potions"
-        },
-        {
-            "title": "Fairy Dust",
-            "description": "Allows you to imbue an item with one of the spells you know. The item will be able to cast the spell once per day. Consumable, can be used only once. ",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Refilling Flask",
-            "description": "Refills itself every midnight with whatever liquid was last in it. Works with potions.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Clay Golem",
-            "description": "Slow and stupid servant, capable of obeying simple commands.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Unlabelled package",
-            "description": "Mysterious package. When you unwrap it, you can declare what was contained inside. It can be anything, as long as it's no more valuable than a horse or a good sword. If you name something too valuable/powerful, the box returns the closest thing that fits into the value range (if you ask for a potion of immortality, it might return a health potion or a spell scroll).",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Ring of Spell Storing",
-            "description": "Cast a spell on the ring to store it. Anyone who wears the ring can now cast this spell once. Stores up to 3 spells.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Ring of Tracking",
-            "description": "The owner of the ring always knows it’s location.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Needler",
-            "description": "A throwing dagger that returns back into your hand once it hits or misses the target. Stays hidden when the wielder is searched.",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Loyal Boomerang",
-            "description": "After saying the command word the boomerang returns to your hand (from anywhere in the world).",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Anysword",
-            "description": "An empty hilt. When activated, instantly morphs into any melee weapon of your choice. Deals 5 damage",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Obsidian Sword",
-            "description": "A pitch black sword. Deals 6 damage, adds bonus dice to your attack rolls. ",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Blunderbuss",
-            "description": "Old-timey Gun. Takes a minute to reload. Deals 6 damage.",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Grenade",
-            "description": "Deals 8 damage to everyone around it.",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Elemental Arrow",
-            "description": "Fire arrow, ice arrow, water arrow, or a smoke arrow.",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Silver Fly",
-            "description": "Send it anywhere within 30 meters from you, see and hear through it's senses.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Ropey",
-            "description": "A sentient piece of rope. 50ft. As smart as a puppy. Obeys simple commands (coil, uncoil, tie a knot, crawl).",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Ring of Sending",
-            "description": "Send a telepathic 25-word message to anyone you have ever met.The recipient can send you a 25-word reply. Works twice per day.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Shrinking Potion",
-            "description": "The drinker shrinks to be 20 times smaller for 20 minutes.",
-            "level": 2,
-            "category": "Potions"
-        },
-        {
-            "title": "Potion of Body Switching",
-            "description": "When two people drink this potion, it swaps their minds freaky-friday style for 2 hours.",
-            "level": 2,
-            "category": "Potions"
-        },
-        {
-            "title": "Small Vitality Crystal",
-            "description": "Automatically accumulates energy. Use it once per day to recover 4VT.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Book of Oath",
-            "description": "A vow written in this book can’t be broken.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Cape of  Teleportation",
-            "description": "Allows you to teleport anywhere within 100 meters once per day.",
-            "level": 2,
-            "category": "Transportation"
-        },
-        {
-            "title": "Portable Direwolf",
-            "description": "A small wooden figure of a direwolf. When activated, turns into the actual animal.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Magic Tent",
-            "description": "Looks like a spacious and comfy house once you get in.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Orb of Illusion",
-            "description": "Records the environment around it, when placed on the ground plays back the illusion of the recording (like a hologram).",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Chalk of Doors",
-            "description": "Draw a door on a solid surface, it will open to the last door you’ve stepped through.",
-            "level": 2,
-            "category": "Transportation"
-        },
-        {
-            "title": "Snake Tube",
-            "description": "Conjures one snake per day.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Handy Handbag",
-            "description": "Sprouts tentacles and follows it’s owner when they’re not looking.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Resizable Crate",
-            "description": "Big wooden crate, when activated it shrinks itself and it’s contents down to the size of a coin. Can fit up to 2 people.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Hoverboard",
-            "description": "Floats 30cm above the ground, frictionless, supports any weight.",
-            "level": 2,
-            "category": "Transportation"
-        },
-        {
-            "title": "Pokeball",
-            "description": "Stores a friendly or defeated animal. ",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Jacket of Useful Things",
-            "description": "Can produce any small cheap mundane item from it’s pockets.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Wingsuit",
-            "description": "Allows you to glide through the air.",
-            "level": 2,
-            "category": "Transportation"
-        },
-        {
-            "title": "Bag of Gold",
-            "description": "Can be used to live a lavish lifestyle for a month, or traded for something valuable.",
-            "level": 2,
-            "category": "Utility"
-        },
-        {
-            "title": "Tea of Shared Dreams",
-            "description": "When multiple people drink it and go to sleep, they will find themselves in a shared dream.",
-            "level": 2,
-            "category": "Potions"
-        },
-        {
-            "title": "Polyjuice Potion",
-            "description": "Drop someone’s hair into it, and drinking this potion will turn you into that person or creature for 30 minutes.",
-            "level": 2,
-            "category": "Potions"
-        },
-        {
-            "title": "Ant-Man Potion",
-            "description": "You shrink down to the size of an ant, while retaining the strength of a human. Lasts for 1 hour.",
-            "level": 2,
-            "category": "Potions"
-        },
-        {
-            "title": "Portkey",
-            "description": "When activated, teleports anyone who touches it to the location of your choice. Can be used once.",
-            "level": 2,
-            "category": "Transportation"
-        },
-        {
-            "title": "Epic Spellbook",
-            "description": "Allows you to learn one Epic spell.",
-            "level": 3,
-            "category": "Books"
-        },
-        {
-            "title": "Epic Skillbook",
-            "description": "Allows you to learn one Epic skill.",
-            "level": 3,
-            "category": "Books"
-        },
-        {
-            "title": "Supreme Brain Juice",
-            "description": "A juice harvested from the brain of an expert. Drinking it allows you to use an Supreme skill once (specify one skill).",
-            "level": 3,
-            "category": "Potions"
-        },
-        {
-            "title": "Supreme Spellscroll",
-            "description": "Allows to cast one Supreme spell once (specify spell).",
-            "level": 3,
-            "category": "Scrolls"
+            "category": "Meta-magic"
         },
         {
             "title": "Teleportation pyramids",
@@ -2468,12 +2338,6 @@
             "description": "Reveals the floor plan of the area you're in, with labeled moving dots of the creatures inside.",
             "level": 3,
             "category": "Utility"
-        },
-        {
-            "title": "Truth Serum",
-            "description": "One who drinks it can’t tell lies for an hour.",
-            "level": 3,
-            "category": "Potions"
         },
         {
             "title": "Flying Broom",
@@ -2512,20 +2376,8 @@
             "category": "Weapons"
         },
         {
-            "title": "Conman’s Paper",
-            "description": "A sheet of paper that can be transformed to look like any official document.",
-            "level": 3,
-            "category": "Utility"
-        },
-        {
             "title": "Large Vitality Crystal",
             "description": "Automatically accumulates energy. Use it once per day to recover 8VT.",
-            "level": 3,
-            "category": "Utility"
-        },
-        {
-            "title": "Holocrystal",
-            "description": "Magic-powered smartphone.",
             "level": 3,
             "category": "Utility"
         },
@@ -2536,239 +2388,10 @@
             "category": "Transportation"
         },
         {
-            "title": "Wagon",
-            "description": "Store currently unused items in it. Stash them in a wagon or put them back in your inventory when you have an hour to rest.",
-            "level": 3,
-            "category": "Transportation"
-        },
-        {
-            "title": "Steed",
-            "description": "A horse or a horse-like creature you can ride.",
-            "level": 3,
-            "category": "Transportation"
-        },
-        {
             "title": "Magic Lamp",
             "description": "Summons a Djinn who will perform any Spell or Skill of your choice. May grant other kinds of wishes (at the discretion of the GM). Can be used 3 times.",
             "level": 3,
             "category": "Utility"
-        },
-        {
-            "title": "Supreme Spellbook",
-            "description": "Allows you to learn any Supreme spell.",
-            "level": 4,
-            "category": "Books"
-        },
-        {
-            "title": "Supreme Skillbook",
-            "description": "Allows you to learn any Supreme skill.",
-            "level": 4,
-            "category": "Books"
-        },
-        {
-            "title": "Resurrection Scroll",
-            "description": "Allows you to resurrect a dead person.",
-            "level": 4,
-            "category": "Scrolls"
-        },
-        {
-            "title": "Eye of Vance",
-            "description": "Sees everything in 360 degrees and 100m radius around you. Can see through solid objects. Can see invisible objects. Can see anything hidden. Works twice per day for 10 minutes.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Invisibility Cloak",
-            "description": "Turns the wearer invisible.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Stopwatch of Timelessness",
-            "description": "Select up to 12 targets (people, creatures, objects). The time will pause for everything but them for up to 12 hours.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Imperius Collar",
-            "description": "When it's put onto a person or a creature, you gain the ability to mind-control them and see through their senses. 5VT per day to maintain mind control.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Teleportation Key",
-            "description": "Teleports you and up to 5 people who are touching it to any location you have ever personally visited. 1 hour cooldown.",
-            "level": 4,
-            "category": "Transportation"
-        },
-        {
-            "title": "Dimensional Gate",
-            "description": "A pair of portals (large obsidian circles) connected by a wormhole.",
-            "level": 4,
-            "category": "Transportation"
-        },
-        {
-            "title": "Wand of Transfiguration",
-            "description": "Once per day can transfigure any person into an animal.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Rememberball",
-            "description": "Activate it to \"Save Game\". You can return to the saved state for the next 10 minutes. To \"load game\" more than once, spend extra 2VT.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Jack’s Compass",
-            "description": "Points to the physical object you desire the most in life.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Horcrux",
-            "description": "Stores a fragment of your soul in an item. After you die, you resurrect at the location of your horcrux.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Rook of Building",
-            "description": "A small chess piece. When activated, it turns into any building or structure you describe (no larger than a tavern).",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Pet Monster",
-            "description": "Pet creature of your choice (Big Foot, Dinosaur, Wyvern, Griffin, Bear, etc.) ",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Time Chamber",
-            "description": "Inside this room, the time moves 30 times faster. Live a month in this room - only a day will pass outside.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Wand",
-            "description": "Make all spells 1VT cheaper.",
-            "level": 4,
-            "category": "Utility"
-        },
-        {
-            "title": "Flying Vehicle",
-            "description": "Your own zeppelin or an airship!",
-            "level": 4,
-            "category": "Transportation"
-        },
-        {
-            "title": "Custom Item",
-            "description": "Come up with your own item! (create this card and then click on edit button to modify it)",
-            "category": "Custom"
-        }
-    ],
-    "equipment": [
-        {
-            "title": "Melee Weapon",
-            "description": "A simple melee weapon of your choice (Sword, Dagger, Axe, Whip, etc.)",
-            "level": 1,
-            "category": "Weapons"
-        },
-        {
-            "title": "Ranged Weapon",
-            "description": "A simple ranged weapon of your choice (Bow, Crossbow, Throwing Dagger, Spear, Dart, etc.)",
-            "level": 1,
-            "category": "Weapons"
-        },
-        {
-            "title": "Staff of Druid",
-            "description": "Strike earth, and a fountain of water will shoot up from that location for the next 10 minutes.",
-            "level": 1,
-            "category": "Weapons"
-        },
-        {
-            "title": "Leather Armor",
-            "description": "Basic armor. Reduces damage from physical attacks by 1.",
-            "level": 1,
-            "category": "Armor"
-        },
-        {
-            "title": "Wizard's Robes",
-            "description": "Reduces damage from spells by 1.",
-            "level": 1,
-            "category": "Armor"
-        },
-        {
-            "title": "Grappling Hook Gun",
-            "description": "Shoots the grappling hook to the distance of up to 50 meters, reels it back in.",
-            "level": 1,
-            "category": "Gear"
-        },
-        {
-            "title": "Spyglass",
-            "description": "Helps you see farther.",
-            "level": 1,
-            "category": "Gear"
-        },
-        {
-            "title": "Bear Trap",
-            "description": "Perfect for setting traps.",
-            "level": 1,
-            "category": "Gear"
-        },
-        {
-            "title": "Artist’s Tools",
-            "description": "A set of tools of your choice - a musical instrument, paint brushes, sculpting clay, cooking supplies, etc.",
-            "level": 1,
-            "category": "Gear"
-        },
-        {
-            "title": "Trampoline",
-            "description": "Things that fall on it bounce back up.",
-            "level": 1,
-            "category": "Gear"
-        },
-        {
-            "title": "Obsidian Sword",
-            "description": "A pitch black sword. Deals 6 damage, adds bonus dice to your attack rolls. ",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Blunderbuss",
-            "description": "Old-timey Gun. Takes a minute to reload. Deals 6 damage.",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Grenade",
-            "description": "Deals 8 damage to everyone around it.",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Elemental Arrow",
-            "description": "Fire arrow, ice arrow, water arrow, or a smoke arrow.",
-            "level": 2,
-            "category": "Weapons"
-        },
-        {
-            "title": "Wagon",
-            "description": "Store currently unused items in it. Stash them in a wagon or put them back in your inventory when you have an hour to rest.",
-            "level": 3,
-            "category": "Transportation"
-        },
-        {
-            "title": "Steed",
-            "description": "A horse or a horse-like creature you can ride.",
-            "level": 3,
-            "category": "Transportation"
-        },
-        {
-            "title": "Flying Vehicle",
-            "description": "Your own zeppelin or an airship!",
-            "level": 4,
-            "category": "Transportation"
         }
     ]
 }

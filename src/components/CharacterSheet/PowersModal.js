@@ -108,7 +108,10 @@ class PowersModal extends Component {
     return (
       <Modal name="powers" className="powers-modal wide">
         <div className="title"> Add {titles[powerType]} </div>
-        {showLevelFilter && this.renderLevelSelector()}
+          {/* 
+            {showLevelFilter && this.renderLevelSelector()}
+            
+         */}
         <div className="clearfix" />
         <hr />
         {this.renderCategories()}

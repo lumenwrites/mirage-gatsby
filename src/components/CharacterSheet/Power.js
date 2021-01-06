@@ -65,7 +65,7 @@ class Power extends Component {
 
 	render() {
 		const { power, adding, sample } = this.props
-		var hasFooterContent = power.level || power.vt
+		var hasFooterContent = false // power.level || power.vt
 		var displayFooter = ["talents", "spells", "skills", "items"].includes(power.powerType) && hasFooterContent
 		var levelsList = ["Any", "Nifty", "Cool", "Epic", "Supreme"]
 		return (

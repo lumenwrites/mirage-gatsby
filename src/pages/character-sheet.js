@@ -51,37 +51,12 @@ class Sheet extends Component {
           <Image />
           <Tokens />
 
-          <div className="col-1">
-            <Section title="Traits" powers={sheet.traits}>
-              <div className={`card append`} onClick={() => { this.props.togglePowersModal("traits") }}>
-                Add Trait
-                <FontAwesomeIcon icon={["fas", "plus-circle"]} />
-              </div>
-            </Section>
-          </div>
-          <div className="col-2">
-            <Section title="Talents" powers={sheet.talents}>
-              <div className={`card append`} onClick={() => { this.props.togglePowersModal("talents") }}>
-                Add Talent
-                <FontAwesomeIcon icon={["fas", "plus-circle"]} />
-              </div>
-            </Section>
-          </div>
-          <div className="clearfix" />
-
-
-          {/* <Section title="Traits" wide powers={sheet.traits}>
-            <div className={`card append`} onClick={() => { this.props.togglePowersModal("traits") }}>
-              Add Trait
-                <FontAwesomeIcon icon={["fas", "plus-circle"]} />
-            </div>
-          </Section>
           <Section title="Talents" wide powers={sheet.talents}>
             <div className={`card append`} onClick={() => { this.props.togglePowersModal("talents") }}>
               Add Talent
                 <FontAwesomeIcon icon={["fas", "plus-circle"]} />
             </div>
-          </Section> */}
+          </Section>
 
           <Section title="Abilities" wide powers={sheet.skills.concat(sheet.spells)}>
             <div className="append-buttons">
