@@ -3,9 +3,9 @@
   "name": "Boss",
   "description": "",
   "image": "",
-  "health": "18",
-  "energy": "18",
-  "attack": "6",
+  "health": "12",
+  "energy": "12",
+  "attack": "4",
   "powers": [],
   "id": "wx19wr"
 }

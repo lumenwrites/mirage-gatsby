@@ -21,7 +21,7 @@ class Power extends Component {
 	render() {
 		const { power, adding } = this.props
 		var levelsList = ["Any", "Nifty", "Cool", "Epic", "Supreme"]
-		var displayFooter = power.level || power.vt
+		var displayFooter = false // power.level || power.vt
 		return (
 			<div className={`card ${adding ? "adding" : ""} ${displayFooter ? "" : "no-footer"}`}
 				onClick={() => adding ? this.addPower() : null} >

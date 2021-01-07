@@ -3,9 +3,9 @@
   "name": "Commoner",
   "description": "",
   "image": "",
-  "health": "5",
-  "energy": "5",
-  "attack": "2",
+  "health": "3",
+  "energy": "3",
+  "attack": "1",
   "powers": [],
   "id": "vbez3b"
 }
