@@ -499,40 +499,167 @@
   ],
   "skills": [
     {
-      "title": "Social",
+      "title": "Professional",
       "powers": [
         {
-          "title": "Act like you belong",
-          "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
+          "title": "Magic Trick",
+          "description": "You can do what David Blaine can do. Any simple magic trick that isn’t actually magical in nature.",
           "vt": 1,
           "level": 1,
-          "category": "Social",
+          "category": "Professional",
           "powerType": "skills"
         },
         {
-          "title": "Tell a Tale",
-          "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will comply with reasonable requests that are in line with the lesson.",
+          "title": "Boyscout",
+          "description": "You’re always prepared! Search through your pockets and find any mundane item of your choice.",
           "vt": 1,
           "level": 1,
-          "category": "Social",
+          "category": "Professional",
           "powerType": "skills"
         },
         {
-          "title": "Inspiring Speech",
-          "description": "Once per day you can bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 6VT.",
+          "title": "Identify",
+          "description": "Figure out properties of an object and how to use them. Learn whether the object is affected by spells and what they are.",
           "vt": 1,
           "level": 1,
-          "category": "Social",
+          "category": "Professional",
           "powerType": "skills"
         },
         {
-          "title": "Folk Song",
-          "description": "You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby (you need to sing a song at the table). This will influence the mood of the people around you to the one of your choice (happy, somber, proud, indignant, etc.)",
+          "title": "Examine Creature",
+          "description": "Figure out the creature’s strengths, vulnerabilities, special powers.",
           "vt": 1,
           "level": 1,
-          "category": "Social",
+          "category": "Professional",
           "powerType": "skills"
         },
+        {
+          "title": "Musician",
+          "description": "When you’re playing a musical instrument - roll the dice. If you roll above 10, everybody around you can’t resist dancing.",
+          "vt": 1,
+          "level": 1,
+          "category": "Professional",
+          "powerType": "skills"
+        },
+        {
+          "title": "Remedy",
+          "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
+          "vt": 1,
+          "level": 1,
+          "category": "Professional",
+          "powerType": "skills"
+        },
+        {
+          "title": "Examine Corpse",
+          "description": "Determine the exact cause and time of it’s death.",
+          "vt": 2,
+          "level": 2,
+          "category": "Professional",
+          "powerType": "skills"
+        },
+        {
+          "title": "First Aid",
+          "description": "If your ally has just passed out, you can awaken them, leaving them with one VT.",
+          "vt": 2,
+          "level": 2,
+          "category": "Professional",
+          "powerType": "skills"
+        },
+        {
+          "title": "Gather Intel",
+          "description": "Infiltrate the person's office or home, and use your skills to reveal one of those things: The identity of an important associate, a location they will travel to (with the time and date), a secret that would embarrass them if revealed, their true feelings about you or your party, who they’re loyal to.",
+          "vt": 3,
+          "level": 3,
+          "category": "Professional",
+          "powerType": "skills"
+        }
+      ]
+    },
+    {
+      "title": "Stealth",
+      "powers": [
+        {
+          "title": "Stealthy Spellcasting",
+          "description": "For the next 10 minutes you can cast spells in a way that is undetectable by the people around you.",
+          "vt": 2,
+          "level": 2,
+          "category": "Stealth",
+          "powerType": "skills"
+        },
+        {
+          "title": "Ambush",
+          "description": "Prepare an ambush. When you attack the target they will be surprised, and everyone in your group can take an action before they react.",
+          "vt": 2,
+          "level": 2,
+          "category": "Stealth",
+          "powerType": "skills"
+        },
+        {
+          "title": "Conceal Object",
+          "description": "Conceal an object of your choice, it will be impossible to discover that you have it until you use it.",
+          "vt": 2,
+          "level": 2,
+          "category": "Stealth",
+          "powerType": "skills"
+        },
+        {
+          "title": "Fake Death",
+          "description": "Appear to be dead for the next 30 minutes.",
+          "vt": 2,
+          "level": 2,
+          "category": "Stealth",
+          "powerType": "skills"
+        }
+      ]
+    },
+    {
+      "title": "Perception",
+      "powers": [
+        {
+          "title": "Darkvision",
+          "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
+          "vt": 1,
+          "level": 1,
+          "category": "Perception",
+          "powerType": "skills"
+        },
+        {
+          "title": "Eagle Eye",
+          "description": "For the next 10 minutes you have superhuman vision, you can see the tiniest objects extremely far away.",
+          "vt": 1,
+          "level": 1,
+          "category": "Perception",
+          "powerType": "skills"
+        },
+        {
+          "title": "Owl’s Ear",
+          "description": "For the next 10 minutes you have hypersensitive hearing. Hear things that are very far away, hear through walls.",
+          "vt": 1,
+          "level": 1,
+          "category": "Perception",
+          "powerType": "skills"
+        },
+        {
+          "title": "Sense Danger",
+          "description": "For the next 10 minutes you will notice all the imminent threats around you.",
+          "vt": 1,
+          "level": 1,
+          "category": "Perception",
+          "powerType": "skills"
+        },
+        {
+          "title": "Echolocation",
+          "description": "When you’re inside a building or a cave you can make a loud noise and interpret the echo, giving you a vague overview of the shape of the location.",
+          "vt": 2,
+          "level": 2,
+          "category": "Perception",
+          "powerType": "skills"
+        }
+      ]
+    },
+    {
+      "title": "Social",
+      "powers": [
         {
           "title": "Spread the Word",
           "description": "Spread any rumor. Say a couple of sentences, and they go viral. Not everyone believes them, but everyone is talking about them.",
@@ -574,8 +701,32 @@
           "powerType": "skills"
         },
         {
-          "title": "Pet Pal",
-          "description": "You can speak with animals.",
+          "title": "Act like you belong",
+          "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
+          "vt": 1,
+          "level": 1,
+          "category": "Social",
+          "powerType": "skills"
+        },
+        {
+          "title": "Tell a Tale",
+          "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will comply with reasonable requests that are in line with the lesson.",
+          "vt": 1,
+          "level": 1,
+          "category": "Social",
+          "powerType": "skills"
+        },
+        {
+          "title": "Inspiring Speech",
+          "description": "Once per day you can bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 6VT.",
+          "vt": 1,
+          "level": 1,
+          "category": "Social",
+          "powerType": "skills"
+        },
+        {
+          "title": "Folk Song",
+          "description": "You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby (you need to sing a song at the table). This will influence the mood of the people around you to the one of your choice (happy, somber, proud, indignant, etc.)",
           "vt": 1,
           "level": 1,
           "category": "Social",
@@ -789,175 +940,16 @@
       ]
     },
     {
-      "title": "Perception",
-      "powers": [
-        {
-          "title": "Darkvision",
-          "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
-          "vt": 1,
-          "level": 1,
-          "category": "Perception",
-          "powerType": "skills"
-        },
-        {
-          "title": "Eagle Eye",
-          "description": "For the next 10 minutes you have superhuman vision, you can see the tiniest objects extremely far away.",
-          "vt": 1,
-          "level": 1,
-          "category": "Perception",
-          "powerType": "skills"
-        },
-        {
-          "title": "Owl’s Ear",
-          "description": "For the next 10 minutes you have hypersensitive hearing. Hear things that are very far away, hear through walls.",
-          "vt": 1,
-          "level": 1,
-          "category": "Perception",
-          "powerType": "skills"
-        },
-        {
-          "title": "Sense Danger",
-          "description": "For the next 10 minutes you will notice all the imminent threats around you.",
-          "vt": 1,
-          "level": 1,
-          "category": "Perception",
-          "powerType": "skills"
-        },
-        {
-          "title": "Echolocation",
-          "description": "When you’re inside a building or a cave you can make a loud noise and interpret the echo, giving you a vague overview of the shape of the location.",
-          "vt": 2,
-          "level": 2,
-          "category": "Perception",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
-      "title": "Professional",
-      "powers": [
-        {
-          "title": "Remedy",
-          "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
-          "vt": 1,
-          "level": 1,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Mend",
-          "description": "Fix a broken mundane object.",
-          "vt": 1,
-          "level": 1,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Musician",
-          "description": "When you’re playing a musical instrument - roll the dice. If you roll above 10, everybody around you can’t resist dancing.",
-          "vt": 1,
-          "level": 1,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Boyscout",
-          "description": "You’re always prepared! Search through your pockets and find any mundane item of your choice.",
-          "vt": 1,
-          "level": 1,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Identify",
-          "description": "Figure out properties of an object and how to use them. Learn whether the object is affected by spells and what they are.",
-          "vt": 1,
-          "level": 1,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Examine Creature",
-          "description": "Figure out the creature’s strengths, vulnerabilities, special powers.",
-          "vt": 1,
-          "level": 1,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Magic Trick",
-          "description": "You can do what David Blaine can do. Any simple magic trick that isn’t actually magical in nature.",
-          "vt": 1,
-          "level": 1,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Examine Corpse",
-          "description": "Determine the exact cause and time of it’s death.",
-          "vt": 2,
-          "level": 2,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "First Aid",
-          "description": "If your ally has just passed out, you can awaken them, leaving them with one VT.",
-          "vt": 2,
-          "level": 2,
-          "category": "Professional",
-          "powerType": "skills"
-        },
-        {
-          "title": "Gather Intel",
-          "description": "Infiltrate the person's office or home, and use your skills to reveal one of those things: The identity of an important associate, a location they will travel to (with the time and date), a secret that would embarrass them if revealed, their true feelings about you or your party, who they’re loyal to.",
-          "vt": 3,
-          "level": 3,
-          "category": "Professional",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
-      "title": "Stealth",
-      "powers": [
-        {
-          "title": "Stealthy Spellcasting",
-          "description": "For the next 10 minutes you can cast spells in a way that is undetectable by the people around you.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        },
-        {
-          "title": "Ambush",
-          "description": "Prepare an ambush. When you attack the target they will be surprised, and everyone in your group can take an action before they react.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        },
-        {
-          "title": "Conceal Object",
-          "description": "Conceal an object of your choice, it will be impossible to discover that you have it until you use it.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        },
-        {
-          "title": "Fake Death",
-          "description": "Appear to be dead for the next 30 minutes.",
-          "vt": 2,
-          "level": 2,
-          "category": "Stealth",
-          "powerType": "skills"
-        }
-      ]
-    },
-    {
       "title": "Nature",
       "powers": [
+        {
+          "title": "Pet Pal",
+          "description": "You can speak with animals.",
+          "vt": 1,
+          "level": 1,
+          "category": "Nature",
+          "powerType": "skills"
+        },
         {
           "title": "Animal Buddy",
           "description": "Recruit a nearby animal, they will follow your orders to the best of their ability. It can't be smaller than a mouse or bigger than a horse. You can have only one animal partner at a time. If you get separated, it will try to find you. They have 6 HP and can make basic attacks for 2 damage. If the animal is hostile towards you - it won’t follow your orders, but you can calm it down.",
@@ -1094,14 +1086,6 @@
           "powerType": "spells"
         },
         {
-          "title": "Read Surface Thoughts",
-          "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking.",
-          "vt": 2,
-          "level": 2,
-          "category": "Telepathy",
-          "powerType": "spells"
-        },
-        {
           "title": "Produce Emotion",
           "description": "Make the target feel happy, sad, angry, smitten, afraid, insecure, etc.",
           "vt": 2,
@@ -1115,6 +1099,107 @@
           "vt": 2,
           "level": 2,
           "category": "Telepathy",
+          "powerType": "spells"
+        }
+      ]
+    },
+    {
+      "title": "Telekinesis",
+      "powers": [
+        {
+          "title": "Telekinesis",
+          "description": "Levitate small objects, no larger or heavier than a bucket of water.",
+          "vt": 1,
+          "level": 1,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Mold Earth",
+          "description": "You can target an area (5x5 meter cube) of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 meters away.",
+          "vt": 2,
+          "level": 2,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Walk on Walls/Ceiling",
+          "description": "For the next 10 minutes you can walk on any surface at any angle as if it was regular floor.",
+          "vt": 1,
+          "level": 1,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Ascend",
+          "description": "Propel the target object or creature (including yourself) directly upwards (up to 20 meters).",
+          "vt": 1,
+          "level": 1,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Feather Fall",
+          "description": "Slows down your fall to the speed of a falling feather.",
+          "vt": 1,
+          "level": 1,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Catapult",
+          "description": "Propel a small object you can see in the direction of your choice with the force of a thrown rock.",
+          "vt": 1,
+          "level": 1,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Expelliarmus",
+          "description": "Causes whatever the opponent is holding to fly out of their hands.",
+          "vt": 1,
+          "level": 1,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Bend Space",
+          "description": "Alter direction of projectiles and small flying objects, change their course up to 90 degrees in any direction.",
+          "vt": 1,
+          "level": 1,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Levitate",
+          "description": "Slowly lifts the target vertically above the ground, up to 15 meters. The target can weight up to 300 kg.",
+          "vt": 2,
+          "level": 2,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Push/Pull Metal",
+          "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move.",
+          "vt": 2,
+          "level": 2,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Change Momentum",
+          "description": "Halt, decrease, increase, or reverse the momentum of a moving object.",
+          "vt": 2,
+          "level": 2,
+          "category": "Telekinesis",
+          "powerType": "spells"
+        },
+        {
+          "title": "Accio",
+          "description": "Summon any object within 300 meters towards you. You don’t need to know it’s location, but you need to be able to picture it in your mind.",
+          "vt": 2,
+          "level": 2,
+          "category": "Telekinesis",
           "powerType": "spells"
         }
       ]
@@ -1211,14 +1296,6 @@
           "powerType": "spells"
         },
         {
-          "title": "Grease",
-          "description": "Cover an object or a surface in grease, making it frictionless.",
-          "vt": 2,
-          "level": 2,
-          "category": "Conjuration",
-          "powerType": "spells"
-        },
-        {
           "title": "Recall",
           "description": "After you cast the spell in a location, you and your group can teleport back to it once.",
           "vt": 4,
@@ -1232,107 +1309,6 @@
           "vt": 3,
           "level": 3,
           "category": "Conjuration",
-          "powerType": "spells"
-        }
-      ]
-    },
-    {
-      "title": "Telekinesis",
-      "powers": [
-        {
-          "title": "Telekinesis",
-          "description": "Levitate small objects, no larger or heavier than a bucket of water.",
-          "vt": 1,
-          "level": 1,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Mold Earth",
-          "description": "You can target an area (5x5 meter cube) of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 meters away.",
-          "vt": 2,
-          "level": 2,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Walk on Walls/Ceiling",
-          "description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
-          "vt": 1,
-          "level": 1,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Ascend",
-          "description": "Propel the target object or creature (including yourself) directly upwards (up to 20 meters).",
-          "vt": 1,
-          "level": 1,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Feather Fall",
-          "description": "Slows down your fall to the speed of a falling feather.",
-          "vt": 1,
-          "level": 1,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Catapult",
-          "description": "Propel a small object you can see in the direction of your choice with the force of a thrown rock.",
-          "vt": 1,
-          "level": 1,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Expelliarmus",
-          "description": "Causes whatever the opponent is holding to fly out of their hands.",
-          "vt": 1,
-          "level": 1,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Bend Space",
-          "description": "Alter direction of projectiles and small flying objects, change their course up to 90 degrees in any direction.",
-          "vt": 1,
-          "level": 1,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Levitate",
-          "description": "Slowly lifts the target vertically above the ground, up to 15 meters. The target can weight up to 300 kg.",
-          "vt": 2,
-          "level": 2,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Push/Pull Metal",
-          "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move.",
-          "vt": 2,
-          "level": 2,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Change Momentum",
-          "description": "Halt, decrease, increase, or reverse the momentum of a moving object.",
-          "vt": 2,
-          "level": 2,
-          "category": "Telekinesis",
-          "powerType": "spells"
-        },
-        {
-          "title": "Accio",
-          "description": "Summon any object within 300 meters towards you. You don’t need to know it’s location, but you need to be able to picture it in your mind.",
-          "vt": 2,
-          "level": 2,
-          "category": "Telekinesis",
           "powerType": "spells"
         }
       ]
@@ -2235,10 +2211,10 @@
           "powerType": "items"
         },
         {
-          "title": "A potion of telepathy",
-          "description": "When you drink it, you're able to search through an unconscious creature's mind, and pull out 15 minutes of their memories.",
-          "vt": 3,
-          "level": 3,
+          "title": "A Potion of Telepathy",
+          "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking. Alternatively, you can target an unconscious creature, and pull out any 15 minutes of their memories.",
+          "vt": 2,
+          "level": 2,
           "category": "Potions",
           "powerType": "items"
         },

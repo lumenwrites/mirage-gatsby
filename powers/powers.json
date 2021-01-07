@@ -385,32 +385,95 @@
     ],
     "skills": [
         {
-            "title": "Act like you belong",
-            "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
+            "title": "Magic Trick",
+            "description": "You can do what David Blaine can do. Any simple magic trick that isn’t actually magical in nature.",
             "vt": 1,
             "level": 1,
-            "category": "Social"
+            "category": "Professional"
         },
         {
-            "title": "Tell a Tale",
-            "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will comply with reasonable requests that are in line with the lesson.",
+            "title": "Boyscout",
+            "description": "You’re always prepared! Search through your pockets and find any mundane item of your choice.",
             "vt": 1,
             "level": 1,
-            "category": "Social"
+            "category": "Professional"
         },
         {
-            "title": "Inspiring Speech",
-            "description": "Once per day you can bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 6VT.",
+            "title": "Identify",
+            "description": "Figure out properties of an object and how to use them. Learn whether the object is affected by spells and what they are.",
             "vt": 1,
             "level": 1,
-            "category": "Social"
+            "category": "Professional"
         },
         {
-            "title": "Folk Song",
-            "description": "You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby (you need to sing a song at the table). This will influence the mood of the people around you to the one of your choice (happy, somber, proud, indignant, etc.)",
+            "title": "Examine Creature",
+            "description": "Figure out the creature’s strengths, vulnerabilities, special powers.",
             "vt": 1,
             "level": 1,
-            "category": "Social"
+            "category": "Professional"
+        },
+        {
+            "title": "Musician",
+            "description": "When you’re playing a musical instrument - roll the dice. If you roll above 10, everybody around you can’t resist dancing.",
+            "vt": 1,
+            "level": 1,
+            "category": "Professional"
+        },
+        {
+            "title": "Stealthy Spellcasting",
+            "description": "For the next 10 minutes you can cast spells in a way that is undetectable by the people around you.",
+            "vt": 2,
+            "level": 2,
+            "category": "Stealth"
+        },
+        {
+            "title": "Ambush",
+            "description": "Prepare an ambush. When you attack the target they will be surprised, and everyone in your group can take an action before they react.",
+            "vt": 2,
+            "level": 2,
+            "category": "Stealth"
+        },
+        {
+            "title": "Conceal Object",
+            "description": "Conceal an object of your choice, it will be impossible to discover that you have it until you use it.",
+            "vt": 2,
+            "level": 2,
+            "category": "Stealth"
+        },
+        {
+            "title": "Fake Death",
+            "description": "Appear to be dead for the next 30 minutes.",
+            "vt": 2,
+            "level": 2,
+            "category": "Stealth"
+        },
+        {
+            "title": "Darkvision",
+            "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
+            "vt": 1,
+            "level": 1,
+            "category": "Perception"
+        },
+        {
+            "title": "Eagle Eye",
+            "description": "For the next 10 minutes you have superhuman vision, you can see the tiniest objects extremely far away.",
+            "vt": 1,
+            "level": 1,
+            "category": "Perception"
+        },
+        {
+            "title": "Owl’s Ear",
+            "description": "For the next 10 minutes you have hypersensitive hearing. Hear things that are very far away, hear through walls.",
+            "vt": 1,
+            "level": 1,
+            "category": "Perception"
+        },
+        {
+            "title": "Sense Danger",
+            "description": "For the next 10 minutes you will notice all the imminent threats around you.",
+            "vt": 1,
+            "level": 1,
+            "category": "Perception"
         },
         {
             "title": "Spread the Word",
@@ -448,6 +511,34 @@
             "category": "Social"
         },
         {
+            "title": "Act like you belong",
+            "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
+            "vt": 1,
+            "level": 1,
+            "category": "Social"
+        },
+        {
+            "title": "Tell a Tale",
+            "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will comply with reasonable requests that are in line with the lesson.",
+            "vt": 1,
+            "level": 1,
+            "category": "Social"
+        },
+        {
+            "title": "Inspiring Speech",
+            "description": "Once per day you can bolster the spirits of your party by giving an inspiring speech. When completed, your party recovers 6VT.",
+            "vt": 1,
+            "level": 1,
+            "category": "Social"
+        },
+        {
+            "title": "Folk Song",
+            "description": "You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby (you need to sing a song at the table). This will influence the mood of the people around you to the one of your choice (happy, somber, proud, indignant, etc.)",
+            "vt": 1,
+            "level": 1,
+            "category": "Social"
+        },
+        {
             "title": "Grapple",
             "description": "You grapple the opponent of your size or smaller. You can hold them for up to 5 minutes.",
             "vt": 1,
@@ -476,34 +567,6 @@
             "category": "Physical"
         },
         {
-            "title": "Darkvision",
-            "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
-            "vt": 1,
-            "level": 1,
-            "category": "Perception"
-        },
-        {
-            "title": "Eagle Eye",
-            "description": "For the next 10 minutes you have superhuman vision, you can see the tiniest objects extremely far away.",
-            "vt": 1,
-            "level": 1,
-            "category": "Perception"
-        },
-        {
-            "title": "Owl’s Ear",
-            "description": "For the next 10 minutes you have hypersensitive hearing. Hear things that are very far away, hear through walls.",
-            "vt": 1,
-            "level": 1,
-            "category": "Perception"
-        },
-        {
-            "title": "Sense Danger",
-            "description": "For the next 10 minutes you will notice all the imminent threats around you.",
-            "vt": 1,
-            "level": 1,
-            "category": "Perception"
-        },
-        {
             "title": "Ricochet",
             "description": "Shoot around the corners by bouncing arrows or thrown weapons off the walls.",
             "vt": 1,
@@ -518,13 +581,6 @@
             "category": "Physical"
         },
         {
-            "title": "Pet Pal",
-            "description": "You can speak with animals.",
-            "vt": 1,
-            "level": 1,
-            "category": "Social"
-        },
-        {
             "title": "Remedy",
             "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
             "vt": 1,
@@ -532,67 +588,11 @@
             "category": "Professional"
         },
         {
-            "title": "Mend",
-            "description": "Fix a broken mundane object.",
-            "vt": 1,
-            "level": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Musician",
-            "description": "When you’re playing a musical instrument - roll the dice. If you roll above 10, everybody around you can’t resist dancing.",
-            "vt": 1,
-            "level": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Boyscout",
-            "description": "You’re always prepared! Search through your pockets and find any mundane item of your choice.",
-            "vt": 1,
-            "level": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Identify",
-            "description": "Figure out properties of an object and how to use them. Learn whether the object is affected by spells and what they are.",
-            "vt": 1,
-            "level": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Examine Creature",
-            "description": "Figure out the creature’s strengths, vulnerabilities, special powers.",
-            "vt": 1,
-            "level": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Magic Trick",
-            "description": "You can do what David Blaine can do. Any simple magic trick that isn’t actually magical in nature.",
-            "vt": 1,
-            "level": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Stealthy Spellcasting",
-            "description": "For the next 10 minutes you can cast spells in a way that is undetectable by the people around you.",
-            "vt": 2,
-            "level": 2,
-            "category": "Stealth"
-        },
-        {
             "title": "Examine Corpse",
             "description": "Determine the exact cause and time of it’s death.",
             "vt": 2,
             "level": 2,
             "category": "Professional"
-        },
-        {
-            "title": "Ambush",
-            "description": "Prepare an ambush. When you attack the target they will be surprised, and everyone in your group can take an action before they react.",
-            "vt": 2,
-            "level": 2,
-            "category": "Stealth"
         },
         {
             "title": "Echolocation",
@@ -644,13 +644,6 @@
             "category": "Social"
         },
         {
-            "title": "Conceal Object",
-            "description": "Conceal an object of your choice, it will be impossible to discover that you have it until you use it.",
-            "vt": 2,
-            "level": 2,
-            "category": "Stealth"
-        },
-        {
             "title": "Smash",
             "description": "Destroy any object up to the size of a barrel in one hit (if it’s not being held by someone).",
             "vt": 2,
@@ -672,13 +665,6 @@
             "category": "Social"
         },
         {
-            "title": "Fake Death",
-            "description": "Appear to be dead for the next 30 minutes.",
-            "vt": 2,
-            "level": 2,
-            "category": "Stealth"
-        },
-        {
             "title": "Inspire",
             "description": "Give your friend a compliment, and they will have an advantage on the next roll.",
             "vt": 2,
@@ -691,6 +677,13 @@
             "vt": 2,
             "level": 2,
             "category": "Social"
+        },
+        {
+            "title": "Pet Pal",
+            "description": "You can speak with animals.",
+            "vt": 1,
+            "level": 1,
+            "category": "Nature"
         },
         {
             "title": "Animal Buddy",
@@ -812,6 +805,13 @@
             "category": "Telepathy"
         },
         {
+            "title": "Telekinesis",
+            "description": "Levitate small objects, no larger or heavier than a bucket of water.",
+            "vt": 1,
+            "level": 1,
+            "category": "Telekinesis"
+        },
+        {
             "title": "Summon Familiar",
             "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears until you resummon it. Works once per day.",
             "vt": 8,
@@ -831,13 +831,6 @@
             "vt": 1,
             "level": 1,
             "category": "Conjuration"
-        },
-        {
-            "title": "Telekinesis",
-            "description": "Levitate small objects, no larger or heavier than a bucket of water.",
-            "vt": 1,
-            "level": 1,
-            "category": "Telekinesis"
         },
         {
             "title": "Small Fireball",
@@ -876,7 +869,7 @@
         },
         {
             "title": "Walk on Walls/Ceiling",
-            "description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
+            "description": "For the next 10 minutes you can walk on any surface at any angle as if it was regular floor.",
             "vt": 1,
             "level": 1,
             "category": "Telekinesis"
@@ -1055,13 +1048,6 @@
             "vt": 2,
             "level": 2,
             "category": "Divination"
-        },
-        {
-            "title": "Read Surface Thoughts",
-            "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking.",
-            "vt": 2,
-            "level": 2,
-            "category": "Telepathy"
         },
         {
             "title": "Levitate",
@@ -1265,13 +1251,6 @@
             "vt": 2,
             "level": 2,
             "category": "Illusionism"
-        },
-        {
-            "title": "Grease",
-            "description": "Cover an object or a surface in grease, making it frictionless.",
-            "vt": 2,
-            "level": 2,
-            "category": "Conjuration"
         },
         {
             "title": "Oracle",
@@ -1861,10 +1840,14 @@
             "category": "Utility"
         },
         {
-            "title": "A potion of telepathy",
-            "description": "When you drink it, you're able to search through an unconscious creature's mind, and pull out 15 minutes of their memories.",
             "vt": 3,
-            "level": 3,
+            "level": 3
+        },
+        {
+            "title": "A Potion of Telepathy",
+            "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking. Alternatively, you can target an unconscious creature, and pull out any 15 minutes of their memories.",
+            "vt": 2,
+            "level": 2,
             "category": "Potions"
         },
         {
