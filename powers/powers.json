@@ -1915,6 +1915,12 @@
             "category": "Utility"
         },
         {
+            "title": "Cloak of Disguise",
+            "description": "Enables you to create an illusion around yourself, assuming an appearance of any person you’ve seen. Can be used 3 times per day, disguise lasts up to 1 hour.",
+            "level": 3,
+            "category": "Utility"
+        },
+        {
             "title": "Creature Blueprints",
             "description": "Allows you to craft an artifical creature like a robot or a golem. It takes you a month to build one.",
             "level": 4,
