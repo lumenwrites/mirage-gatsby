@@ -393,7 +393,7 @@
         },
         {
             "title": "Boyscout",
-            "description": "You’re always prepared! Search through your pockets and find any mundane item of your choice.",
+            "description": "You’re always prepared! Search through your pockets and find any mundane item of your choice (it should be believable that you have prepared in advance). Works 3 times per day.",
             "vt": 1,
             "level": 1,
             "category": "Professional"
