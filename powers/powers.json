@@ -270,12 +270,6 @@
             "category": "Social"
         },
         {
-            "title": "Nature",
-            "description": "You’re good at avoiding natural hazards and navigating wilderness.",
-            "vt": 1,
-            "category": "Knowledge"
-        },
-        {
             "title": "Animal Handling",
             "description": "You are good at dealing with animals.",
             "vt": 1,
@@ -295,7 +289,7 @@
         },
         {
             "title": "Lore",
-            "description": "Recall facts about the world.",
+            "description": "You know a lot about the world and its history.",
             "vt": 1,
             "category": "Knowledge"
         },
@@ -312,44 +306,20 @@
             "category": "Professional"
         },
         {
-            "title": "Gather Information",
-            "description": "Gather information from rumors and interrogation.",
-            "vt": 1,
-            "category": "Professional"
-        },
-        {
             "title": "Research",
             "description": "Find information quickly from books and documents.",
             "vt": 1,
             "category": "Professional"
         },
         {
-            "title": "Crafting",
-            "description": "You’re good at putting together makeshift devices.",
+            "title": "Gather Information",
+            "description": "Gather information from rumors and interrogation.",
             "vt": 1,
             "category": "Professional"
         },
         {
-            "title": "Forgery",
-            "description": "Forge items, documents, or art.",
-            "vt": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Lock Picking",
-            "description": "Pick simple locks.",
-            "vt": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Disguise",
-            "description": "Conceal your identity with makeup, clothes, and overall appearance.",
-            "vt": 1,
-            "category": "Professional"
-        },
-        {
-            "title": "Navigation",
-            "description": "Find your way in the wilderness. You can avoid natural hazards, find the closest  shelter, oasis, nest of an animal.",
+            "title": "Nature",
+            "description": "Youre good at navigating the wilderness. You can avoid natural hazards, find the closest  shelter, oasis, nest of an animal.",
             "vt": 1,
             "category": "Professional"
         },
@@ -360,8 +330,8 @@
             "category": "Professional"
         },
         {
-            "title": "Vehicles",
-            "description": "You can drive/pilot any vehicle.",
+            "title": "Crafting",
+            "description": "You’re good at putting together makeshift devices.",
             "vt": 1,
             "category": "Professional"
         },
@@ -372,8 +342,14 @@
             "category": "Professional"
         },
         {
-            "title": "Profession",
-            "description": "You are good at a profession of your choice. You get advantage on all rolls relevant to your area of expertise.",
+            "title": "Vehicles",
+            "description": "You can drive/pilot any vehicle.",
+            "vt": 1,
+            "category": "Professional"
+        },
+        {
+            "title": "Expert",
+            "description": "You are good at a profession of your choice. You have deep knowledge in this field. Get advantage on all rolls relevant to your area of expertise.",
             "vt": 1,
             "category": "Custom"
         },
@@ -415,6 +391,27 @@
         {
             "title": "Musician",
             "description": "When you’re playing a musical instrument - roll the dice. If you roll above 10, everybody around you can’t resist dancing.",
+            "vt": 1,
+            "level": 1,
+            "category": "Professional"
+        },
+        {
+            "title": "Disguise",
+            "description": "Conceal your identity with makeup, clothes, and overall appearance.",
+            "vt": 1,
+            "level": 1,
+            "category": "Professional"
+        },
+        {
+            "title": "Lock Picking",
+            "description": "Pick simple locks.",
+            "vt": 1,
+            "level": 1,
+            "category": "Professional"
+        },
+        {
+            "title": "Forgery",
+            "description": "Forge items, documents, or art.",
             "vt": 1,
             "level": 1,
             "category": "Professional"
@@ -1753,7 +1750,7 @@
         },
         {
             "title": "Bag of Gold",
-            "description": "Can be used to live a lavish lifestyle for a month, or traded for something valuable.",
+            "description": "Spend it to do something a rich person can do (throw a lavish party, bribe someone, hire an assassin, etc.), or trade it for another item of your choice.",
             "level": 2,
             "category": "Utility"
         },

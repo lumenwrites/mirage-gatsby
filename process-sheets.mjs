@@ -47,7 +47,7 @@ for (var powerType in data) {
 
   powersJson[powerType] = categoriesJson
 }
-//œœœconsole.log(powersJson, JSON.stringify(powersJson, null, 2))
+//console.log(powersJson, JSON.stringify(powersJson, null, 2))
 var outputText = JSON.stringify(powersJson, null, 2)
 
 fs.writeFile(`./json/powers/powers.json`, outputText, 'utf8', ()=>{})

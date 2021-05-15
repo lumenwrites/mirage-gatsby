@@ -14,8 +14,10 @@ import exampleTalent from './rules-players/example-talent.json'
 import exampleSpell from './rules-players/example-spell.json'
 import exampleSkill from './rules-players/example-skill.json'
 import exampleItem from './rules-players/example-item.json'
+import gold from './rules-players/gold.json'
 
- 
+# Mirage Rules
+
 To get ready for the game, you need 3 things:
 
 1. **Basic understanding of the rules**  
@@ -34,15 +36,52 @@ All you need to know about your character is stored on your <Link to="/character
 
 <div className="columns">
 
+
+### Talents
+Things your character is particularly good at. Without the relevant talent your character is as good at doing things as an average person. 
+
+<Power power={exampleTalent} sample />
+
+Using a talent gives you advantage on the dice roll (see the dice rules below).
+
+### Abilities
+Extraordinary abilities, cool things you can do. **Spells** you can cast and the non-magical **Skills** you can use. 
+
+<Power power={exampleSpell} sample />
+
+### Inventory
+Your magic items, potions, weapons, and other equipment. 
+
+<Power power={exampleItem} sample />
+
+You don’t need to keep track of mundane items (food, regular clothes, ammo, etc.) or money, assume that your character has the items it makes sense for them to have (an archer would have arrows, a thief would have lock-picks). You can afford what a regular person can reasonably afford, unless you have:
+
+<Power power={gold} sample />
+
+### Custom Powers
+You can make up your own talents, abilities, and items. Discuss your ideas with the GM before the game to make sure that they approve. 
+
+
+<!-- Use the lists of premade ones for inspiration, adapt ideas from games, books, or movies. Have fun being creative and coming up with new awesome and unique powers! -->
+
+
+
+
+
+ 
+
+<div className="column-break"/>
+
+
 ### Vitality Tokens (VT)
 
 Vitality tokens represent the amount of health and energy you have. 
 
 <div style="margin-top: 10px;"><img src="./rules-players/vitality-tokens.png" /></div>
 
-Spend VT to use your Talents and Abilities. Gain VT by using your Traits.
+Spend 1VT to use a Talent or an Ability.
 
-When something hurts you, you lose VT. If you run out of vitality - you pass out, leaving you at the mercy of your enemies.
+When something hurts you, you lose 3VT. If you run out of vitality - you pass out, leaving you at the mercy of your enemies.
 
 You can have at most 12VT. You start with 12VT, you restore back to full after you rest between adventures.
 
@@ -52,53 +91,20 @@ You gain 3VT when acting according to one of your personality traits puts you at
 > For example: Protecting someone puts your life at risk, following your ideals makes you act against your best interests, your flaw or weakness makes you vulnerable,  indulging in your temptations gets you into trouble, you succumb to your fear at the worst possible moment, your eccentric behavior draws unwanted attention.
 
 
-### Talents
-Things your character is particularly good at. Without the relevant talent your character is as good at doing things as an average person. 
-
-<Power power={exampleTalent} sample />
-
-**Spend 1VT** to use a talent and gain advantage on your dice roll.
-
-
-### Abilities
-Extraordinary abilities, cool things you can do. **Spells** you can cast and the non-magical **Skills** you can use. 
-
-<Power power={exampleSpell} sample />
-
-**Spend 1VT** to use an ability.
-
-
-<div className="column-break"/>
-
-### Inventory
-In your inventory you carry magic items, potions, weapons, and other equipment. 
-
-<Power power={exampleItem} sample />
-
-There’s no currency. There’s no need to micromanage paying for meals, simple services, a simple room in an inn - they cost nothing. You don’t need to keep track of mundane items (food, regular clothes, ammo, etc.), assume that your character has the items it makes sense for them to have (an archer would have arrows, a thief would have lock-picks).
-
-You can carry at most 12 items. 
-
 ### Character Creation
 
-To create your character you will need to fill in your <Link to="/character-sheet">character sheet</Link>. 
+To create your character you need to fill in your <Link to="/character-sheet">character sheet</Link>. 
 
 Make up a name, appearance, and personality for your character. 
 
-Pick **4 Talents**, **4 Abilities**, and **4 Items**. And you're ready to play!
+Pick **4 Talents**, **4 Abilities**, and **4 Items**.
+
+And you're ready to play!
 
 ### Character Advancement
-At the end of every session you gain one new **talent**, or **two new abilities**, or **two new items**. 
+At the end of every session you gain one new **talent**, or **two new abilities**.
 
-You can also find new items on your adventures, or receive them as payment for completing quests.
-
-### Custom Powers
-You're highly encouraged to make up your own talents, abilities, and items. 
-
-Use the lists of premade ones for inspiration, have fun being creative and coming up with new awesome and unique powers! You can also adapt them from any other game, book, or a movie.
-
-Show your new powers to the GM before the game to make sure that they approve.
-
+You can find new items on your adventures, or receive them as payment for completing quests.
 
 </div>
 
@@ -114,26 +120,14 @@ If you’re not sure what kind of character to create - use your favorite charac
 
 ## Rolling Dice
 
-When you attempt a task that is difficult or risky, the GM can tell you to roll a 20-sided die. If your roll is equal to or higher than the target number (set by the GM depending on the difficulty of the task) - you succeed at a task, otherwise you fail.
+When you attempt a task that is difficult or risky, the GM can tell you to roll a 20-sided die. If your roll is equal to or higher than the target number (set by the GM depending on the difficulty of the task) - you succeed, otherwise you suffer a negative consequence, setback, or a complication.
 
-On a failed roll, GM can offer you to reroll the dice, at a cost of suffering a negative consequence, setback, complication, or taking a riskier option.
 
-<!--
-> For example:
-- You fail a roll when walking a tightrope over a chasm. You can try to regain your balance, but you will need to drop your sword.
-- You fail a roll when trying to pick a lock. You can try to break the lock, but it will trigger the alarm.
-- You fail a roll when trying to resuscitate a victim. You can try again, but it will give their attacker the time to escape.
-- You fail a roll when trying to lie to another character. You can double down on your lie, but if you fail they will call the guards.
--->
+If you roll a **20** - you succeed in an exceptionally spectacular way, the outcome is extremely favourable to you. If you roll a **1** - you fail and suffer a severe setback.
 
-If you roll a **20** - you succeed in an exceptionally spectacular way, the outcome is extremely favourable to you. If you roll a **1** - you fail and suffer a severe setback (lose equipment, take damage, or face some other misfortune).
+On a failed roll, you can reroll the dice at a cost. Tell the GM what cost your character will pay for another chance at success, for example: expose yourself to danger, introduce a new problem, break or lose your equipment, lose time, attract unwanted attention, cause collateral damage, offend an ally, give the enemy an opportunity to advance, try a riskier approach that raises the stakes and could lead to a terrible failure, etc.
 
-You can improve your chances by rolling with **advantage**. That means you roll multiple dice, and take the highest number. 
-
-You roll with advantage when you **use a talent relevant to the task you’re attempting**. If you want to use multiple relevant talents - roll an extra die for each one, up to the maximum of 4.
-<!--  (for example, use "Deception" talent to roll with advantage when attempting to lie to someone) -->
-
-<!-- Sometimes GM will give you advantage when you **come up with awesome ideas** (creatively use the world around you, find some clever way to approach the task to maximize your chances) and **have excellent roleplaying momments** (act out a dramatic moment, make a speech, describe what you do in an exceptionally vivid and awesome way). -->
+You can improve your chances by rolling with **advantage**. That means you roll multiple dice, and take the best result. You roll with advantage when you **use a talent relevant to the task you’re attempting**. If you want to use multiple relevant talents - roll an extra die for each one, up to the maximum of 4.
 
 To roll the dice on our discord server, type following commands in the chat:
 - `!roll` - roll a single die.
@@ -141,10 +135,13 @@ To roll the dice on our discord server, type following commands in the chat:
 - `!adv3` - roll three dice with advantage.
 - `!adv4` - roll four dice with advantage.
 
+<!-- 
 ## Combat
 During the combat scenes, players take turns describing what they do. Describe how you want to fight, roll the dice, GM will narrate what happens as a result. 
 
-The only difference from the regular rolls is that when you fail, you take damage. GM will tell you how many VT you lose, depending on how powerful the enemy attack was.
+If you fail a roll during combat, you take damage and lose 3VT.
+ -->
+<!-- GM will tell you how many VT you lose, depending on how powerful the enemy attack was. -->
 
 ---
 
