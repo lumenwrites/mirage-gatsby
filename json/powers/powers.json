@@ -1,224 +1,4 @@
 {
-  "traits": [
-    {
-      "title": "Ideals",
-      "powers": [
-        {
-          "title": "Compassionate",
-          "description": "Gain 3VT every time you spare a life.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Hero",
-          "description": "Gain 3VT every time you risk your life to protect someone.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Honest",
-          "description": "Gain 3VT when your honesty gets you into trouble.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Oath",
-          "description": "You have sworn an oath. Gain 3VT when following it makes your life more complicated.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Ambitious",
-          "description": "Gain 3VT when you make a sacrifice to achieve your life’s ambition.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Selfless",
-          "description": "Gain 3VT every time you make personal sacrifice for the good of someone else.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Loyal",
-          "description": "Gain 3VT when your loyalty makes you vulnerable.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Idealist",
-          "description": "Gain 3VT when your devotion to your ideals makes your life more complicated.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Curious",
-          "description": "Gain 3VT when following your curiosity gets you in trouble.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Fearless",
-          "description": "Gain 3VT when you do something your character fears the most.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Prudent",
-          "description": "Gain 3VT every time you resist a temptation and forego some short-term benefit for the greater good.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Open Minded",
-          "description": "Gain 3VT when your character learns a valuable lesson that changes them in some significant way.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Optimist",
-          "description": "Gain 3VT when your unreasonably rosy view of the world makes you vulnerable.",
-          "category": "Ideals",
-          "powerType": "traits"
-        },
-        {
-          "title": "Generous",
-          "description": "Gain 3VT when your generosity costs you something of value.",
-          "category": "Ideals",
-          "powerType": "traits"
-        }
-      ]
-    },
-    {
-      "title": "Problems",
-      "powers": [
-        {
-          "title": "Troubled",
-          "description": "Gain 3VT every time indulging in one of your flaws/impulses/temptations puts you at risk/disadvantage, leads to a setback/complication, costs you something important, makes you act against your best interests, makes you suffer a negative effect for the good of the story. Specify one flaw. Arrogance, Greed, Ignorance, Recklessness, Social Awkwardness, Addiction, Indecisiveness, Short Temper, Biggest Fear, etc.",
-          "category": "Problems",
-          "powerType": "traits"
-        },
-        {
-          "title": "Celebrity",
-          "description": "Gain 3VT every time you become the center of attention in a crowd at a bad moment, when your vanity puts you at a disadvantage.",
-          "category": "Problems",
-          "powerType": "traits"
-        },
-        {
-          "title": "Irreverent",
-          "description": "Gain 3VT every time you challenge authority (like threatening someone too powerful) and it puts you at a disadvantage.",
-          "category": "Problems",
-          "powerType": "traits"
-        },
-        {
-          "title": "Important Relationships",
-          "description": "Gain 3VT when some important or difficult relationship in your life (to a person or a group) makes your life more complicated.",
-          "category": "Problems",
-          "powerType": "traits"
-        },
-        {
-          "title": "Notorious",
-          "description": "You are very well known. You’re hated or loved by a group of people. Gain 3VT when this makes life more difficult for you.",
-          "category": "Problems",
-          "powerType": "traits"
-        },
-        {
-          "title": "Eccentric",
-          "description": "Gain 3VT when your eccentric or quirky behavior puts you into difficult social situations.",
-          "category": "Problems",
-          "powerType": "traits"
-        },
-        {
-          "title": "Troubled Past",
-          "description": "Gain 3VT when something from your past comes back to haunt you.",
-          "category": "Problems",
-          "powerType": "traits"
-        },
-        {
-          "title": "Gullible",
-          "description": "Gain 3VT when you put your trust into the wrong person.",
-          "category": "Problems",
-          "powerType": "traits"
-        }
-      ]
-    },
-    {
-      "title": "Roleplaying Challenges",
-      "powers": [
-        {
-          "title": "Evocative",
-          "description": "Gain 3VT when you  have a really touching, emotional, dramatic scene that makes other players feel and care about your character.",
-          "category": "Roleplaying Challenges",
-          "powerType": "traits"
-        },
-        {
-          "title": "Riveting",
-          "description": "Gain 3VT every time your actions evoke a specific emotion or reaction from the other players. Pick one reaction, for example “Aww!”, Face-palm, Fist-shaking, Shiver of terror, Fist-pump, “Nooo!”, Getting a laugh from the group, etc.",
-          "category": "Roleplaying Challenges",
-          "powerType": "traits"
-        },
-        {
-          "title": "Team Player",
-          "description": "Gain 3VT when you risk or sacrifice something to help another player to accomplish something they want.",
-          "category": "Roleplaying Challenges",
-          "powerType": "traits"
-        },
-        {
-          "title": "Peacemaker",
-          "description": "Gain 3VT every time you find a non-combat resolution.",
-          "category": "Roleplaying Challenges",
-          "powerType": "traits"
-        },
-        {
-          "title": "Detective",
-          "description": "Gain 3VT every time you solve a difficult puzzle or figure out a secret.",
-          "category": "Roleplaying Challenges",
-          "powerType": "traits"
-        },
-        {
-          "title": "Supportive",
-          "description": "Gain 3VT when you make another character look awesome, when your actions put them in an epic situation.",
-          "category": "Roleplaying Challenges",
-          "powerType": "traits"
-        },
-        {
-          "title": "Inventive",
-          "description": "Gain 3VT when you find a way to use the environment around you in some creative or unusual way.",
-          "category": "Roleplaying Challenges",
-          "powerType": "traits"
-        },
-        {
-          "title": "Poet",
-          "description": "Gain 3VT when you describe what’s going on in a rhyming verse or a limerick.",
-          "category": "Roleplaying Challenges",
-          "powerType": "traits"
-        }
-      ]
-    },
-    {
-      "title": "Custom",
-      "powers": [
-        {
-          "title": "Drawbacks of the Talent",
-          "description": "Gain 3VT when one of your Talents results in a shortcoming or creates a complication (Strength - your big muscles might make it difficult to crawl through a narrow space. Intimidation - you might scare the target too much, Investigation - you might find it hard to resist going into danger to look for clues, Animal Handling - you might like a weird monster too much, etc.)",
-          "category": "Custom",
-          "powerType": "traits"
-        },
-        {
-          "title": "High Concept",
-          "description": "Gain 3VT when you make the story more exciting by acting according to a unique and pithy one-liner that best describes your character concept (Broken Heart, My favorite dish is Revenge, Sucker for a Pretty Face, The Boy Who Lived, Posh Goblin, Price Tag on My Head, Amnesiac, Cop on the Edge, Mama's Boy, Paranoid, Righteous Zeal, Morbid Curiosity, Irresistible Beauty, Looking for True Love, etc.)",
-          "category": "Custom",
-          "powerType": "traits"
-        },
-        {
-          "title": "Custom Trait",
-          "description": "Make up your own custom trait! How can an aspect of your character present a challenge, create a complication, put you into a difficult situation, or otherwise make the story more interesting and exciting? What roleplaying challenge or exercise would you like to play with?  (create this card and then click on edit button to modify it)",
-          "category": "Custom",
-          "powerType": "traits"
-        }
-      ]
-    }
-  ],
   "talents": [
     {
       "title": "Physical",
@@ -1013,14 +793,6 @@
           "powerType": "spells"
         },
         {
-          "title": "Invisibility",
-          "description": "Turn yourself, a willing creature, or an object (no larger than a horse) invisible for the next 20 minutes.",
-          "vt": 2,
-          "level": 2,
-          "category": "Illusionism",
-          "powerType": "spells"
-        },
-        {
           "title": "Phantasmal Force",
           "description": "Target a single person or a creature, create an incredibly realistic illusion including sound, temperature, and other stimuli. The target will treat it as if it was real, and can even take damage from it.",
           "vt": 2,
@@ -1038,7 +810,7 @@
         },
         {
           "title": "Change Text",
-          "description": "Change any written text to the text of your choice.",
+          "description": "Change any written text to the text of your choice. The change disappears after 30 minutes.",
           "vt": 2,
           "level": 2,
           "category": "Illusionism",
@@ -1563,14 +1335,6 @@
           "powerType": "spells"
         },
         {
-          "title": "Phasing",
-          "description": "Become immaterial (like a ghost) for the next 5 secnods. Walk through doors, let attacks pass through you.",
-          "vt": 2,
-          "level": 2,
-          "category": "Transmutation",
-          "powerType": "spells"
-        },
-        {
           "title": "Sail the Wind",
           "description": "Turn into a cloud of fog. You can slowly drift in any direction of your choice. Lasts an hour.",
           "vt": 2,
@@ -1655,6 +1419,13 @@
       "title": "Utility",
       "powers": [
         {
+          "title": "Bag of Gold",
+          "description": "Spend it to do something a rich person can do (throw a lavish party, bribe someone, hire an assassin, etc.), or trade it for another item of your choice.",
+          "level": 2,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
           "title": "Friendship Bracelets",
           "description": "Magical walkie-talkie. Enables you to talk telepathically to anybody who has one (within 300 meters).",
           "level": 1,
@@ -1678,6 +1449,27 @@
         {
           "title": "Ultimate Lockpick",
           "description": "When you insert it into any lock, it morphs into the key that fits.",
+          "level": 1,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
+          "title": "Magic Mirrors",
+          "description": "A set of two small mirrors. When activated, the mirror transmits sounds and images from it's counterpart (works like Skype).",
+          "level": 1,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
+          "title": "Adventurer’s Journal",
+          "description": "When you write down 1-2 paragraphs of notes that describe what happened in the previous session from your character’s perspective, you gain an additional 4 AP.",
+          "level": 1,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
+          "title": "Superglue",
+          "description": "Permanently glues two objects together.",
           "level": 1,
           "category": "Utility",
           "powerType": "items"
@@ -1755,6 +1547,13 @@
         {
           "title": "Spring Shoes",
           "description": "Allow you to jump 10 times normal distance.",
+          "level": 1,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
+          "title": "Loudspeaker",
+          "description": "Connected to a microphone, amplifies sounds 50 fold.",
           "level": 1,
           "category": "Utility",
           "powerType": "items"
@@ -1841,6 +1640,14 @@
         {
           "title": "The Stopwatch of Timelessness",
           "description": "Makes time run 10x slower within a sphere of 15-meter radius. Works once per day, lasts 1 minute.",
+          "vt": 3,
+          "level": 3,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
+          "title": "Black Mark",
+          "description": "The one who carries it will be pursued by a gang of rowdy pirates.",
           "vt": 3,
           "level": 3,
           "category": "Utility",
@@ -1980,13 +1787,6 @@
           "powerType": "items"
         },
         {
-          "title": "Bag of Gold",
-          "description": "Spend it to do something a rich person can do (throw a lavish party, bribe someone, hire an assassin, etc.), or trade it for another item of your choice.",
-          "level": 2,
-          "category": "Utility",
-          "powerType": "items"
-        },
-        {
           "title": "Conman’s Paper",
           "description": "A sheet of paper that can be transformed to look like any official document. Transformation is permanent, can't be used more than once.",
           "level": 3,
@@ -2032,8 +1832,8 @@
           "powerType": "items"
         },
         {
-          "title": "A Unicorn Bone",
-          "description": "When consumed, will teleport you up to 60 seconds into the past, enabling you to replay what just happened differently.",
+          "title": "Time Orb",
+          "description": "When consumed, will teleport you 60 seconds into the past, enabling you to replay what just happened differently.",
           "vt": 4,
           "level": 4,
           "category": "Utility",
@@ -2063,6 +1863,20 @@
         {
           "title": "Cloak of Disguise",
           "description": "Enables you to create an illusion around yourself, assuming an appearance of any person you’ve seen. Can be used 3 times per day, disguise lasts up to 1 hour.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
+          "title": "Brain Slug",
+          "description": "When put on someone's head it takes control of their mind and body, and begins to work on its plan for world domination.",
+          "level": 3,
+          "category": "Utility",
+          "powerType": "items"
+        },
+        {
+          "title": "Snowglobe",
+          "description": "Once activated, makes a copy of the environment in 1km radius around it. After that, you can teleport in and out of the tiny version of the environment captured insdie the globe.",
           "level": 3,
           "category": "Utility",
           "powerType": "items"
@@ -2122,8 +1936,8 @@
           "powerType": "items"
         },
         {
-          "title": "Falcon Potion",
-          "description": "Turns you into a falcon for 30 minutes.",
+          "title": "Animorph Potion",
+          "description": "Add hair or a claw of non-magical creature. Drinking this potion will turn you into this creature for an hour.",
           "level": 1,
           "category": "Potions",
           "powerType": "items"
@@ -2159,6 +1973,13 @@
         {
           "title": "Fear Potion",
           "description": "Anyone who inhales it feels horrified for the next 10 minutes.",
+          "level": 1,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Love Potion",
+          "description": "Drinker falls in love with the person who brewed it.",
           "level": 1,
           "category": "Potions",
           "powerType": "items"
@@ -2201,6 +2022,13 @@
         {
           "title": "Truth Serum",
           "description": "One who drinks it can’t tell lies for an hour.",
+          "level": 3,
+          "category": "Potions",
+          "powerType": "items"
+        },
+        {
+          "title": "Ghost Potion",
+          "description": "Turn into a ghost for 5 minutes.",
           "level": 3,
           "category": "Potions",
           "powerType": "items"
@@ -3053,6 +2881,226 @@
           "level": 3,
           "category": "Potions",
           "powerType": "temp"
+        }
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "title": "Ideals",
+      "powers": [
+        {
+          "title": "Compassionate",
+          "description": "Gain 3VT every time you spare a life.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Hero",
+          "description": "Gain 3VT every time you risk your life to protect someone.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Honest",
+          "description": "Gain 3VT when your honesty gets you into trouble.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Oath",
+          "description": "You have sworn an oath. Gain 3VT when following it makes your life more complicated.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Ambitious",
+          "description": "Gain 3VT when you make a sacrifice to achieve your life’s ambition.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Selfless",
+          "description": "Gain 3VT every time you make personal sacrifice for the good of someone else.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Loyal",
+          "description": "Gain 3VT when your loyalty makes you vulnerable.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Idealist",
+          "description": "Gain 3VT when your devotion to your ideals makes your life more complicated.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Curious",
+          "description": "Gain 3VT when following your curiosity gets you in trouble.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Fearless",
+          "description": "Gain 3VT when you do something your character fears the most.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Prudent",
+          "description": "Gain 3VT every time you resist a temptation and forego some short-term benefit for the greater good.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Open Minded",
+          "description": "Gain 3VT when your character learns a valuable lesson that changes them in some significant way.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Optimist",
+          "description": "Gain 3VT when your unreasonably rosy view of the world makes you vulnerable.",
+          "category": "Ideals",
+          "powerType": "traits"
+        },
+        {
+          "title": "Generous",
+          "description": "Gain 3VT when your generosity costs you something of value.",
+          "category": "Ideals",
+          "powerType": "traits"
+        }
+      ]
+    },
+    {
+      "title": "Problems",
+      "powers": [
+        {
+          "title": "Troubled",
+          "description": "Gain 3VT every time indulging in one of your flaws/impulses/temptations puts you at risk/disadvantage, leads to a setback/complication, costs you something important, makes you act against your best interests, makes you suffer a negative effect for the good of the story. Specify one flaw. Arrogance, Greed, Ignorance, Recklessness, Social Awkwardness, Addiction, Indecisiveness, Short Temper, Biggest Fear, etc.",
+          "category": "Problems",
+          "powerType": "traits"
+        },
+        {
+          "title": "Celebrity",
+          "description": "Gain 3VT every time you become the center of attention in a crowd at a bad moment, when your vanity puts you at a disadvantage.",
+          "category": "Problems",
+          "powerType": "traits"
+        },
+        {
+          "title": "Irreverent",
+          "description": "Gain 3VT every time you challenge authority (like threatening someone too powerful) and it puts you at a disadvantage.",
+          "category": "Problems",
+          "powerType": "traits"
+        },
+        {
+          "title": "Important Relationships",
+          "description": "Gain 3VT when some important or difficult relationship in your life (to a person or a group) makes your life more complicated.",
+          "category": "Problems",
+          "powerType": "traits"
+        },
+        {
+          "title": "Notorious",
+          "description": "You are very well known. You’re hated or loved by a group of people. Gain 3VT when this makes life more difficult for you.",
+          "category": "Problems",
+          "powerType": "traits"
+        },
+        {
+          "title": "Eccentric",
+          "description": "Gain 3VT when your eccentric or quirky behavior puts you into difficult social situations.",
+          "category": "Problems",
+          "powerType": "traits"
+        },
+        {
+          "title": "Troubled Past",
+          "description": "Gain 3VT when something from your past comes back to haunt you.",
+          "category": "Problems",
+          "powerType": "traits"
+        },
+        {
+          "title": "Gullible",
+          "description": "Gain 3VT when you put your trust into the wrong person.",
+          "category": "Problems",
+          "powerType": "traits"
+        }
+      ]
+    },
+    {
+      "title": "Roleplaying Challenges",
+      "powers": [
+        {
+          "title": "Evocative",
+          "description": "Gain 3VT when you  have a really touching, emotional, dramatic scene that makes other players feel and care about your character.",
+          "category": "Roleplaying Challenges",
+          "powerType": "traits"
+        },
+        {
+          "title": "Riveting",
+          "description": "Gain 3VT every time your actions evoke a specific emotion or reaction from the other players. Pick one reaction, for example “Aww!”, Face-palm, Fist-shaking, Shiver of terror, Fist-pump, “Nooo!”, Getting a laugh from the group, etc.",
+          "category": "Roleplaying Challenges",
+          "powerType": "traits"
+        },
+        {
+          "title": "Team Player",
+          "description": "Gain 3VT when you risk or sacrifice something to help another player to accomplish something they want.",
+          "category": "Roleplaying Challenges",
+          "powerType": "traits"
+        },
+        {
+          "title": "Peacemaker",
+          "description": "Gain 3VT every time you find a non-combat resolution.",
+          "category": "Roleplaying Challenges",
+          "powerType": "traits"
+        },
+        {
+          "title": "Detective",
+          "description": "Gain 3VT every time you solve a difficult puzzle or figure out a secret.",
+          "category": "Roleplaying Challenges",
+          "powerType": "traits"
+        },
+        {
+          "title": "Supportive",
+          "description": "Gain 3VT when you make another character look awesome, when your actions put them in an epic situation.",
+          "category": "Roleplaying Challenges",
+          "powerType": "traits"
+        },
+        {
+          "title": "Inventive",
+          "description": "Gain 3VT when you find a way to use the environment around you in some creative or unusual way.",
+          "category": "Roleplaying Challenges",
+          "powerType": "traits"
+        },
+        {
+          "title": "Poet",
+          "description": "Gain 3VT when you describe what’s going on in a rhyming verse or a limerick.",
+          "category": "Roleplaying Challenges",
+          "powerType": "traits"
+        }
+      ]
+    },
+    {
+      "title": "Custom",
+      "powers": [
+        {
+          "title": "Drawbacks of the Talent",
+          "description": "Gain 3VT when one of your Talents results in a shortcoming or creates a complication (Strength - your big muscles might make it difficult to crawl through a narrow space. Intimidation - you might scare the target too much, Investigation - you might find it hard to resist going into danger to look for clues, Animal Handling - you might like a weird monster too much, etc.)",
+          "category": "Custom",
+          "powerType": "traits"
+        },
+        {
+          "title": "High Concept",
+          "description": "Gain 3VT when you make the story more exciting by acting according to a unique and pithy one-liner that best describes your character concept (Broken Heart, My favorite dish is Revenge, Sucker for a Pretty Face, The Boy Who Lived, Posh Goblin, Price Tag on My Head, Amnesiac, Cop on the Edge, Mama's Boy, Paranoid, Righteous Zeal, Morbid Curiosity, Irresistible Beauty, Looking for True Love, etc.)",
+          "category": "Custom",
+          "powerType": "traits"
+        },
+        {
+          "title": "Custom Trait",
+          "description": "Make up your own custom trait! How can an aspect of your character present a challenge, create a complication, put you into a difficult situation, or otherwise make the story more interesting and exciting? What roleplaying challenge or exercise would you like to play with?  (create this card and then click on edit button to modify it)",
+          "category": "Custom",
+          "powerType": "traits"
         }
       ]
     }
