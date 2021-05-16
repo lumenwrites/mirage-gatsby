@@ -57,6 +57,9 @@ const Header = () => {
 								<Link to="/NPCs" className="item btn">
 									NPCs
 				 			 </Link>
+								<Link to="/all-powers" className="item btn">
+									List of Powers
+				 			 </Link>
 
 							</div>
 						</div>
