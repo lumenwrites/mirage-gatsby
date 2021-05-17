@@ -4,23 +4,137 @@
     "powers": [
       {
         "title": "Strength",
-        "description": "You're as strong as a bodybuilder. Good at lifting and destroying things.",
-        "vt": 1,
+        "description": "You're as strong as a bodybuilder.",
         "category": "Physical",
         "powerType": "talents"
       },
       {
         "title": "Agility",
         "description": "You are very flexible and fast, good at jumping, climbing, gymnastics.",
-        "vt": 1,
         "category": "Physical",
         "powerType": "talents"
       },
       {
         "title": "Toughness",
-        "description": "Unbendable will and resilient body, you can survive in difficult situations.",
-        "vt": 1,
+        "description": "Unbendable will and resilient body.",
         "category": "Physical",
+        "powerType": "talents"
+      },
+      {
+        "title": "Perception",
+        "description": "Keen senses, allowing you to notice subtle and hidden things.",
+        "category": "Physical",
+        "powerType": "talents"
+      },
+      {
+        "title": "Stealth",
+        "description": "Sneaking, hiding, avoiding unwanted attention.",
+        "category": "Physical",
+        "powerType": "talents"
+      },
+      {
+        "title": "Sleight of Hand",
+        "description": "Manual trickery, physical forms of deception: steal, plant, conceal, etc.",
+        "category": "Physical",
+        "powerType": "talents"
+      },
+      {
+        "title": "Melee Combat",
+        "description": "You have excellent combat skills.",
+        "category": "Physical",
+        "powerType": "talents"
+      },
+      {
+        "title": "Ranged Weapons",
+        "description": "You are an excellent marksman.",
+        "category": "Physical",
+        "powerType": "talents"
+      }
+    ]
+  },
+  {
+    "title": "Social",
+    "powers": [
+      {
+        "title": "Insight",
+        "description": "Understanding people, figuring out their intentions, reading social cues.",
+        "category": "Social",
+        "powerType": "talents"
+      },
+      {
+        "title": "Persuasion",
+        "description": "You are charming, likable, eloquent, good at convincing people.",
+        "category": "Social",
+        "powerType": "talents"
+      },
+      {
+        "title": "Deception",
+        "description": "You are cunning, remarkably good at lying, trickery, pretending.",
+        "category": "Social",
+        "powerType": "talents"
+      },
+      {
+        "title": "Intimidation",
+        "description": "You’re good at influencing people through threats and inspiring fear.",
+        "category": "Social",
+        "powerType": "talents"
+      },
+      {
+        "title": "Animal Handling",
+        "description": "You are good at dealing with animals.",
+        "category": "Social",
+        "powerType": "talents"
+      },
+      {
+        "title": "Performance",
+        "description": "Delight the audience with your acting, storytelling, and other forms of entertainment.",
+        "category": "Social",
+        "powerType": "talents"
+      }
+    ]
+  },
+  {
+    "title": "Mental",
+    "powers": [
+      {
+        "title": "Expert",
+        "description": "You are good at a profession of your choice. You have deep knowledge in this field. Get advantage on all rolls relevant to your area of expertise.",
+        "category": "Mental",
+        "powerType": "talents"
+      },
+      {
+        "title": "Investigation",
+        "description": "Find subtle clues, notice details, make deductions.",
+        "category": "Mental",
+        "powerType": "talents"
+      },
+      {
+        "title": "Nature",
+        "description": "Follow tracks, avoid natural hazards, navigate wilderness.",
+        "category": "Mental",
+        "powerType": "talents"
+      },
+      {
+        "title": "Lore",
+        "description": "You know facts about the world and its history.",
+        "category": "Mental",
+        "powerType": "talents"
+      },
+      {
+        "title": "Medicine",
+        "description": "You understand medicine, know how to treat wounds and diseases.",
+        "category": "Mental",
+        "powerType": "talents"
+      }
+    ]
+  },
+  {
+    "title": "Custom",
+    "powers": [
+      {
+        "title": "Custom Talent",
+        "description": "Come up with your own talent! What other general talent does your character have? What would benefit them in a range of different situations? (create this card and then click on edit button to modify it)",
+        "category": "Custom",
         "powerType": "talents"
       }
     ]

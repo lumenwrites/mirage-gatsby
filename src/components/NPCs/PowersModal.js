@@ -6,8 +6,6 @@ import Power from './Power'
 
 import allPowers from '../../../json/powers/powers.json'
 
-
-
 const tabs = ["Talents", "Skills", "Spells", "Items"]
 
 class Powers extends Component {
