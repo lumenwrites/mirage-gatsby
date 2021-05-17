@@ -123,6 +123,65 @@ Permanently glues two objects together.
 ## Refilling Flask
 Refills itself every midnight with whatever non-magical liquid was last in it.
 
+---
+
+# Communication
+
+## Friendship Bracelets
+Magical walkie-talkie. Enables you to talk telepathically to anybody who has one (within 300 meters).
+
+## Magic Mirrors
+A set of two small mirrors. When activated, the mirror transmits sounds and images from it's counterpart (works like Skype).
+
+## Mini Lighthouse
+Creates a small beam of light that can be seen for miles.
+
+## Howler
+A magical letter, will scream it’s contents once delivered.
+
+## Loudspeaker
+Connected to a microphone, amplifies sounds 50 fold.
+
+## Ring of Sending
+Send a telepathic 25-word message to anyone you have ever met.The recipient can send you a 25-word reply. Works twice per day.
+
+## Telepathy Lockets
+Two lockets, when people wear them they share a telepathic link, sharing all thoughts and sensations.
+
+---
+
+# Information
+
+## Darkvision goggles
+See in the darkness as if it was daylight.
+
+## Infrared goggles
+Add infrared vision that lets you see an outline of things that are generating heat nearby. Work through walls.
+
+## The Scope of Fears
+Looking through this glass at a creature will tell you what the creature fears most, but will also tell the creature your greatest fear.
+
+## Alarm Pebble
+A small rock, will alert the holder when anything comes within 15 meters of it.
+
+## Daily Cypress
+A magic newspaper. Always shows you the most recent news headlines.
+
+## Spy's Monocle
+When pressed against the surface (like a wall or a door, no thicker than 30cm) turns into a hole you can see through. The hole can't be seen from the other side.
+
+## Silver Fly
+Send it anywhere within 30 meters from you, see and hear through it's senses.
+
+## Marauder's Map
+When activated, reveals the floor plan of the area you're in, with labeled moving dots of the creatures inside. Can be used once, lasts for an hour, then turns into an ordinary map of the place where it's been activated.
+
+## Emerald bug
+Activate it, and for the next 5 days you will always know it’s location, and be able to hear what’s going on around it. Can be used once.
+
+## Ring of Tracking
+The owner of the ring always knows it’s location.
+
 --- 
 
 # Transportation
@@ -160,6 +219,26 @@ When activated, teleports anyone who touches it to the location of your choice. 
 ## Twin Portals
 Two hula hoop sized obsidian rings, when activated they are connected by a wormhole that works like portals from the game “Portal”. The connection lasts 10 minutes, can be used only once.
 
+---
+# Books
+
+## Spellbook
+Allows you to learn one spell.
+
+## Skillbook
+Allows you to learn one skill.
+
+## Spellscroll
+Allows to cast a specific spell once.
+
+## Adventurer’s Journal
+When you write down 1-2 paragraphs of notes that describe what happened in the previous session from your character’s perspective, you gain an additional 4 AP.
+
+## Book of Oath
+A vow written in this book can’t be broken.
+
+## Resurrection Scroll
+Resurrects a dead person.
 
 ---
 
@@ -230,87 +309,6 @@ Turn into a ghost for 5 minutes.
 
 ## Love Potion
 Drinker falls in love with the person who brewed it.
-
----
-
-# Communication
-
-## Friendship Bracelets
-Magical walkie-talkie. Enables you to talk telepathically to anybody who has one (within 300 meters).
-
-## Magic Mirrors
-A set of two small mirrors. When activated, the mirror transmits sounds and images from it's counterpart (works like Skype).
-
-## Mini Lighthouse
-Creates a small beam of light that can be seen for miles.
-
-## Howler
-A magical letter, will scream it’s contents once delivered.
-
-## Loudspeaker
-Connected to a microphone, amplifies sounds 50 fold.
-
-## Ring of Sending
-Send a telepathic 25-word message to anyone you have ever met.The recipient can send you a 25-word reply. Works twice per day.
-
-## Telepathy Lockets
-Two lockets, when people wear them they share a telepathic link, sharing all thoughts and sensations.
-
----
-
-# Information
-
-## Darkvision goggles
-See in the darkness as if it was daylight.
-
-## Infrared goggles
-Add infrared vision that lets you see an outline of things that are generating heat nearby. Work through walls.
-
-## The Scope of Fears
-Looking through this glass at a creature will tell you what the creature fears most, but will also tell the creature your greatest fear.
-
-## Alarm Pebble
-A small rock, will alert the holder when anything comes within 15 meters of it.
-
-## Daily Cypress
-A magic newspaper. Always shows you the most recent news headlines.
-
-## Spy's Monocle
-When pressed against the surface (like a wall or a door, no thicker than 30cm) turns into a hole you can see through. The hole can't be seen from the other side.
-
-## Silver Fly
-Send it anywhere within 30 meters from you, see and hear through it's senses.
-
-## Marauder's Map
-When activated, reveals the floor plan of the area you're in, with labeled moving dots of the creatures inside. Can be used once, lasts for an hour, then turns into an ordinary map of the place where it's been activated.
-
-## Emerald bug
-Activate it, and for the next 5 days you will always know it’s location, and be able to hear what’s going on around it. Can be used once.
-
-## Ring of Tracking
-The owner of the ring always knows it’s location.
-
-
----
-# Books
-
-## Spellbook
-Allows you to learn one spell.
-
-## Skillbook
-Allows you to learn one skill.
-
-## Spellscroll
-Allows to cast a specific spell once.
-
-## Adventurer’s Journal
-When you write down 1-2 paragraphs of notes that describe what happened in the previous session from your character’s perspective, you gain an additional 4 AP.
-
-## Book of Oath
-A vow written in this book can’t be broken.
-
-## Resurrection Scroll
-Resurrects a dead person.
 
 ---
 # Custom

@@ -1098,6 +1098,118 @@
       ]
     },
     {
+      "title": "Communication",
+      "powers": [
+        {
+          "title": "Friendship Bracelets",
+          "description": "Magical walkie-talkie. Enables you to talk telepathically to anybody who has one (within 300 meters).",
+          "category": "Communication",
+          "powerType": "items"
+        },
+        {
+          "title": "Magic Mirrors",
+          "description": "A set of two small mirrors. When activated, the mirror transmits sounds and images from it's counterpart (works like Skype).",
+          "category": "Communication",
+          "powerType": "items"
+        },
+        {
+          "title": "Mini Lighthouse",
+          "description": "Creates a small beam of light that can be seen for miles.",
+          "category": "Communication",
+          "powerType": "items"
+        },
+        {
+          "title": "Howler",
+          "description": "A magical letter, will scream it’s contents once delivered.",
+          "category": "Communication",
+          "powerType": "items"
+        },
+        {
+          "title": "Loudspeaker",
+          "description": "Connected to a microphone, amplifies sounds 50 fold.",
+          "category": "Communication",
+          "powerType": "items"
+        },
+        {
+          "title": "Ring of Sending",
+          "description": "Send a telepathic 25-word message to anyone you have ever met.The recipient can send you a 25-word reply. Works twice per day.",
+          "category": "Communication",
+          "powerType": "items"
+        },
+        {
+          "title": "Telepathy Lockets",
+          "description": "Two lockets, when people wear them they share a telepathic link, sharing all thoughts and sensations.",
+          "category": "Communication",
+          "powerType": "items"
+        }
+      ]
+    },
+    {
+      "title": "Information",
+      "powers": [
+        {
+          "title": "Darkvision goggles",
+          "description": "See in the darkness as if it was daylight.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "Infrared goggles",
+          "description": "Add infrared vision that lets you see an outline of things that are generating heat nearby. Work through walls.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "The Scope of Fears",
+          "description": "Looking through this glass at a creature will tell you what the creature fears most, but will also tell the creature your greatest fear.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "Alarm Pebble",
+          "description": "A small rock, will alert the holder when anything comes within 15 meters of it.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "Daily Cypress",
+          "description": "A magic newspaper. Always shows you the most recent news headlines.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "Spy's Monocle",
+          "description": "When pressed against the surface (like a wall or a door, no thicker than 30cm) turns into a hole you can see through. The hole can't be seen from the other side.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "Silver Fly",
+          "description": "Send it anywhere within 30 meters from you, see and hear through it's senses.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "Marauder's Map",
+          "description": "When activated, reveals the floor plan of the area you're in, with labeled moving dots of the creatures inside. Can be used once, lasts for an hour, then turns into an ordinary map of the place where it's been activated.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "Emerald bug",
+          "description": "Activate it, and for the next 5 days you will always know it’s location, and be able to hear what’s going on around it. Can be used once.",
+          "category": "Information",
+          "powerType": "items"
+        },
+        {
+          "title": "Ring of Tracking",
+          "description": "The owner of the ring always knows it’s location.",
+          "category": "Information",
+          "powerType": "items"
+        }
+      ]
+    },
+    {
       "title": "Transportation",
       "powers": [
         {
@@ -1164,6 +1276,47 @@
           "title": "Twin Portals",
           "description": "Two hula hoop sized obsidian rings, when activated they are connected by a wormhole that works like portals from the game “Portal”. The connection lasts 10 minutes, can be used only once.",
           "category": "Transportation",
+          "powerType": "items"
+        }
+      ]
+    },
+    {
+      "title": "Books",
+      "powers": [
+        {
+          "title": "Spellbook",
+          "description": "Allows you to learn one spell.",
+          "category": "Books",
+          "powerType": "items"
+        },
+        {
+          "title": "Skillbook",
+          "description": "Allows you to learn one skill.",
+          "category": "Books",
+          "powerType": "items"
+        },
+        {
+          "title": "Spellscroll",
+          "description": "Allows to cast a specific spell once.",
+          "category": "Books",
+          "powerType": "items"
+        },
+        {
+          "title": "Adventurer’s Journal",
+          "description": "When you write down 1-2 paragraphs of notes that describe what happened in the previous session from your character’s perspective, you gain an additional 4 AP.",
+          "category": "Books",
+          "powerType": "items"
+        },
+        {
+          "title": "Book of Oath",
+          "description": "A vow written in this book can’t be broken.",
+          "category": "Books",
+          "powerType": "items"
+        },
+        {
+          "title": "Resurrection Scroll",
+          "description": "Resurrects a dead person.",
+          "category": "Books",
           "powerType": "items"
         }
       ]
@@ -1301,159 +1454,6 @@
           "title": "Love Potion",
           "description": "Drinker falls in love with the person who brewed it.",
           "category": "Potions",
-          "powerType": "items"
-        }
-      ]
-    },
-    {
-      "title": "Communication",
-      "powers": [
-        {
-          "title": "Friendship Bracelets",
-          "description": "Magical walkie-talkie. Enables you to talk telepathically to anybody who has one (within 300 meters).",
-          "category": "Communication",
-          "powerType": "items"
-        },
-        {
-          "title": "Magic Mirrors",
-          "description": "A set of two small mirrors. When activated, the mirror transmits sounds and images from it's counterpart (works like Skype).",
-          "category": "Communication",
-          "powerType": "items"
-        },
-        {
-          "title": "Mini Lighthouse",
-          "description": "Creates a small beam of light that can be seen for miles.",
-          "category": "Communication",
-          "powerType": "items"
-        },
-        {
-          "title": "Howler",
-          "description": "A magical letter, will scream it’s contents once delivered.",
-          "category": "Communication",
-          "powerType": "items"
-        },
-        {
-          "title": "Loudspeaker",
-          "description": "Connected to a microphone, amplifies sounds 50 fold.",
-          "category": "Communication",
-          "powerType": "items"
-        },
-        {
-          "title": "Ring of Sending",
-          "description": "Send a telepathic 25-word message to anyone you have ever met.The recipient can send you a 25-word reply. Works twice per day.",
-          "category": "Communication",
-          "powerType": "items"
-        },
-        {
-          "title": "Telepathy Lockets",
-          "description": "Two lockets, when people wear them they share a telepathic link, sharing all thoughts and sensations.",
-          "category": "Communication",
-          "powerType": "items"
-        }
-      ]
-    },
-    {
-      "title": "Information",
-      "powers": [
-        {
-          "title": "Darkvision goggles",
-          "description": "See in the darkness as if it was daylight.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "Infrared goggles",
-          "description": "Add infrared vision that lets you see an outline of things that are generating heat nearby. Work through walls.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "The Scope of Fears",
-          "description": "Looking through this glass at a creature will tell you what the creature fears most, but will also tell the creature your greatest fear.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "Alarm Pebble",
-          "description": "A small rock, will alert the holder when anything comes within 15 meters of it.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "Daily Cypress",
-          "description": "A magic newspaper. Always shows you the most recent news headlines.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "Spy's Monocle",
-          "description": "When pressed against the surface (like a wall or a door, no thicker than 30cm) turns into a hole you can see through. The hole can't be seen from the other side.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "Silver Fly",
-          "description": "Send it anywhere within 30 meters from you, see and hear through it's senses.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "Marauder's Map",
-          "description": "When activated, reveals the floor plan of the area you're in, with labeled moving dots of the creatures inside. Can be used once, lasts for an hour, then turns into an ordinary map of the place where it's been activated.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "Emerald bug",
-          "description": "Activate it, and for the next 5 days you will always know it’s location, and be able to hear what’s going on around it. Can be used once.",
-          "category": "Information",
-          "powerType": "items"
-        },
-        {
-          "title": "Ring of Tracking",
-          "description": "The owner of the ring always knows it’s location.",
-          "category": "Information",
-          "powerType": "items"
-        }
-      ]
-    },
-    {
-      "title": "Books",
-      "powers": [
-        {
-          "title": "Spellbook",
-          "description": "Allows you to learn one spell.",
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Skillbook",
-          "description": "Allows you to learn one skill.",
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Spellscroll",
-          "description": "Allows to cast a specific spell once.",
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Adventurer’s Journal",
-          "description": "When you write down 1-2 paragraphs of notes that describe what happened in the previous session from your character’s perspective, you gain an additional 4 AP.",
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Book of Oath",
-          "description": "A vow written in this book can’t be broken.",
-          "category": "Books",
-          "powerType": "items"
-        },
-        {
-          "title": "Resurrection Scroll",
-          "description": "Resurrects a dead person.",
-          "category": "Books",
           "powerType": "items"
         }
       ]
